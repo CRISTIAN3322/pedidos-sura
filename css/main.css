@@ -35,6 +35,20 @@ input[type="text"] {
   text-align: center;
 }
 
+.cantidad-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.cantidad-input {
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+}
+
 /* Productos y carrito */
 #products, #cart {
   display: grid;
