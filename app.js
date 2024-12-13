@@ -17,33 +17,42 @@ fetch('products.json')
   })
   .catch(error => console.error('Error cargando los productos:', error));
 
-// Mostrar productos en la página
-function displayProducts(productsList) {
-  productsContainer.innerHTML = '';
-  productsList.forEach(product => {
-    const productDiv = document.createElement('div');
-    productDiv.classList.add('product');
-    productDiv.innerHTML = `
-      <img src="${product.imagen}" alt="${product.nombre}">
-      <h3>${product.nombre}</h3>
-      <p>Código: ${product.codigo}</p>
-      <p>Precio: $${product.precio.toFixed(2)}</p>
-      <button onclick="addToCart(${product.id}, '${product.codigo}', '${product.nombre}', ${product.precio})">Agregar al Carrito</button>
-    `;
-    productsContainer.appendChild(productDiv);
-  });
-}
-
-// Agregar producto al carrito
-function addToCart(id, codigo, nombre, precio) {
-  const product = cart.find(item => item.id === id);
-  if (product) {
-    product.cantidad++;
-  } else {
-    cart.push({ id, codigo, nombre, precio, cantidad: 1 });
+  function displayProducts(productsList) {
+    productsContainer.innerHTML = '';
+    productsList.forEach(product => {
+      const productDiv = document.createElement('div');
+      productDiv.classList.add('product');
+      productDiv.innerHTML = `
+        <img src="${product.imagen}" alt="${product.nombre}">
+        <h3>${product.nombre}</h3>
+        <p>Código: ${product.codigo}</p>
+        <p>Precio: $${product.precio.toFixed(2)}</p>
+        <div class="cantidad-container">
+          <input type="number" 
+                 min="1" 
+                 value="1" 
+                 class="cantidad-input" 
+                 id="cantidad-${product.id}">
+          <button onclick="addToCart(${product.id}, '${product.codigo}', '${product.nombre}', ${product.precio}, document.getElementById('cantidad-${product.id}').value)">
+            Agregar al Carrito
+          </button>
+        </div>
+      `;
+      productsContainer.appendChild(productDiv);
+    });
   }
-  updateCart();
-}
+  
+  // También necesitamos modificar la función addToCart para aceptar la cantidad
+  function addToCart(id, codigo, nombre, precio, cantidad) {
+    cantidad = parseInt(cantidad);
+    const product = cart.find(item => item.id === id);
+    if (product) {
+      product.cantidad += cantidad;
+    } else {
+      cart.push({ id, codigo, nombre, precio, cantidad });
+    }
+    updateCart();
+  }
 
 // Actualizar el carrito
 function updateCart() {
@@ -91,7 +100,7 @@ sendWhatsAppButton.addEventListener('click', () => {
   const total = cart.reduce((sum, item) => sum + item.precio * item.cantidad, 0);
   message += `Total: $${total.toFixed(2)}`;
 
-  const whatsappURL = `https://wa.me/573123293314?text=${message}`;
+  const whatsappURL = `https://wa.me/573045428015?text=${message}`;
   window.open(whatsappURL, '_blank');
 });
 
