@@ -249,49 +249,49 @@
       "codigo": "JAT0039",
       "nombre": "AVENA HOJUELAS VAINILLA ZANARA TARRO X 45 gr CJ X 48 und",
       "precio": 2600,
-      "imagen": " ./img_catalogo/toning/avena-zanara-tarro-45-vainilla.png "
+      "imagen": "./img_catalogo/toning/avena-zanara-tarro-45-vainilla.png"
   },
   {
       "id": 37,
       "codigo": "JAT0040",
       "nombre": "AVENA HOJUELAS MIEL ZANARA TARRO X 45 gr CJ X 48 und",
       "precio": 2600,
-      "imagen": " ./img_catalogo/toning/avena-zanara-tarro-45-miel.png "
+      "imagen": "./img_catalogo/toning/avena-zanara-tarro-45-miel.png"
   },
   {
       "id": 38,
       "codigo": "JAT0041",
       "nombre": "AVENA HOJUELAS CANELA ZANARA TARRO X 45 gr CJ X 48 und",
       "precio": 2600,
-      "imagen": " ./img_catalogo/toning/avena-zanara-tarro-45-canela.png "
+      "imagen": "./img_catalogo/toning/avena-zanara-tarro-45-canela.png"
   },
   {
       "id": 39,
       "codigo": "JAT0042",
       "nombre": "MEZCLA PARA PANCAKES DE AVENA X 280 GR CJ X 24",
       "precio": 4421,
-      "imagen": " ./img_catalogo/toning/pancakes-280.png "
+      "imagen": "./img_catalogo/toning/pancakes-280.png"
   },
   {
       "id": 40,
       "codigo": "JAT0043",
       "nombre": "MEZCLA PARA PANCAKES DE AVENA SIN GLUTEN X 500 GR CJ X 12",
       "precio": 8188,
-      "imagen": " ./img_catalogo/toning/pancakes-sin-gluten-500.png "
+      "imagen": "./img_catalogo/toning/pancakes-sin-gluten-500.png"
   },
   {
       "id": 41,
       "codigo": "JAT0044",
       "nombre": "MULTIGRANOLA X 1000 gr PC X 12 und",
       "precio": 15535,
-      "imagen": " ./img_catalogo/toning/multigranola-1000.png "
+      "imagen": "./img_catalogo/toning/multigranola-1000.png"
   },
   {
       "id": 42,
       "codigo": "JAT0047",
       "nombre": "FORZA ALMENDRAS LIQUIDA ORIGINAL X 946 ml CJ X 12 und",
       "precio": 10840,
-      "imagen": " ./img_catalogo/toning/forza-almendra-liquida-original-946.png "
+      "imagen": "./img_catalogo/toning/forza-almendra-liquida-original-946.png"
   },
   {
       "id": 43,
@@ -305,14 +305,14 @@
       "codigo": "JAT0053",
       "nombre": "COLADA 7 CEREALES VAINILLA X 1000 gr PC X 12 und",
       "precio": 15131,
-      "imagen": " ./img_catalogo/toning/colada-7-granos-200-vainilla.png "
+      "imagen": "./img_catalogo/toning/colada-7-granos-200-vainilla.png"
   },
   {
       "id": 45,
       "codigo": "JAT0054",
       "nombre": "COLADA 7 CEREALES NATURAL X 1000 gr PC X 12 und",
       "precio": 15131,
-      "imagen": " ./img_catalogo/toning/colada-7-granos-1000-natural.png "
+      "imagen": "./img_catalogo/toning/colada-7-granos-1000-natural.png"
   },
   {
       "id": 46,
