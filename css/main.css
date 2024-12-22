@@ -64,6 +64,7 @@ input[type="text"] {
 
 .pedido{
   width: 100%;
+  background-color: antiquewhite;
 }
 
 .descripcion-pedido {
