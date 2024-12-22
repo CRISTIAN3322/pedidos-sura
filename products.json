@@ -641,21 +641,21 @@
       "codigo": "JCI0005",
       "nombre": "CARAMELO DE COCO X 20 UND CJ X 60",
       "precio": 2583,
-      "imagen": " ./img_catalogo/comestibles-italo/caramelo-de-coco.png "
+      "imagen": " ./img_catalogo/comestibles-italo/caramelo-de-coco-x20.png "
   },
   {
       "id": 93,
       "codigo": "JCI0006",
       "nombre": "TABLETA RELLENA BL X 12 CJ X 12",
       "precio": 10786,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/tableta-rellena-12-gr.png"
   },
   {
       "id": 94,
       "codigo": "JCI0007",
       "nombre": "CARAMELO DE LECHE X 20 UND CJ X 60",
       "precio": 2513,
-      "imagen": " ./img_catalogo/comestibles-italo/caramelo-de-leche.png "
+      "imagen": " ./img_catalogo/comestibles-italo/caramelo-de-leche-x20.png "
   },
   {
       "id": 95,
@@ -676,7 +676,7 @@
       "codigo": "JCI0010",
       "nombre": "PIKIS MONEDAS CJ X 40",
       "precio": 9420,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/pikis-monedas.png "
   },
   {
       "id": 98,
@@ -711,14 +711,14 @@
       "codigo": "JCI0015",
       "nombre": "CHOCOLATINA RELLENA PEQUEÑA X 6 CJ X 20",
       "precio": 13897,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/chocolatina-pequeña-6.png "
   },
   {
       "id": 103,
       "codigo": "JCI0017",
       "nombre": "CHOCOLATINA RELLENA GRANDE X 6 CJ X 14",
       "precio": 47444,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/chocolatina-grande-6.png "
   },
   {
       "id": 104,
@@ -746,14 +746,14 @@
       "codigo": "JCI0021",
       "nombre": "ESTUCHE MENSAJES CJ X 26",
       "precio": 8053,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/estuche-mensajes.png "
   },
   {
       "id": 108,
       "codigo": "JCI0022",
       "nombre": "CARAMELO CANDY MIX CJ X 6",
       "precio": 23318,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/caramelo-candy-mix-903-gr.png "
   },
   {
       "id": 109,
@@ -767,7 +767,7 @@
       "codigo": "JCI0024",
       "nombre": "PIKIS HUEVOS NO ME OLVIDES X 2 CJ X 70",
       "precio": 5054,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/huevos-no-me-olvides-x2.png "
   },
   {
       "id": 111,
@@ -781,21 +781,21 @@
       "codigo": "JCI0026",
       "nombre": "CARAMELO DE LECHE X 100 UND CJ X 12",
       "precio": 11522,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/caramelo-blando-de-leche-x100.png "
   },
   {
       "id": 113,
       "codigo": "JCI0027",
       "nombre": "CARAMELO DE COCO X 100 UND CJ X 12",
       "precio": 11520,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/caramelo-blando-de-coco-x100.png "
   },
   {
       "id": 114,
       "codigo": "JCI0028",
       "nombre": "MASMELOS BLANCO X 120 G CJ X 30",
       "precio": 3626,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/masmelos-blanco-x120.png"
   },
   {
       "id": 115,
@@ -837,7 +837,7 @@
       "codigo": "JCI0034",
       "nombre": "GALLETA ANIMADAS WIN PQ X 12 CJ X 20",
       "precio": 9513,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/galleta-animada-win.png "
   },
   {
       "id": 121,

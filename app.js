@@ -60,6 +60,12 @@ function addToCart(id, codigo, nombre, precio, cantidad) {
 
 function updateCart() {
   cartContainer.innerHTML = `
+    <div class="pedido">
+      <div class="descripcion-pedido">
+        <label for="descripcion">Descripción adicional:</label>
+        <textarea id="descripcion" rows="3" placeholder="Ingrese nombre ó nit del cliente para el pedido" required></textarea>
+      </div>
+
       <table class="cart-table">
         <thead>
           <tr>
@@ -82,6 +88,7 @@ function updateCart() {
           </tr>
         </tfoot>
       </table>
+    </div>
     `;
 
   const tbody = cartContainer.querySelector("tbody");
@@ -105,6 +112,30 @@ function updateCart() {
     tbody.appendChild(tr);
   });
 }
+
+// Modificar el envío por WhatsApp para incluir la descripción
+sendWhatsAppButton.addEventListener("click", () => {
+  if (cart.length === 0) {
+    alert("El carrito está vacío.");
+    return;
+  }
+
+  const descripcion = document.getElementById("descripcion").value.trim();
+  
+  let message = "Hola, quiero hacer un pedido:%0A%0A";
+  cart.forEach((item) => {
+    message += `- ${item.nombre} (Código: ${item.codigo}) x${item.cantidad} ($${(item.precio * item.cantidad).toFixed(2)})%0A`;
+  });
+  const total = calculateTotal();
+  message += `%0ATotal: $${total.toFixed(2)}`;
+
+  if (descripcion) {
+    message += `%0A%0ANotas adicionales:%0A${descripcion}`;
+  }
+
+  const whatsappURL = `https://wa.me/573045428015?text=${message}`;
+  window.open(whatsappURL, "_blank");
+});
 
 // Agregar función para calcular el total
 function calculateTotal() {
