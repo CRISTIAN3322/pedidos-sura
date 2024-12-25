@@ -6,10 +6,11 @@ body {
   background-color: #f8f9fa;
 }
 
+/* Mejoras generales de responsive */
 .container {
   max-width: 1200px;
   margin: auto;
-  padding: 20px;
+  padding: 10px;  /* Reducido para móvil */
 }
 
 .container .header {
@@ -19,6 +20,13 @@ body {
   background-color: #f8f9fa;
   text-align: center;
   margin-bottom: 40px;
+}
+
+.product img, .cart-item img {
+  max-width: 100%;  /* Cambiado para mejor adaptabilidad */
+  height: auto;     /* Altura automática para mantener proporción */
+  /* object-fit: cover; */
+  border-radius: 5px;
 }
 
 h1, h2 {
@@ -169,24 +177,68 @@ input[type="text"] {
 .cart-table input[type="number"] {
   width: 60px;
 }
-/* Diseño adaptable */
-@media (min-width: 768px) {
-  #products {
-    grid-template-columns: repeat(3, 1fr);
+
+/* Mejoras para la tabla del carrito en móvil */
+@media (max-width: 767px) {
+  .cart-table {
+    display: block;
+    overflow-x: auto;
   }
 
-  #cart {
-    grid-template-columns: repeat(2, 1fr);
+  .cart-table th,
+  .cart-table td {
+    min-width: 100px;  /* Ancho mínimo para contenido */
+  }
+  
+  .product, .cart-item {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  input[type="text"] {
+    padding: 12px;  /* Aumentado para mejor toque en móvil */
+    font-size: 16px;
+  }
+
+  .cantidad-input {
+    width: 80px;  /* Aumentado para mejor usabilidad en móvil */
+    padding: 8px;
+  }
+
+  #send-whatsapp {
+    padding: 15px 30px;  /* Botón más grande para móvil */
+    font-size: 18px;
   }
 }
 
+/* Mejoras para escritorio */
+@media (min-width: 768px) {
+  .container {
+    padding: 20px;
+  }
 
-@media (min-width: 1024px) {
   #products {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  /* Grid más flexible */
+    gap: 20px;
   }
 
   #cart {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .product, .cart-item {
+    transition: transform 0.2s, box-shadow 0.2s;  /* Animación suave */
+  }
+
+  .product:hover, .cart-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+}
+
+/* Mejoras para pantallas grandes */
+@media (min-width: 1200px) {
+  .container {
+    padding: 30px;
   }
 }

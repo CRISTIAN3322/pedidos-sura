@@ -879,7 +879,7 @@
       "codigo": "JCI0040",
       "nombre": "MERCI CORAZON X 160 GR CJ X 9",
       "precio": 24445,
-      "imagen": " ./img_catalogo/comestibles-italo/merci-corazon.png "
+      "imagen": " ./img_catalogo/comestibles-italo/merci-corazon-x7.png "
   },
   {
       "id": 127,
@@ -900,7 +900,7 @@
       "codigo": "JCI0043",
       "nombre": "AZUCAR PULVERIZADA X 500GR CJ X 25",
       "precio": 6061,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/azucar-pulverizada-x500.png "
   },
   {
       "id": 130,
@@ -914,42 +914,42 @@
       "codigo": "JCI0045",
       "nombre": "GOMITAS PIKIS GOMI-MASMELO CJ X 24",
       "precio": 2110,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/pikis-gomi-masmelo.png "
   },
   {
       "id": 132,
       "codigo": "JCI0046",
       "nombre": "GOMITAS PIKIS OSOS EN PIJAMA CJ X 24",
       "precio": 2110,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/pikis-ositos-en-pijama.png "
   },
   {
       "id": 133,
       "codigo": "JCI0047",
       "nombre": "GOMITAS PIKIS ACIDULCES CJ X 24",
       "precio": 1539,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/pikis-acidulces.png "
   },
   {
       "id": 134,
       "codigo": "JCI0048",
       "nombre": "GALLETAS NAVIDAD X 160 G CJ X 20",
       "precio": 3367,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/galleta-de-navidad-italo.png "
   },
   {
       "id": 135,
       "codigo": "JCI0049",
       "nombre": "BOM BOM BONKISS CLASICO BS X 18 CJ X 12",
       "precio": 12002,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/bonkiss-clasico.png "
   },
   {
       "id": 136,
       "codigo": "JCI0050",
       "nombre": "PIKIS CHOCO GOMITAS ACIDULCES X 125 GR CJ X 24",
       "precio": 5631,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/pikis-choco-gomita-acidulces-x125.png "
   },
   {
       "id": 137,
@@ -1103,14 +1103,14 @@
       "codigo": "JCI0072",
       "nombre": "ALMENDRA PIRAMIDE X 150 GR CJ X 28",
       "precio": 9851,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/almendra-piramide-x150.png "
   },
   {
       "id": 159,
       "codigo": "JCI0073",
       "nombre": "CARAMELO SURTIDO X 420 GR CJ X 24",
       "precio": 11372,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/caramelos-surtido-x420.png "
   },
   {
       "id": 160,
@@ -1145,7 +1145,7 @@
       "codigo": "JCI0078",
       "nombre": "CARAMELO DE CAFÉ ITALO X  25 UND CJ X 48",
       "precio": 3118,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/caramelo-cafe-x25.png "
   },
   {
       "id": 165,
@@ -1236,112 +1236,112 @@
       "codigo": "JCI0097",
       "nombre": "HUEVOS NO ME OLVIDES ITALO BOLSA X 10 UND",
       "precio": 21531,
-      "imagen": " ./img_catalogo/comestibles-italo/huevos-no-me-olvides-remove.png "
+      "imagen": " ./img_catalogo/comestibles-italo/huevos-no-me-olvides-x10.png "
   },
   {
       "id": 178,
       "codigo": "JCI0098",
       "nombre": "PAQUETACO VAINILLA X 94 CJ X 24",
       "precio": 2276,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-vainilla.png "
   },
   {
       "id": 179,
       "codigo": "JCI0099",
       "nombre": "PAQUETACO FRESA X 94 CJ X 24",
       "precio": 2276,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-fresa.png "
   },
   {
       "id": 180,
       "codigo": "JCI0100",
       "nombre": "PAQUETACO CHOCOLATE X 94 CJ X 24",
       "precio": 2276,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-chocolate.png "
   },
   {
       "id": 181,
       "codigo": "JCI0101",
       "nombre": "PAQUETACO AREQUIPE X 94 CJ X 24",
       "precio": 2276,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-arequipe.png "
   },
   {
       "id": 182,
       "codigo": "JCI0102",
       "nombre": "MINITACO SIN AZUCAR FRESA X 80 CJ X 24",
       "precio": 4885,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/minitaco-sin-azucar-x80-fresa.png "
   },
   {
       "id": 183,
       "codigo": "JCI0104",
       "nombre": "MINITACO SIN AZUCAR VAINILLA X 80 CJ X 24",
       "precio": 4885,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/minitaco-sin-azucar-x80-vainilla.png "
   },
   {
       "id": 184,
-      "codigo": "JCI0104",
-      "nombre": "MINITACO SIN AZUCAR VAINILLA X 80 CJ X 24",
+      "codigo": "JCI0103",
+      "nombre": "MINITACO SIN AZUCAR NARANJA X 80 CJ X 24",
       "precio": 4885,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/minitaco-sin-azucar-x80-naranja.png "
   },
   {
       "id": 185,
       "codigo": "JCI0105",
       "nombre": "ALMENDRA FRANCESA SIN AZUCAR X 50 GR CJ X 43",
       "precio": 7151,
-      "imagen": ""
+      "imagen": " ./img_catalogo/comestibles-italo/almendra-sin-azucar-x50.png "
   },
   {
       "id": 186,
       "codigo": "JCR0001",
       "nombre": "VINO DE MANZANA BURBUJEANTE CASA RHIN X 750 CJ X 12",
       "precio": 13612,
-      "imagen": ""
+      "imagen": " ./img_catalogo/casa-rhin/vino-de-manzana-burbujeante-casa-rhin-750.png "
   },
   {
       "id": 187,
       "codigo": "JCR0002",
       "nombre": "VINO DE DURAZNO BURBUJEANTE CASA RHIN X 750 CJ X 12",
       "precio": 13628,
-      "imagen": ""
+      "imagen": " ./img_catalogo/casa-rhin/vino-de-durazno-burbujeante-casa-rhin-750.png "
   },
   {
       "id": 188,
       "codigo": "JCR0003",
       "nombre": "VINO ESPUMOSO KATICH BLANCO X 750 CJ X 12",
       "precio": 17969,
-      "imagen": ""
+      "imagen": " ./img_catalogo/casa-rhin/vino-espumoso-katich-blanco-750.png "
   },
   {
       "id": 189,
       "codigo": "JCR0004",
       "nombre": "VINO ESPUMOSO KATICH ROSADO X 750 CJ X 12",
       "precio": 18057,
-      "imagen": ""
+      "imagen": " ./img_catalogo/casa-rhin/vino-espumoso-katich-rosado-750.png "
   },
   {
       "id": 190,
       "codigo": "JCR0005",
       "nombre": "APERITIVO VINICO MOSCATEL DE PASAS X 750 CJ X 12",
       "precio": 14371,
-      "imagen": ""
+      "imagen": " ./img_catalogo/casa-rhin/aperitivo-vinico-moscatel-de-pasas-750.png "
   },
   {
       "id": 191,
       "codigo": "JCR0007",
       "nombre": "MOSCATEL GRAN DUCADO TINTO X 1000 IPACK",
       "precio": 12071,
-      "imagen": ""
+      "imagen": " ./img_catalogo/casa-rhin/moscatel-gran-ducado-1000.png "
   },
   {
       "id": 192,
       "codigo": "JCR0008",
       "nombre": "CREMA DE WHISKY CASA DEL RHIN X 750 CJ X 12",
       "precio": 37557,
-      "imagen": ""
+      "imagen": " ./img_catalogo/casa-rhin/crema-de-whisky-x750.png "
   },
   {
       "id": 193,
@@ -1453,287 +1453,287 @@
       "codigo": "JDL0006",
       "nombre": "TEQUILA JOSE CUERVO ESPECIAL SILVER X 750 CJ X 12",
       "precio": 73637,
-      "imagen": ""
+      "imagen": " ./img_catalogo/dislicores/jose-cuervo-silver-750.png "
   },
   {
       "id": 209,
       "codigo": "JDL0007",
       "nombre": "TEQUILA JOSE CUERVO ESPECIAL REPOSADO X 750 CJ X 12 UND",
       "precio": 73638,
-      "imagen": ""
+      "imagen": " ./img_catalogo/dislicores/jose-cuervo-reposado-750.png "
   },
   {
       "id": 210,
       "codigo": "JDS0001",
       "nombre": "VINIPEL TABACO X 200",
       "precio": 10570,
-      "imagen": ""
+      "imagen": " ./img_catalogo/distri-samy/vinipel-tabaco-x200-mts.png "
   },
   {
       "id": 211,
       "codigo": "JDS0002",
       "nombre": "VINIPEL TABACO X 100",
       "precio": 5078,
-      "imagen": ""
+      "imagen": " ./img_catalogo/distri-samy/vinipel-tabaco-x100-mts.png "
   },
   {
       "id": 212,
       "codigo": "JDS0003",
       "nombre": "VINIPEL TABACO X 50",
       "precio": 3725,
-      "imagen": ""
+      "imagen": " ./img_catalogo/distri-samy/vinipel-tabaco-x50-mts.png "
   },
   {
       "id": 213,
       "codigo": "JDS0004",
       "nombre": "VINIPEL TABACO X 20",
       "precio": 2303,
-      "imagen": ""
+      "imagen": " ./img_catalogo/distri-samy/vinipel-tabaco-x20-mts.png "
   },
   {
       "id": 214,
       "codigo": "JDS0005",
       "nombre": "VINIPEL NEGRO OSMOTICO X 20",
       "precio": 2303,
-      "imagen": ""
+      "imagen": " ./img_catalogo/distri-samy/vinipel-negro-osmotico-x20.png "
   },
   {
       "id": 215,
       "codigo": "JDS0006",
       "nombre": "VINIPEL NEGRO OSMOTICO X 50",
       "precio": 3724,
-      "imagen": ""
+      "imagen": " ./img_catalogo/distri-samy/vinipel-negro-osmotico-x50.png "
   },
   {
       "id": 216,
       "codigo": "JDU0001",
       "nombre": "MARG.PREFERIDA X 125 CJ 4 DISPLAY",
       "precio": 119916,
-      "imagen": ""
+      "imagen": " ./img_catalogo/duquesa/margarina-preferida-125.png "
   },
   {
       "id": 217,
       "codigo": "JDU0002",
       "nombre": "MARG.PREFERIDA X 250",
       "precio": 114651,
-      "imagen": ""
+      "imagen": " ./img_catalogo/duquesa/margarina-preferida-250.png "
   },
   {
       "id": 218,
       "codigo": "JDU0003",
       "nombre": "MARG.PREFERIDA X 500",
       "precio": 109950,
-      "imagen": ""
+      "imagen": " ./img_catalogo/duquesa/margarina-preferida-500.png "
   },
   {
       "id": 219,
       "codigo": "JDU0011",
       "nombre": "ESPARCIBLE PREFERIDA X 500 CJ X 18",
       "precio": 6176,
-      "imagen": ""
+      "imagen": " ./img_catalogo/duquesa/esparcible-la-preferida-500.png "
   },
   {
       "id": 220,
       "codigo": "JDX0001",
       "nombre": "CONSERVA DE PESCADO EN SALSA DE TOMATE SANCHO CJ X 48 UND",
       "precio": 5209,
-      "imagen": ""
+      "imagen": " ./img_catalogo/puertomar-zomac/conservas-de-pescado-en-salsa-de-tomate-don-sancho-ovalada.png "
   },
   {
       "id": 221,
       "codigo": "JDX0002",
       "nombre": "CONSERVA DE PESCADO TINAPA TOMATE DON SANCHO ABRE FACIL X 50",
       "precio": 2610,
-      "imagen": ""
+      "imagen": " ./img_catalogo/puertomar-zomac/conservas-de-pescado-en-salsa-de-tomate-don-sancho-tinapa.png "
   },
   {
       "id": 222,
       "codigo": "JDX0004",
       "nombre": "LOMO DE ATUN SANCHO EN AGUA X 175 GR CJ X 48 UND ABRE FACIL",
       "precio": 4142,
-      "imagen": ""
+      "imagen": " ./img_catalogo/puertomar-zomac/lomitos-de-atun-en-agua.png "
   },
   {
       "id": 223,
       "codigo": "JDX0005",
       "nombre": "LOMOS ACEITE DE GIRASOL DON SANCHO CJ X 48",
       "precio": 4244,
-      "imagen": ""
+      "imagen": " ./img_catalogo/puertomar-zomac/lomitos-de-atun-en-aceite-de-girasol.png "
   },
   {
       "id": 224,
       "codigo": "JDX0007",
       "nombre": "THREE PACK LOMO ACEITE DE GIRASOL CAJA X 20",
       "precio": 9148,
-      "imagen": ""
+      "imagen": " ./img_catalogo/puertomar-zomac/three-pack-lomo-aceite-de-girasol.png "
   },
   {
       "id": 225,
       "codigo": "JDX0008",
       "nombre": "ENSALADA DE ATUN CON VEGETALES DON SANCHO CAJA X 48",
       "precio": 4317,
-      "imagen": ""
+      "imagen": " ./img_catalogo/puertomar-zomac/ensalada-de-atun-con-vegetales.png "
   },
   {
       "id": 226,
       "codigo": "JEC0001",
       "nombre": "REEPERB CERVEZA",
       "precio": 10912,
-      "imagen": ""
+      "imagen": " ./img_catalogo/estacion_cervezera/cerveza-reeper-lata.png "
   },
   {
       "id": 227,
       "codigo": "JEC0002",
       "nombre": "KRISTOFFEL ROSE",
       "precio": 11647,
-      "imagen": ""
+      "imagen": " ./img_catalogo/estacion_cervezera/cerveza-kristoffel-rose.png "
   },
   {
       "id": 228,
       "codigo": "JFF0001",
       "nombre": "FARINA CANELA X 250 GR PC X 50 X10 DP",
       "precio": 3967,
-      "imagen": ""
+      "imagen": " ./img_catalogo/farina/farina-250-canela.png "
   },
   {
       "id": 229,
       "codigo": "JFF0002",
       "nombre": "FARINA CANELA X 500 GR PC X 24",
       "precio": 7417,
-      "imagen": ""
+      "imagen": " ./img_catalogo/farina/farina-500-canela.png "
   },
   {
       "id": 230,
       "codigo": "JFF0003",
       "nombre": "FARINA SURTIDA X 200 GR CJ X 48",
       "precio": 3023,
-      "imagen": ""
+      "imagen": " ./img_catalogo/farina/farina-200-surtida.png "
   },
   {
       "id": 231,
       "codigo": "JFF0004",
       "nombre": "FARINA VAINILA X 250 GR PC X 50",
       "precio": 3967,
-      "imagen": ""
+      "imagen": " ./img_catalogo/farina/farina-250-vainilla.png "
   },
   {
       "id": 232,
       "codigo": "JFF0005",
       "nombre": "FARINA X 250 LECHE CONDENSADA PCX50",
       "precio": 3967,
-      "imagen": ""
+      "imagen": " ./img_catalogo/farina/farina-250-leche-condensada.png "
   },
   {
       "id": 233,
       "codigo": "JFF0007",
       "nombre": "FARINA CANELA X 100 GR CJ X 144",
       "precio": 1683,
-      "imagen": ""
+      "imagen": " ./img_catalogo/farina/farina-100-canela.png "
   },
   {
       "id": 234,
       "codigo": "JFF0008",
       "nombre": "FARINA SURTIDA 3 SABORES X 100 GR X CJ X 144 DP X12",
       "precio": 1683,
-      "imagen": ""
+      "imagen": " ./img_catalogo/farina/farina-100-surtida.png "
   },
   {
       "id": 235,
       "codigo": "JFW0002",
       "nombre": "TEQUILA JIMADOR REPOSADO 700",
       "precio": 97225,
-      "imagen": ""
+      "imagen": " ./img_catalogo/farina/farina-100-surtida.png "
   },
   {
       "id": 236,
       "codigo": "JFW0003",
       "nombre": "TEQUILA PATRON REPOSADO 700",
       "precio": 220700,
-      "imagen": ""
+      "imagen": " ./img_catalogo/global/tequila-jimador-reposado-x700.png "
   },
   {
       "id": 237,
       "codigo": "JFW0004",
       "nombre": "TEQUILA PATRON SILVER X 700",
       "precio": 185013,
-      "imagen": ""
+      "imagen": " ./img_catalogo/global/tequila-patron-silver-x700.png "
   },
   {
       "id": 238,
       "codigo": "JFW0005",
       "nombre": "VINO CASILLERO CABERNET SUAVINON X 750 CJ X 12",
       "precio": 46951,
-      "imagen": ""
+      "imagen": " ./img_catalogo/global/casillero-del-diablo-cabernet-x750.png "
   },
   {
       "id": 239,
       "codigo": "JFW0006",
       "nombre": "VINO CASILLERO MERLOT X 750 CC CJ X 12",
       "precio": 46950,
-      "imagen": ""
+      "imagen": " ./img_catalogo/global/casillero-del-diablo-merlot-x750.png "
   },
   {
       "id": 240,
       "codigo": "JFW0007",
       "nombre": "VINO CASILLERO BLANCO SAUVIGNON X 750 CJ X 12",
       "precio": 46951,
-      "imagen": ""
+      "imagen": " ./img_catalogo/global/casillero-del-diablo-blanco-x750.png "
   },
   {
       "id": 241,
       "codigo": "JFW0008",
       "nombre": "VINO CASILLERO  ROSE X 750 CJ X 12",
       "precio": 46951,
-      "imagen": ""
+      "imagen": " ./img_catalogo/global/casillero-del-diablo-rose-x750.png "
   },
   {
       "id": 242,
       "codigo": "JFW0009",
       "nombre": "VINO ESPUMOSO CHANDON  ROSE 750",
       "precio": 73168,
-      "imagen": ""
+      "imagen": " ./img_catalogo/global/vino-espumoso-chandon-rose.png "
   },
   {
       "id": 243,
       "codigo": "JFW0011",
       "nombre": "VINO ESPUMOSO CHANDON EXT.BRUT 750",
       "precio": 59000,
-      "imagen": ""
+      "imagen": " ./img_catalogo/global/vino-espumoso-chandon-extra-brut.png "
   },
   {
       "id": 244,
       "codigo": "JFW0012",
       "nombre": "VINO FRONTERA CARMENERE X 750 CJ X 12",
       "precio": 29800,
-      "imagen": ""
+      "imagen": " ./img_catalogo/global/vino-frontera-carmenere.png "
   },
   {
       "id": 245,
       "codigo": "JFW0013",
       "nombre": "VINO FRONTERA CABERNET SUAVINON X 750 CC CJ X 12",
       "precio": 29801,
-      "imagen": ""
+      "imagen": " ./img_catalogo/global/vino-frontera-cabernet.png "
   },
   {
       "id": 246,
       "codigo": "JFW0014",
       "nombre": "VINO FRONTERA MERLOT X 750 CC CJ X 12",
       "precio": 29800,
-      "imagen": ""
+      "imagen": " ./img_catalogo/global/vino-frontera-merlot.png "
   },
   {
       "id": 247,
       "codigo": "JFW0015",
       "nombre": "VINO FRONTERA ROSE X 750 CC CJ X 12",
       "precio": 29801,
-      "imagen": ""
+      "imagen": " ./img_catalogo/global/vino-frontera-rose.png "
   },
   {
       "id": 248,
       "codigo": "JFW0016",
       "nombre": "VINO FRONTERA SAUV. BLANCO X 750 CC CJ X 12",
       "precio": 30253,
-      "imagen": ""
+      "imagen": " ./img_catalogo/global/vino-frontera-blanco.png "
   },
   {
       "id": 249,
