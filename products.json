@@ -676,7 +676,7 @@
         "codigo": "JCI0010",
         "nombre": "BOM BON COOKIES N CREAM X 5 CJ X 24",
         "precio": 0,
-        "imagen": ""
+        "imagen": " ./img_catalogo/comestibles-italo/bom-bon-cookies-n-cream-x5.png"
     },
     {
         "id": 98,
@@ -802,7 +802,7 @@
         "codigo": "JCI0029",
         "nombre": "CHOCOLATINA RELLENA MEDIANA X 6 CJ X 20",
         "precio": 24351,
-        "imagen": ""
+        "imagen": " ./img_catalogo/comestibles-italo/chocolatina-mediana-6.png "
     },
     {
         "id": 116,
@@ -1754,175 +1754,175 @@
         "codigo": "JFW0018",
         "nombre": "WHISKY JACK DANIEL´S HONEY",
         "precio": 102615,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/jack-daniel-honey.png "
     },
     {
         "id": 252,
         "codigo": "JFW0020",
         "nombre": "TEQUILA PATRON AÑEJO 700",
         "precio": 254187,
-        "imagen": ""
+        "imagen": "./img_catalogo/global/tequila-patron-añejo-x700.png "
     },
     {
         "id": 253,
         "codigo": "JFW0022",
         "nombre": "TEQUILA HERRADURA PLATA X 750",
         "precio": 157274,
-        "imagen": ""
+        "imagen": "./img_catalogo/global/herradura-plata.png "
     },
     {
         "id": 254,
         "codigo": "JFW0023",
         "nombre": "WHISKY JACK DANIEL 'S APPLE",
         "precio": 100001,
-        "imagen": ""
+        "imagen": "./img_catalogo/global/jack-daniel-apple.png "
     },
     {
         "id": 255,
         "codigo": "JFW0024",
         "nombre": "JAGERMAISTER 700 ML CJ X 6 UND",
         "precio": 91478,
-        "imagen": ""
+        "imagen": "./img_catalogo/global/jagermaister-x700.png "
     },
     {
         "id": 256,
         "codigo": "JFW0025",
         "nombre": "WHISKY MACALLAN 12 AÑOS DOBLE CASK 700",
         "precio": 342274,
-        "imagen": ""
+        "imagen": "./img_catalogo/global/macallan-doble-cask-12-años.png "
     },
     {
         "id": 257,
         "codigo": "JFW0032",
         "nombre": "TEQUILA JIMADOR BLANCO X 700 ML",
         "precio": 94168,
-        "imagen": ""
+        "imagen": "./img_catalogo/global/tequila-jimador-silver-x700.png "
     },
     {
         "id": 258,
         "codigo": "JFW0033",
         "nombre": "TEQUILA HERRADURA REPOSADO",
         "precio": 178494,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/herradura-reposado.png "
     },
     {
         "id": 259,
         "codigo": "JFW0037",
         "nombre": "TEQUILA HERRADURA AÑEJO X 750",
         "precio": 219000,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/herradura-añejo.png "
     },
     {
         "id": 260,
         "codigo": "JFW0041",
         "nombre": "VINO CASILLERO CARMENERE X 750 CJ X 12",
         "precio": 47998,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/casillero-del-diablo-carmenere-x750.png "
     },
     {
         "id": 261,
         "codigo": "JFW0057",
         "nombre": "VINO CASILLERO CHARDONNAY 750",
         "precio": 46950,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/casillero-del-diablo-chardonnay-x750.png "
     },
     {
         "id": 262,
         "codigo": "JFW0073",
         "nombre": "RON BACARDI ZOMBIE X 750 CJ X 12",
         "precio": 43563,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/bacardi-zombie-750.png "
     },
     {
         "id": 263,
         "codigo": "JFW0074",
         "nombre": "RON BACARDI MOJITO X 750 CJ X 12 UND",
         "precio": 43058,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/bacardi-mojito-750.png "
     },
     {
         "id": 264,
         "codigo": "JFW0075",
         "nombre": "RON BACARDI LIMON X 700 CJ X 12 UND",
         "precio": 42381,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/bacardi-limon-700.png "
     },
     {
         "id": 265,
         "codigo": "JFW0076",
         "nombre": "RON BACARDI LIMON X 375 CJ X 24 UND",
         "precio": 25417,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/bacardi-limon-x375.png "
     },
     {
         "id": 266,
         "codigo": "JFW0077",
         "nombre": "RON BACARDI AÑEJO X 750 CJ X 12 UND",
         "precio": 44036,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/bacardi-añejo-700.png "
     },
     {
         "id": 267,
         "codigo": "JFW0078",
         "nombre": "RON BACARDI SUPERIOR CARTA BLANCA X 750 CJ X 12 UND",
         "precio": 48216,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/bacardi-carta-blanca-700.png "
     },
     {
         "id": 268,
         "codigo": "JFW0079",
         "nombre": "WHISKY WILLIAM LAWSON´S X 700 CC CJ X 12 UND",
         "precio": 45638,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/whisky-william-lawson.png "
     },
     {
         "id": 269,
         "codigo": "JFW0089",
         "nombre": "BULLDOG GIN 750",
         "precio": 158972,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/bulldog-gin.png "
     },
     {
         "id": 270,
         "codigo": "JFW0090",
         "nombre": "GINEGRA BOMBAY SAPPHIRE X 500 ML",
         "precio": 88715,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/bombay-sapphire-x500.png "
     },
     {
         "id": 271,
         "codigo": "JFW0091",
         "nombre": "GINEBRA BOMBAY SAPPHIRE X 700 ML",
         "precio": 115531,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/bombay-sapphire-x700.png "
     },
     {
         "id": 272,
         "codigo": "JFW0103",
         "nombre": "WHISKY JACK DANIEL´S FIRE",
         "precio": 100001,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/jack-daniel-fire.png "
     },
     {
         "id": 273,
         "codigo": "JFW0107",
         "nombre": "WHISKY JACK DANIEL´S N° 7",
         "precio": 100001,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/jack-daniel-n7.png "
     },
     {
         "id": 274,
         "codigo": "JFW0114",
         "nombre": "RON BACARDI MANDARINA 750 ML CJ X 12",
         "precio": 43662,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/bacardi-mandarina-x750.png "
     },
     {
         "id": 275,
         "codigo": "JFW0117",
         "nombre": "RON BACARDI BAHAMA MAMA 750 ML CJ X 12",
         "precio": 42217,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/bacardi-bahama-mama-x750.png "
     },
     {
         "id": 276,
@@ -1936,7 +1936,7 @@
         "codigo": "JFW0127",
         "nombre": "WHISKY KING OF QUEENS 750 ML CJ X 12",
         "precio": 45600,
-        "imagen": ""
+        "imagen": " ./img_catalogo/global/whisky-king-of-queens-x750.png "
     },
     {
         "id": 278,
