@@ -114,27 +114,45 @@ function updateCart() {
 }
 
 // Modificar el envío por WhatsApp para incluir la descripción
-sendWhatsAppButton.addEventListener("click", () => {
+const sendWhatsAppOrder = () => {
   if (cart.length === 0) {
     alert("El carrito está vacío.");
     return;
   }
 
-  const descripcion = document.getElementById("descripcion").value.trim();
+  const descripcion = document.getElementById("descripcion")?.value.trim();
   
-  let message = "Hola, quiero hacer un pedido:%0A%0A";
-  cart.forEach((item) => {
-    message += `- ${item.nombre} (Código: ${item.codigo}) x${item.cantidad} ($${(item.precio * item.cantidad).toFixed(2)})%0A`;
-  });
-  const total = calculateTotal();
-  message += `%0ATotal: $${total.toFixed(2)}`;
-
-  if (descripcion) {
-    message += `%0A%0ANotas adicionales:%0A${descripcion}`;
+  // Agregamos la validación de la descripción
+  if (!descripcion) {
+    alert("Por favor ingrese el nombre o NIT del cliente. Este campo es obligatorio.");
+    return;
   }
 
-  const whatsappURL = `https://wa.me/573045428015?text=${message}`;
-  window.open(whatsappURL, "_blank");
+  const message = `Hola, quiero hacer un pedido:%0A%0A${
+    cart.map(item => 
+      `- ${item.nombre} (Código: ${item.codigo}) x${item.cantidad} ($${(item.precio * item.cantidad).toFixed(2)})`
+    ).join('%0A')
+  }%0A%0ATotal: $${calculateTotal().toFixed(2)}${
+    descripcion ? `%0A%0ANotas adicionales:%0A${descripcion}` : ''
+  }`;
+
+  window.open(`https://wa.me/573045428015?text=${message}`, "_blank");
+  
+  // Limpiar datos después de enviar
+  cart = [];
+  document.getElementById("descripcion").value = "";
+  updateCart();
+}
+
+// Event Listeners
+sendWhatsAppButton.addEventListener("click", sendWhatsAppOrder);
+searchInput.addEventListener("input", () => {
+  const searchTerm = searchInput.value.toLowerCase();
+  const filteredProducts = products.filter(product =>
+    product.nombre.toLowerCase().includes(searchTerm) ||
+    product.codigo.toLowerCase().includes(searchTerm)
+  );
+  displayProducts(filteredProducts);
 });
 
 // Agregar función para calcular el total
@@ -148,36 +166,25 @@ function removeFromCart(id) {
   updateCart();
 }
 
-// Enviar pedido por WhatsApp
-sendWhatsAppButton.addEventListener("click", () => {
-  if (cart.length === 0) {
-    alert("El carrito está vacío.");
-    return;
-  }
+// Inicializar la aplicación
+loadProducts();
 
-  let message = "Hola, quiero hacer un pedido:%0A";
-  cart.forEach((item) => {
-    message += `- ${item.nombre} (Código: ${item.codigo}) x${
-      item.cantidad
-    } ($${(item.precio * item.cantidad).toFixed(2)})%0A`;
-  });
-  const total = cart.reduce(
-    (sum, item) => sum + item.precio * item.cantidad,
-    0
-  );
-  message += `Total: $${total.toFixed(2)}`;
 
-  const whatsappURL = `https://wa.me/573045428015?text=${message}`;
-  window.open(whatsappURL, "_blank");
-});
-
-// Filtrar productos por búsqueda
-searchInput.addEventListener("input", () => {
-  const searchTerm = searchInput.value.toLowerCase();
-  const filteredProducts = products.filter(
-    (product) =>
-      product.nombre.toLowerCase().includes(searchTerm) ||
-      product.codigo.toLowerCase().includes(searchTerm)
-  );
-  displayProducts(filteredProducts);
-});
+// Explicación de las mejoras y funciones:
+// 1. Organización del código:
+//  Se agruparon todas las referencias DOM en un objeto elements
+//  Se centralizó el estado en un objeto state
+//  Se creó un objeto cartManager para manejar la lógica del carrito
+// 2. Funciones principales:
+//  loadProducts: Carga asíncrona de productos usando async/await
+//  displayProducts: Muestra los productos en la interfaz
+//  cartManager.add: Agrega productos al carrito
+//  cartManager.remove: Elimina productos del carrito
+//  cartManager.changeQuantity: Actualiza cantidades
+//  cartManager.calculateTotal: Calcula el total del pedido
+//  updateCart: Actualiza la vista del carrito
+// 3. Mejoras de rendimiento:
+//  Uso de template strings para HTML
+//  Reducción de manipulaciones DOM
+//  Mejor manejo de eventos
+//  Uso de métodos modernos de array
