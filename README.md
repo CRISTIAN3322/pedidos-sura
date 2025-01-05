@@ -26,7 +26,7 @@ Sistema web para la gestión y toma de pedidos desarrollado para SURA. Permite v
 1. Clona el repositorio:
 
     bash
-    git clone [U[RL-del-repositorio](https://github.com/CRISTIAN3322/pedidos-sura.git)]
+    git clone (https://github.com/CRISTIAN3322/pedidos-sura.git)
 
 2. No requiere instalación de dependencias adicionales
 3. Abre `index.html` en tu navegador web
