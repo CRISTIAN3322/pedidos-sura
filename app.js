@@ -8,6 +8,11 @@ const searchInput = document.getElementById("search");
 let cart = [];
 let products = [];
 
+// Agregar variables de paginación
+const productsPerPage = 12; // Productos por página
+let currentPage = 1;
+let filteredProducts = [];
+
 // Cargar productos desde JSON
 fetch("products.json")
   .then((response) => response.json())
@@ -18,8 +23,15 @@ fetch("products.json")
   .catch((error) => console.error("Error cargando los productos:", error));
 
 function displayProducts(productsList) {
+  filteredProducts = productsList; // Guardamos la lista filtrada
+  const startIndex = (currentPage - 1) * productsPerPage;
+  const endIndex = startIndex + productsPerPage;
+  const paginatedProducts = productsList.slice(startIndex, endIndex);
+  
   productsContainer.innerHTML = "";
-  productsList.forEach((product) => {
+  
+  // Mostrar productos de la página actual
+  paginatedProducts.forEach((product) => {
     const productDiv = document.createElement("div");
     productDiv.classList.add("product");
     productDiv.innerHTML = `
@@ -44,6 +56,65 @@ function displayProducts(productsList) {
       `;
     productsContainer.appendChild(productDiv);
   });
+
+  // Agregar controles de paginación
+  displayPagination(productsList.length);
+}
+
+function displayPagination(totalProducts) {
+  const totalPages = Math.ceil(totalProducts / productsPerPage);
+  const paginationDiv = document.createElement("div");
+  paginationDiv.classList.add("pagination");
+  
+  // Botón anterior
+  const prevButton = document.createElement("button");
+  prevButton.innerText = "Anterior";
+  prevButton.disabled = currentPage === 1;
+  prevButton.onclick = () => {
+    if (currentPage > 1) {
+      currentPage--;
+      displayProducts(filteredProducts);
+    }
+  };
+  
+  // Input para número de página
+  const pageInput = document.createElement("input");
+  pageInput.type = "number";
+  pageInput.min = 1;
+  pageInput.max = totalPages;
+  pageInput.value = currentPage;
+  pageInput.classList.add("page-input");
+  
+  // Manejar cambio de página mediante input
+  pageInput.onchange = (e) => {
+    let newPage = parseInt(e.target.value);
+    if (newPage < 1) newPage = 1;
+    if (newPage > totalPages) newPage = totalPages;
+    currentPage = newPage;
+    displayProducts(filteredProducts);
+  };
+  
+  // Información del total de páginas
+  const pageInfo = document.createElement("span");
+  pageInfo.innerText = `de ${totalPages}`;
+  
+  // Botón siguiente
+  const nextButton = document.createElement("button");
+  nextButton.innerText = "Siguiente";
+  nextButton.disabled = currentPage === totalPages;
+  nextButton.onclick = () => {
+    if (currentPage < totalPages) {
+      currentPage++;
+      displayProducts(filteredProducts);
+    }
+  };
+  
+  paginationDiv.appendChild(prevButton);
+  paginationDiv.appendChild(pageInput);
+  paginationDiv.appendChild(pageInfo);
+  paginationDiv.appendChild(nextButton);
+  
+  productsContainer.appendChild(paginationDiv);
 }
 
 // También necesitamos modificar la función addToCart para aceptar la cantidad
@@ -148,6 +219,7 @@ const sendWhatsAppOrder = () => {
 sendWhatsAppButton.addEventListener("click", sendWhatsAppOrder);
 searchInput.addEventListener("input", () => {
   const searchTerm = searchInput.value.toLowerCase();
+  currentPage = 1; // Resetear a la primera página al buscar
   const filteredProducts = products.filter(product =>
     product.nombre.toLowerCase().includes(searchTerm) ||
     product.codigo.toLowerCase().includes(searchTerm)

@@ -329,3 +329,35 @@ input[type="text"] {
   }
 }
 
+.pagination {
+  text-align: center;
+  width: 100%;
+  /* margin: 0 auto; */
+}
+
+.pagination  button,
+.pagination span {
+  margin: 0 5px;
+}
+
+.pagination button {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  text-align: center;
+  padding: 5px;
+}
+
+.pagination .page-input {
+  width: 60px;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pagination .page-input::-webkit-inner-spin-button,
+.pagination .page-input::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
