@@ -4,3388 +4,3871 @@
         "codigo": "JAL0001",
         "nombre": "ALUMINIO ALUMIFLEX X 7 MTS  CJ X 24 - 1000037",
         "precio": 2830,
-        "imagen": "./img_catalogo/alumina/papel-alumiflex-7.png"
+        "imagen": "./img_catalogo/alumina/papel-alumiflex-7.png",
+        "activo": true
     },
     {
         "id": 2,
         "codigo": "JAL0002",
         "nombre": "ALUMINIO ALUMINA X 8 MTS CJ X 30 - 1000061",
         "precio": 2899,
-        "imagen": "./img_catalogo/alumina/papel-alumina-8.png"
+        "imagen": "./img_catalogo/alumina/papel-alumina-8.png",
+        "activo": true
     },
     {
         "id": 3,
         "codigo": "JAL0003",
         "nombre": "PAPEL ALUMINIO 13 MTS X 30 - 1000058",
         "precio": 4368,
-        "imagen": "./img_catalogo/alumina/papel-alumina-13.png"
+        "imagen": "./img_catalogo/alumina/papel-alumina-13.png",
+        "activo": true
     },
     {
         "id": 4,
         "codigo": "JAL0004",
         "nombre": "PAPEL ALUMINIO ALUMINA 16 MTS X 30 UND - 1000059",
         "precio": 5874,
-        "imagen": "./img_catalogo/alumina/papel-alumina-16.png"
+        "imagen": "./img_catalogo/alumina/papel-alumina-16.png",
+        "activo": true
     },
     {
         "id": 5,
         "codigo": "JAL0005",
         "nombre": "ALUM. ALUMINA 40 MTS CJ X 30 - 1000062",
         "precio": 12237,
-        "imagen": "./img_catalogo/alumina/papel-alumina-40.png"
+        "imagen": "./img_catalogo/alumina/papel-alumina-40.png",
+        "activo": true
     },
     {
         "id": 6,
         "codigo": "JAT0001",
         "nombre": "ARITOS SABOR FRUTAS X 1000 gr CJ X 8 und",
         "precio": 15740,
-        "imagen": "./img_catalogo/toning/cereal-aritos-1000.png"
+        "imagen": "./img_catalogo/toning/cereal-aritos-1000.png",
+        "activo": true
     },
     {
         "id": 7,
         "codigo": "JAT0002",
         "nombre": "AVENA HOJUELA TONING X 200 gr PC X 48 und",
         "precio": 1625,
-        "imagen": "./img_catalogo/toning/avena-hojuelas-200.png"
+        "imagen": "./img_catalogo/toning/avena-hojuelas-200.png",
+        "activo": true
     },
     {
         "id": 8,
         "codigo": "JAT0003",
         "nombre": "AVENA HOJUELA TONING 400 LLEVE 500 gr PC X 24 und",
         "precio": 3765,
-        "imagen": "./img_catalogo/toning/avena-hojuelas-500.png"
+        "imagen": "./img_catalogo/toning/avena-hojuelas-500.png",
+        "activo": true
     },
     {
         "id": 9,
         "codigo": "JAT0004",
         "nombre": "AVENA HOJUELAS TONING X 1000 gr PC X 12 und",
         "precio": 6434,
-        "imagen": "./img_catalogo/toning/avena-hojuelas-1000.png"
+        "imagen": "./img_catalogo/toning/avena-hojuelas-1000.png",
+        "activo": true
     },
     {
         "id": 10,
         "codigo": "JAT0005",
         "nombre": "AVENA INST FRESA TONING X 180 gr CJ X 24 und",
         "precio": 2894,
-        "imagen": "./img_catalogo/toning/avena-insta-fresa-180.png"
+        "imagen": "./img_catalogo/toning/avena-insta-fresa-180.png",
+        "activo": true
     },
     {
         "id": 11,
         "codigo": "JAT0006",
         "nombre": "AVENA INST MORA TONING X 180 gr CJ X 24 und",
         "precio": 2894,
-        "imagen": "./img_catalogo/toning/avena-insta-mora-180.png"
+        "imagen": "./img_catalogo/toning/avena-insta-mora-180.png",
+        "activo": true
     },
     {
         "id": 12,
         "codigo": "JAT0007",
         "nombre": "AVENA INST VAINILLA TONING X 180 gr CJ X 24 und",
         "precio": 2894,
-        "imagen": "./img_catalogo/toning/avena-insta-vainilla-180.png"
+        "imagen": "./img_catalogo/toning/avena-insta-vainilla-180.png",
+        "activo": true
     },
     {
         "id": 13,
         "codigo": "JAT0008",
         "nombre": "AVENA MOLIDA TONING X 200 gr PC X 48 und",
         "precio": 1625,
-        "imagen": "./img_catalogo/toning/avena-molida-200.png"
+        "imagen": "./img_catalogo/toning/avena-molida-200.png",
+        "activo": true
     },
     {
         "id": 14,
         "codigo": "JAT0009",
         "nombre": "CHOCO CHOC X 1000 gr CJ X 12 und",
         "precio": 16104,
-        "imagen": "./img_catalogo/toning/cereal-choco-choc-1000.png"
+        "imagen": "./img_catalogo/toning/cereal-choco-choc-1000.png",
+        "activo": true
     },
     {
         "id": 15,
         "codigo": "JAT0010",
         "nombre": "COLADA 7 GRANOS FRESA X 200 GR PC X 48 und DISPLAY X 12 und",
         "precio": 3519,
-        "imagen": "./img_catalogo/toning/colada-7-granos-200-fresa.png"
+        "imagen": "./img_catalogo/toning/colada-7-granos-200-fresa.png",
+        "activo": true
     },
     {
         "id": 16,
         "codigo": "JAT0011",
         "nombre": "COLADA 7 GRANOS NATURAL X 200 GR PC X 48 und DISPLAY X 12 und",
         "precio": 3519,
-        "imagen": "./img_catalogo/toning/colada-7-granos-200-natural.png"
+        "imagen": "./img_catalogo/toning/colada-7-granos-200-natural.png",
+        "activo": true
     },
     {
         "id": 17,
         "codigo": "JAT0012",
         "nombre": "COLADA 7 GRANOS VAINILLA X 200 GR PC X 48 und DISPLAY X 12 und",
         "precio": 3519,
-        "imagen": "./img_catalogo/toning/colada-7-granos-200-vainilla.png "
+        "imagen": "./img_catalogo/toning/colada-7-granos-200-vainilla.png ",
+        "activo": true
     },
     {
         "id": 18,
         "codigo": "JAT0013",
         "nombre": "FECULA DE PLATANO TONING 200 gr PC X 48 und",
         "precio": 3181,
-        "imagen": "./img_catalogo/toning/colada-de-platano-200.png "
+        "imagen": "./img_catalogo/toning/colada-de-platano-200.png ",
+        "activo": true
     },
     {
         "id": 19,
         "codigo": "JAT0014",
         "nombre": "FORZA ALMENDRAS ORIGINAL POLVO X 200 gr CJ X 12 und",
         "precio": 15032,
-        "imagen": "./img_catalogo/toning/forza-almendra-original-200.png "
+        "imagen": "./img_catalogo/toning/forza-almendra-original-200.png ",
+        "activo": true
     },
     {
         "id": 20,
         "codigo": "JAT0015",
         "nombre": "FORZA ALMENDRAS VAINILLA POLVO X 200 gr CJ X 12 und",
         "precio": 15032,
-        "imagen": "./img_catalogo/toning/forza-almendra-vainilla-200.png "
+        "imagen": "./img_catalogo/toning/forza-almendra-vainilla-200.png ",
+        "activo": true
     },
     {
         "id": 21,
         "codigo": "JAT0016",
         "nombre": "FORZA SOYA MUJER POLVO X 200 gr CJ X 12 und",
         "precio": 15535,
-        "imagen": "./img_catalogo/toning/forza-almendra-mujer-200.png "
+        "imagen": "./img_catalogo/toning/forza-almendra-mujer-200.png ",
+        "activo": true
     },
     {
         "id": 22,
         "codigo": "JAT0018",
         "nombre": "FECULA DE MAIZ TONING X 200 GR PC X 48",
         "precio": 3196,
-        "imagen": "./img_catalogo/toning/fecula-de-maiz-toning-200.png "
+        "imagen": "./img_catalogo/toning/fecula-de-maiz-toning-200.png ",
+        "activo": true
     },
     {
         "id": 23,
         "codigo": "JAT0019",
         "nombre": "GRANOLA TONING 500 gr CJ X 24 und",
         "precio": 7313,
-        "imagen": "./img_catalogo/toning/granola-500.png "
+        "imagen": "./img_catalogo/toning/granola-500.png ",
+        "activo": true
     },
     {
         "id": 24,
         "codigo": "JAT0020",
         "nombre": "GUSTARINA NATURAL X 200 gr PC X 48 und",
         "precio": 3232,
-        "imagen": "./img_catalogo/toning/gustarina-200-natural.png"
+        "imagen": "./img_catalogo/toning/gustarina-200-natural.png",
+        "activo": true
     },
     {
         "id": 25,
         "codigo": "JAT0021",
         "nombre": "GUSTARINA VAINILLA X 200 gr PC X 48 und",
         "precio": 3232,
-        "imagen": "./img_catalogo/toning/gustarina-200-vainilla.png"
+        "imagen": "./img_catalogo/toning/gustarina-200-vainilla.png",
+        "activo": true
     },
     {
         "id": 26,
         "codigo": "JAT0022",
         "nombre": "HOJUELAS AZUCARADAS X 1000 gr CJ X 12 und",
         "precio": 15740,
-        "imagen": "./img_catalogo/toning/cereal-hojuelas-azucaradas-1000.png"
+        "imagen": "./img_catalogo/toning/cereal-hojuelas-azucaradas-1000.png",
+        "activo": true
     },
     {
         "id": 27,
         "codigo": "JAT0023",
         "nombre": "LECHE SOYA NATURAL 750 gr PC X 12 und",
         "precio": 22612,
-        "imagen": "./img_catalogo/toning/leche-soya-750-natural.png"
+        "imagen": "./img_catalogo/toning/leche-soya-750-natural.png",
+        "activo": true
     },
     {
         "id": 28,
         "codigo": "JAT0024",
         "nombre": "LECHE SOYA TONING 40 Y TANTOS X 250 gr PC X 48 und",
         "precio": 8691,
-        "imagen": "./img_catalogo/toning/leche-soya-250-40-y-tantos.png"
+        "imagen": "./img_catalogo/toning/leche-soya-250-40-y-tantos.png",
+        "activo": true
     },
     {
         "id": 29,
         "codigo": "JAT0025",
         "nombre": "LECHE SOYA TONING MIEL X 250 gr PC X 48 und",
         "precio": 8691,
-        "imagen": "./img_catalogo/toning/leche-soya-250-miel.png"
+        "imagen": "./img_catalogo/toning/leche-soya-250-miel.png",
+        "activo": true
     },
     {
         "id": 30,
         "codigo": "JAT0026",
         "nombre": "LECHE SOYA TONING NATURAL X 250 gr PC X 48 und",
         "precio": 8691,
-        "imagen": "./img_catalogo/toning/leche-soya-250-natural.png"
+        "imagen": "./img_catalogo/toning/leche-soya-250-natural.png",
+        "activo": true
     },
     {
         "id": 31,
         "codigo": "JAT0027",
         "nombre": "LECHE SOYA TONING VAINILLA X 250 gr PC X 48 und",
         "precio": 8691,
-        "imagen": "./img_catalogo/toning/leche-soya-250-vainilla.png"
+        "imagen": "./img_catalogo/toning/leche-soya-250-vainilla.png",
+        "activo": true
     },
     {
         "id": 32,
         "codigo": "JAT0028",
         "nombre": "LECHE SOYA VAINILLA X 750 gr PC X 12 und",
         "precio": 22612,
-        "imagen": "./img_catalogo/toning/leche-soya-750-vainilla.png"
+        "imagen": "./img_catalogo/toning/leche-soya-750-vainilla.png",
+        "activo": true
     },
     {
         "id": 33,
         "codigo": "JAT0033",
         "nombre": "SALVADO NATURAL X 450 gr PC X 24 und",
         "precio": 3834,
-        "imagen": "./img_catalogo/toning/salvado-450.png"
+        "imagen": "./img_catalogo/toning/salvado-450.png",
+        "activo": true
     },
     {
         "id": 34,
         "codigo": "JAT0034",
         "nombre": "PROTEINA X 250 gr PC X 24 und",
         "precio": 11366,
-        "imagen": "./img_catalogo/toning/proteina-250.png"
+        "imagen": "./img_catalogo/toning/proteina-250.png",
+        "activo": true
     },
     {
         "id": 35,
         "codigo": "JAT0037",
         "nombre": "PROTEINA X 500 gr PC X 12 und",
         "precio": 21673,
-        "imagen": "./img_catalogo/toning/proteina-500.png"
+        "imagen": "./img_catalogo/toning/proteina-500.png",
+        "activo": true
     },
     {
         "id": 36,
         "codigo": "JAT0039",
         "nombre": "AVENA HOJUELAS VAINILLA ZANARA TARRO X 45 gr CJ X 48 und",
         "precio": 2600,
-        "imagen": "./img_catalogo/toning/avena-zanara-tarro-45-vainilla.png"
+        "imagen": "./img_catalogo/toning/avena-zanara-tarro-45-vainilla.png",
+        "activo": true
     },
     {
         "id": 37,
         "codigo": "JAT0040",
         "nombre": "AVENA HOJUELAS MIEL ZANARA TARRO X 45 gr CJ X 48 und",
         "precio": 2600,
-        "imagen": "./img_catalogo/toning/avena-zanara-tarro-45-miel.png"
+        "imagen": "./img_catalogo/toning/avena-zanara-tarro-45-miel.png",
+        "activo": true
     },
     {
         "id": 38,
         "codigo": "JAT0041",
         "nombre": "AVENA HOJUELAS CANELA ZANARA TARRO X 45 gr CJ X 48 und",
         "precio": 2600,
-        "imagen": "./img_catalogo/toning/avena-zanara-tarro-45-canela.png"
+        "imagen": "./img_catalogo/toning/avena-zanara-tarro-45-canela.png",
+        "activo": true
     },
     {
         "id": 39,
         "codigo": "JAT0042",
         "nombre": "MEZCLA PARA PANCAKES DE AVENA X 280 GR CJ X 24",
         "precio": 4421,
-        "imagen": "./img_catalogo/toning/pancakes-280.png"
+        "imagen": "./img_catalogo/toning/pancakes-280.png",
+        "activo": true
     },
     {
         "id": 40,
         "codigo": "JAT0043",
         "nombre": "MEZCLA PARA PANCAKES DE AVENA SIN GLUTEN X 500 GR CJ X 12",
         "precio": 8188,
-        "imagen": "./img_catalogo/toning/pancakes-sin-gluten-500.png"
+        "imagen": "./img_catalogo/toning/pancakes-sin-gluten-500.png",
+        "activo": true
     },
     {
         "id": 41,
         "codigo": "JAT0044",
         "nombre": "MULTIGRANOLA X 1000 gr PC X 12 und",
         "precio": 15535,
-        "imagen": "./img_catalogo/toning/multigranola-1000.png"
+        "imagen": "./img_catalogo/toning/multigranola-1000.png",
+        "activo": true
     },
     {
         "id": 42,
         "codigo": "JAT0047",
         "nombre": "FORZA ALMENDRAS LIQUIDA ORIGINAL X 946 ml CJ X 12 und",
         "precio": 10840,
-        "imagen": "./img_catalogo/toning/forza-almendra-liquida-original-946.png"
+        "imagen": "./img_catalogo/toning/forza-almendra-liquida-original-946.png",
+        "activo": true
     },
     {
         "id": 43,
         "codigo": "JAT0048",
         "nombre": "FORZA ALMENDRAS LIQUIDA VAINILLA X 946 ml CJ X 12 und",
         "precio": 10840,
-        "imagen": " ./img_catalogo/toning/forza-almendra-liquida-vainilla-946.png "
+        "imagen": " ./img_catalogo/toning/forza-almendra-liquida-vainilla-946.png ",
+        "activo": true
     },
     {
         "id": 44,
         "codigo": "JAT0053",
         "nombre": "COLADA 7 CEREALES VAINILLA X 1000 gr PC X 12 und",
         "precio": 15131,
-        "imagen": "./img_catalogo/toning/colada-7-granos-200-vainilla.png"
+        "imagen": "./img_catalogo/toning/colada-7-granos-200-vainilla.png",
+        "activo": true
     },
     {
         "id": 45,
         "codigo": "JAT0054",
         "nombre": "COLADA 7 CEREALES NATURAL X 1000 gr PC X 12 und",
         "precio": 15131,
-        "imagen": "./img_catalogo/toning/colada-7-granos-1000-natural.png"
+        "imagen": "./img_catalogo/toning/colada-7-granos-1000-natural.png",
+        "activo": true
     },
     {
         "id": 46,
         "codigo": "JAT0057",
         "nombre": "GRANOLA ECONOPACK X 1000 gr CJ X 12 und",
         "precio": 12303,
-        "imagen": " ./img_catalogo/toning/granola-1000.png "
+        "imagen": " ./img_catalogo/toning/granola-1000.png ",
+        "activo": true
     },
     {
         "id": 47,
         "codigo": "JAT0058",
         "nombre": "CORN FLAKES X 1000 gr CJ X 12 und",
         "precio": 15740,
-        "imagen": " ./img_catalogo/toning/cereal-corn-flakes-1000.png "
+        "imagen": " ./img_catalogo/toning/cereal-corn-flakes-1000.png ",
+        "activo": true
     },
     {
         "id": 48,
         "codigo": "JAT0061",
         "nombre": "FORZA ALMENDRA CERO X 946 ml CJ X 12 und",
         "precio": 11388,
-        "imagen": " ./img_catalogo/toning/forza-almendra-liquida-cero-946.png "
+        "imagen": " ./img_catalogo/toning/forza-almendra-liquida-cero-946.png ",
+        "activo": true
     },
     {
         "id": 49,
         "codigo": "JAT0106",
         "nombre": "FORZA LIQUIDA DUOPACK SIN AZUCAR 1892 ml CJ X 6 und",
         "precio": 19346,
-        "imagen": " ./img_catalogo/toning/forza-almendra-liquida-cero-duopack.png "
+        "imagen": " ./img_catalogo/toning/forza-almendra-liquida-cero-duopack.png ",
+        "activo": true
     },
     {
         "id": 50,
         "codigo": "JAT0109",
         "nombre": "AVENA HOJUELAS TONING X 2000 gr CJ X 6 und",
         "precio": 14968,
-        "imagen": " ./img_catalogo/toning/avena-hojuelas-2000.png "
+        "imagen": " ./img_catalogo/toning/avena-hojuelas-2000.png ",
+        "activo": true
     },
     {
         "id": 51,
         "codigo": "JAT0110",
         "nombre": "CHOCOGRANOLA X 900 gr CJ X 12 und",
         "precio": 15678,
-        "imagen": " ./img_catalogo/toning/choco-granola-900.png "
+        "imagen": " ./img_catalogo/toning/choco-granola-900.png ",
+        "activo": true
     },
     {
         "id": 52,
         "codigo": "JAT0113",
         "nombre": "FORZA ORIGINAL ECONOPACK POLVO X 400 gr CJ X 12 und",
         "precio": 24526,
-        "imagen": " ./img_catalogo/toning/forza-almendra-original-400.png "
+        "imagen": " ./img_catalogo/toning/forza-almendra-original-400.png ",
+        "activo": true
     },
     {
         "id": 53,
         "codigo": "JAT0114",
         "nombre": "FORZA VAINILLA ECONOPACK POLVO X 400 gr CJ X 12 und",
         "precio": 24526,
-        "imagen": " ./img_catalogo/toning/forza-almendra-vainilla-400.png "
+        "imagen": " ./img_catalogo/toning/forza-almendra-vainilla-400.png ",
+        "activo": true
     },
     {
         "id": 54,
         "codigo": "JAT0115",
         "nombre": "AVENA TONING X 1000 EXTRA CONTENIDO PACA X 12",
         "precio": 7190,
-        "imagen": " ./img_catalogo/toning/avena-hojuelas-1200.png "
+        "imagen": " ./img_catalogo/toning/avena-hojuelas-1200.png ",
+        "activo": true
     },
     {
         "id": 55,
         "codigo": "JAT0120",
         "nombre": "FORZA ALMENDRA LIQUIDA ORIGINAL DUOPACK",
         "precio": 18430,
-        "imagen": " ./img_catalogo/toning/forza-almendra-liquida-original-duopack.png "
+        "imagen": " ./img_catalogo/toning/forza-almendra-liquida-original-duopack.png ",
+        "activo": true
     },
     {
         "id": 56,
         "codigo": "JAT0121",
         "nombre": "FORZA ALMENDRAS LIQUIDA VAINILLA DUOPACK",
         "precio": 18430,
-        "imagen": " ./img_catalogo/toning/forza-almendra-liquida-vainilla-duopack.png "
+        "imagen": " ./img_catalogo/toning/forza-almendra-liquida-vainilla-duopack.png ",
+        "activo": true
     },
     {
         "id": 57,
         "codigo": "JAT0123",
         "nombre": "AVENA HOJUELAS SIN GLUTEN X 1000 gr  CJ X 12 und",
         "precio": 10377,
-        "imagen": " ./img_catalogo/toning/avena-hojuelas-sin-gluten-1000.png "
+        "imagen": " ./img_catalogo/toning/avena-hojuelas-sin-gluten-1000.png ",
+        "activo": true
     },
     {
         "id": 58,
         "codigo": "JAT0124",
         "nombre": "AVENA MOLIDA SIN GLUTEN X 400 GR CJ X 16",
         "precio": 6901,
-        "imagen": " ./img_catalogo/toning/avena-molida-sin-gluten-400.png "
+        "imagen": " ./img_catalogo/toning/avena-molida-sin-gluten-400.png ",
+        "activo": true
     },
     {
         "id": 59,
         "codigo": "JAW0005",
         "nombre": "PAÑITOS HUMEDOS FRESQUITOS  X 10 UN PQ X 48 UND *",
         "precio": 793,
-        "imagen": " ./img_catalogo/atw/freskitos-10.png "
+        "imagen": " ./img_catalogo/atw/freskitos-10.png ",
+        "activo": true
     },
     {
         "id": 60,
         "codigo": "JAW0006",
         "nombre": "PAÑITOS  FRESQUITOS HUMEDOS  PQ X 102 UND *",
         "precio": 4750,
-        "imagen": " ./img_catalogo/atw/freskitos-102.png "
+        "imagen": " ./img_catalogo/atw/freskitos-102.png ",
+        "activo": true
     },
     {
         "id": 61,
         "codigo": "JAW0010",
         "nombre": "PAÑITOS PEPINO DESMAQUILLADORES X 10 UN PC X 48 DERMODIVA",
         "precio": 762,
-        "imagen": " ./img_catalogo/atw/dermadiva-pepino.png "
+        "imagen": " ./img_catalogo/atw/dermadiva-pepino.png ",
+        "activo": true
     },
     {
         "id": 62,
         "codigo": "JAW0011",
         "nombre": "PAÑITOS DESMAQUILLADORES COLAGENO X 10 UN PC X 48",
         "precio": 763,
-        "imagen": " ./img_catalogo/atw/dermadiva-colageno.png "
+        "imagen": " ./img_catalogo/atw/dermadiva-colageno.png ",
+        "activo": true
     },
     {
         "id": 63,
         "codigo": "JAW0015",
         "nombre": "PAÑITOS HUMEDOS 105 UND FRESKITICOS CJ X 24 UND *",
         "precio": 3850,
-        "imagen": " ./img_catalogo/atw/freskitos-105.png "
+        "imagen": " ./img_catalogo/atw/freskitos-105.png ",
+        "activo": true
     },
     {
         "id": 64,
         "codigo": "JAW0019",
         "nombre": "ENJUAGUE BUCAL ACTIVMINT YERBABUENA X 300 ML CJ X 15",
         "precio": 4789,
-        "imagen": " ./img_catalogo/atw/enjuage-bucal-yerbabuena.png "
+        "imagen": " ./img_catalogo/atw/enjuage-bucal-yerbabuena.png ",
+        "activo": true
     },
     {
         "id": 65,
         "codigo": "JAW0020",
         "nombre": "ENJUAGUE BUCAL ACTIVMINT MENTA X 300 ML CJ X 15",
         "precio": 4789,
-        "imagen": " ./img_catalogo/atw/enjuage-bucal-menta.png "
+        "imagen": " ./img_catalogo/atw/enjuage-bucal-menta.png ",
+        "activo": true
     },
     {
         "id": 66,
         "codigo": "JBL0006",
         "nombre": "ITALCAN 30KG",
         "precio": 104768,
-        "imagen": " ./img_catalogo/bellini/italcan-30-kl.png "
+        "imagen": " ./img_catalogo/bellini/italcan-30-kl.png ",
+        "activo": true
     },
     {
         "id": 67,
         "codigo": "JBL0007",
         "nombre": "ITALCAN 10KG",
         "precio": 32970,
-        "imagen": " ./img_catalogo/bellini/italcan-10-kl.png "
+        "imagen": " ./img_catalogo/bellini/italcan-10-kl.png ",
+        "activo": true
     },
     {
         "id": 68,
         "codigo": "JCA0001",
         "nombre": "MASMELOS SURTIDOS DE AZUCAR CJ X 40 UND",
         "precio": 2607,
-        "imagen": " ./img_catalogo/comestibles-azucar/masmelo-azucar-120.png "
+        "imagen": " ./img_catalogo/comestibles-azucar/masmelo-azucar-120.png ",
+        "activo": false
     },
     {
         "id": 69,
         "codigo": "JCC0001",
         "nombre": "ACEITE DE OLIVA IBAÑEZ X 200 GR CJ X 50",
         "precio": 7983,
-        "imagen": " ./img_catalogo/casa-ibanez/aceite-de-oliva-200.png "
+        "imagen": " ./img_catalogo/casa-ibanez/aceite-de-oliva-200.png ",
+        "activo": true
     },
     {
         "id": 70,
         "codigo": "JCC0002",
         "nombre": "ACEITE DE OLIVA  IBAÑEZ X 500 ML CJ X 30",
         "precio": 17414,
-        "imagen": " ./img_catalogo/casa-ibanez/aceite-de-oliva-500.png "
+        "imagen": " ./img_catalogo/casa-ibanez/aceite-de-oliva-500.png ",
+        "activo": true
     },
     {
         "id": 71,
         "codigo": "JCC0003",
         "nombre": "ACEITE DE OLIVA IBAÑEZ  X 1000 ML CJ X 20",
         "precio": 33378,
-        "imagen": " ./img_catalogo/casa-ibanez/aceite-ibañez-x1000.png "
+        "imagen": " ./img_catalogo/casa-ibanez/aceite-ibañez-x1000.png ",
+        "activo": true
     },
     {
         "id": 72,
         "codigo": "JCC0015",
         "nombre": "ACEITE CANOLIVA LITRO VIRGEN EXTRA CJ X 20 UND",
         "precio": 23901,
-        "imagen": " ./img_catalogo/casa-ibanez/aceita-canoliva-1000.png "
+        "imagen": " ./img_catalogo/casa-ibanez/aceita-canoliva-1000.png ",
+        "activo": true
     },
     {
         "id": 73,
         "codigo": "JCD0001",
         "nombre": "GALLETA CAMPANITAS DE NAVIDAD AZUL X 160GR CJ X 24",
         "precio": 3691,
-        "imagen": " ./img_catalogo/compañia-de-dulces/galletas-campanitas-amarilla.png "
+        "imagen": " ./img_catalogo/compañia-de-dulces/galletas-campanitas-amarilla.png ",
+        "activo": false
     },
     {
         "id": 74,
         "codigo": "JCD0002",
         "nombre": "GALLETA CAMPANITAS DE NAVIDAD AMARILLA X 160GR CJ X 24",
         "precio": 3691,
-        "imagen": " ./img_catalogo/compañia-de-dulces/galletas-campanitas-azul.png "
+        "imagen": " ./img_catalogo/compañia-de-dulces/galletas-campanitas-azul.png ",
+        "activo": false
     },
     {
         "id": 75,
         "codigo": "JCG0001",
         "nombre": "PALOMITAS EXTRA MANTEQUILLA X 80 GR DP X 16",
         "precio": 4286,
-        "imagen": " ./img_catalogo/congrupo/palomitas-microondas-extra-mantequilla.png "
+        "imagen": " ./img_catalogo/congrupo/palomitas-microondas-extra-mantequilla.png ",
+        "activo": true
     },
     {
         "id": 76,
         "codigo": "JCG0002",
         "nombre": "PALOMITAS NATURAL X 80 GR DP X 16 UND",
         "precio": 4286,
-        "imagen": " ./img_catalogo/congrupo/palomitas-microondas-natural.png "
+        "imagen": " ./img_catalogo/congrupo/palomitas-microondas-natural.png ",
+        "activo": true
     },
     {
         "id": 77,
         "codigo": "JCG0003",
         "nombre": "PALOMITAS QUESO CHEDAR X 96 GR DP X 15",
         "precio": 6351,
-        "imagen": " ./img_catalogo/congrupo/palomitas-microondas-queso-cheddar.png "
+        "imagen": " ./img_catalogo/congrupo/palomitas-microondas-queso-cheddar.png ",
+        "activo": true
     },
     {
         "id": 78,
         "codigo": "JCG0004",
         "nombre": "PALOMITAS CARAMELO DP X 11",
         "precio": 9600,
-        "imagen": " ./img_catalogo/congrupo/palomitas-microondas-caramelo.png "
+        "imagen": " ./img_catalogo/congrupo/palomitas-microondas-caramelo.png ",
+        "activo": true
     },
     {
         "id": 79,
         "codigo": "JCG0006",
         "nombre": "PALOMITAS MANTEQUILLA X 80 GR DP X 16",
         "precio": 4286,
-        "imagen": " ./img_catalogo/congrupo/palomitas-microondas-mantequilla.png "
+        "imagen": " ./img_catalogo/congrupo/palomitas-microondas-mantequilla.png ",
+        "activo": true
     },
     {
         "id": 80,
         "codigo": "JCG0007",
         "nombre": "SPLENDA X 25 GR CJ X 24 UN",
         "precio": 6010,
-        "imagen": " ./img_catalogo/congrupo/splenda-25.png "
+        "imagen": " ./img_catalogo/congrupo/splenda-25.png ",
+        "activo": true
     },
     {
         "id": 81,
         "codigo": "JCG0008",
         "nombre": "SPLENDA X 50 SOBRES CJ X 12 DISPLAY",
         "precio": 10209,
-        "imagen": " ./img_catalogo/congrupo/splenda-50.png "
+        "imagen": " ./img_catalogo/congrupo/splenda-50.png ",
+        "activo": true
     },
     {
         "id": 82,
         "codigo": "JCG0009",
         "nombre": "FLIPS CHOCOLATE TO-GO X 28GR DISPLAY X 12 CJ X 6",
         "precio": 17063,
-        "imagen": " ./img_catalogo/congrupo/flips-to-go-chocolate.png "
+        "imagen": " ./img_catalogo/congrupo/flips-to-go-chocolate.png ",
+        "activo": true
     },
     {
         "id": 83,
         "codigo": "JCG0010",
         "nombre": "FLIPS DULCE DE LECHE TO-GO X 28GR DISPLAY X 12 CJ X 6",
         "precio": 17063,
-        "imagen": " ./img_catalogo/congrupo/flips-to-go-dulce-de-leche.png "
+        "imagen": " ./img_catalogo/congrupo/flips-to-go-dulce-de-leche.png ",
+        "activo": true
     },
     {
         "id": 84,
         "codigo": "JCG0011",
         "nombre": "FLIPS CHOCOLATE X 120GR CJ X 14",
         "precio": 3856,
-        "imagen": " ./img_catalogo/congrupo/flips-chocolate-120.png "
+        "imagen": " ./img_catalogo/congrupo/flips-chocolate-120.png ",
+        "activo": true
     },
     {
         "id": 85,
         "codigo": "JCG0012",
         "nombre": "FLIPS DULCE DE LECHE X 120GR CJ X 14",
         "precio": 3856,
-        "imagen": " ./img_catalogo/congrupo/flips-dulce-de-leche-120.png "
+        "imagen": " ./img_catalogo/congrupo/flips-dulce-de-leche-120.png ",
+        "activo": true
     },
     {
         "id": 86,
         "codigo": "JCG0013",
         "nombre": "FLIPS CHOCOLATE X 400GR CJ X 14",
         "precio": 8500,
-        "imagen": " ./img_catalogo/congrupo/flips-chocolate-400.png "
+        "imagen": " ./img_catalogo/congrupo/flips-chocolate-400.png ",
+        "activo": true
     },
     {
         "id": 87,
         "codigo": "JCG0014",
         "nombre": "FLIPS DULCE DE LECHE X 400GR CJ X 14",
         "precio": 8500,
-        "imagen": " ./img_catalogo/congrupo/flips-dulce-de-leche-400.png "
+        "imagen": " ./img_catalogo/congrupo/flips-dulce-de-leche-400.png ",
+        "activo": true
     },
     {
         "id": 88,
         "codigo": "JCI0001",
         "nombre": "ALMENDRA FRANCESA X 50 GRDP12",
         "precio": 2397,
-        "imagen": " ./img_catalogo/comestibles-italo/almendra-francesa-50.png "
+        "imagen": " ./img_catalogo/comestibles-italo/almendra-francesa-50.png ",
+        "activo": true
     },
     {
         "id": 89,
         "codigo": "JCI0002",
         "nombre": "ALMENDRA FRANCESA X 135 GR CJ X 36",
         "precio": 6043,
-        "imagen": " ./img_catalogo/comestibles-italo/almendra-francesa-135.png "
+        "imagen": " ./img_catalogo/comestibles-italo/almendra-francesa-135.png ",
+        "activo": true
     },
     {
         "id": 90,
         "codigo": "JCI0003",
         "nombre": "ALMENDRA FRANCESA X 250 GR CJ X 50",
         "precio": 10656,
-        "imagen": " ./img_catalogo/comestibles-italo/almendra-francesa-250.png "
+        "imagen": " ./img_catalogo/comestibles-italo/almendra-francesa-250.png ",
+        "activo": true
     },
     {
         "id": 91,
         "codigo": "JCI0004",
         "nombre": "ALMENDRA PIRAMIDE X 50 GR",
         "precio": 3789,
-        "imagen": " ./img_catalogo/comestibles-italo/almendra-francesa-piramide-50.png "
+        "imagen": " ./img_catalogo/comestibles-italo/almendra-francesa-piramide-50.png ",
+        "activo": true
     },
     {
         "id": 92,
         "codigo": "JCI0005",
         "nombre": "ALMENDRA PIRAMIDE X 150 GR CJ X 28",
         "precio": 9851,
-        "imagen": " ./img_catalogo/comestibles-italo/almendra-piramide-x150.png "
+        "imagen": " ./img_catalogo/comestibles-italo/almendra-piramide-x150.png ",
+        "activo": true
     },
     {
         "id": 93,
         "codigo": "JCI0006",
         "nombre": "ALMENDRA FRANCESA SIN AZUCAR X 50 GR CJ X 43",
         "precio": 7151,
-        "imagen": " ./img_catalogo/comestibles-italo/almendra-sin-azucar-x50.png "
+        "imagen": " ./img_catalogo/comestibles-italo/almendra-sin-azucar-x50.png ",
+        "activo": true
     },
     {
         "id": 94,
         "codigo": "JCI0007",
         "nombre": "AZUCAR PULVERIZADA X 500GR CJ X 25",
         "precio": 6061,
-        "imagen": " ./img_catalogo/comestibles-italo/azucar-pulverizada-x500.png "
+        "imagen": " ./img_catalogo/comestibles-italo/azucar-pulverizada-x500.png ",
+        "activo": true
     },
     {
         "id": 95,
         "codigo": "JCI0008",
         "nombre": "BOM BOM BONKISS CLASICO BS X 18 CJ X 12",
         "precio": 12002,
-        "imagen": " ./img_catalogo/comestibles-italo/bonkiss-clasico.png "
+        "imagen": " ./img_catalogo/comestibles-italo/bonkiss-clasico.png ",
+        "activo": true
     },
     {
         "id": 96,
         "codigo": "JCI0009",
         "nombre": "BOM BOM DE LECHE CONDENSADA X 144 GR CJ X 45",
         "precio": 3543,
-        "imagen": " ./img_catalogo/comestibles-italo/bombon-leche-condesada.png "
+        "imagen": " ./img_catalogo/comestibles-italo/bombon-leche-condesada.png ",
+        "activo": true
     },
     {
         "id": 97,
         "codigo": "JCI0010",
         "nombre": "BOM BON COOKIES N CREAM X 5 CJ X 24",
         "precio": 0,
-        "imagen": " ./img_catalogo/comestibles-italo/bom-bon-cookies-n-cream-x5.png"
+        "imagen": " ./img_catalogo/comestibles-italo/bom-bon-cookies-n-cream-x5.png",
+        "activo": true
     },
     {
         "id": 98,
         "codigo": "JCI0011",
         "nombre": "CARAMELO ANIS X 80 GR CJ X 48",
         "precio": 2016,
-        "imagen": " ./img_catalogo/comestibles-italo/caramelo-anis.png "
+        "imagen": " ./img_catalogo/comestibles-italo/caramelo-anis.png ",
+        "activo": true
     },
     {
         "id": 99,
         "codigo": "JCI0012",
         "nombre": "CARAMELO BLANDO DE MENTA X 94 GR CJ X 60",
         "precio": 2461,
-        "imagen": " ./img_catalogo/comestibles-italo/caramelo-blando-menta.png "
+        "imagen": " ./img_catalogo/comestibles-italo/caramelo-blando-menta.png ",
+        "activo": true
     },
     {
         "id": 100,
         "codigo": "JCI0013",
         "nombre": "CARAMELO CANDY MIX CJ X 6",
         "precio": 23318,
-        "imagen": " ./img_catalogo/comestibles-italo/caramelo-candy-mix-903-gr.png "
+        "imagen": " ./img_catalogo/comestibles-italo/caramelo-candy-mix-903-gr.png ",
+        "activo": true
     },
     {
         "id": 101,
         "codigo": "JCI0014",
         "nombre": "CARAMELO DE CAFÉ ITALO X  25 UND CJ X 48",
         "precio": 3118,
-        "imagen": " ./img_catalogo/comestibles-italo/caramelo-cafe-x25.png "
+        "imagen": " ./img_catalogo/comestibles-italo/caramelo-cafe-x25.png ",
+        "activo": true
     },
     {
         "id": 102,
         "codigo": "JCI0015",
         "nombre": "CARAMELO DE COCO X 20 UND CJ X 60",
         "precio": 2583,
-        "imagen": " ./img_catalogo/comestibles-italo/caramelo-de-coco-x20.png "
+        "imagen": " ./img_catalogo/comestibles-italo/caramelo-de-coco-x20.png ",
+        "activo": true
     },
     {
         "id": 103,
         "codigo": "JCI0016",
         "nombre": "CARAMELO DE COCO X 100 UND CJ X 12",
         "precio": 11520,
-        "imagen": " ./img_catalogo/comestibles-italo/caramelo-blando-de-coco-x100.png "
+        "imagen": " ./img_catalogo/comestibles-italo/caramelo-blando-de-coco-x100.png ",
+        "activo": true
     },
     {
         "id": 104,
         "codigo": "JCI0017",
         "nombre": "CARAMELO DE LECHE X 20 UND CJ X 60",
         "precio": 2513,
-        "imagen": " ./img_catalogo/comestibles-italo/caramelo-de-leche-x20.png "
+        "imagen": " ./img_catalogo/comestibles-italo/caramelo-de-leche-x20.png ",
+        "activo": true
     },
     {
         "id": 105,
         "codigo": "JCI0018",
         "nombre": "CARAMELO DE LECHE X 100 UND CJ X 12",
         "precio": 11522,
-        "imagen": " ./img_catalogo/comestibles-italo/caramelo-blando-de-leche-x100.png "
+        "imagen": " ./img_catalogo/comestibles-italo/caramelo-blando-de-leche-x100.png ",
+        "activo": true
     },
     {
         "id": 106,
         "codigo": "JCI0019",
         "nombre": "CARAMELO LACTYS DURAZNO X 105 GR CJ X 48",
         "precio": 3176,
-        "imagen": " ./img_catalogo/comestibles-italo/caramelo-lactys-durazno.png "
+        "imagen": " ./img_catalogo/comestibles-italo/caramelo-lactys-durazno.png ",
+        "activo": true
     },
     {
         "id": 107,
         "codigo": "JCI0020",
         "nombre": "CARAMELO LACTYS FRESA X 105 GR CJ X 48",
         "precio": 3176,
-        "imagen": " ./img_catalogo/comestibles-italo/caramelo-lactys-fresa.png "
+        "imagen": " ./img_catalogo/comestibles-italo/caramelo-lactys-fresa.png ",
+        "activo": true
     },
     {
         "id": 108,
         "codigo": "JCI0021",
         "nombre": "CARAMELO MORITAS X 25 CJ X 48",
         "precio": 2105,
-        "imagen": " ./img_catalogo/comestibles-italo/caramelo-moritas.png "
+        "imagen": " ./img_catalogo/comestibles-italo/caramelo-moritas.png ",
+        "activo": true
     },
     {
         "id": 109,
         "codigo": "JCI0023",
         "nombre": "CARAMELO SURTIDO X 80 GR CJ X 60",
         "precio": 2487,
-        "imagen": " ./img_catalogo/comestibles-italo/caramelo-surtido-80.png "
+        "imagen": " ./img_catalogo/comestibles-italo/caramelo-surtido-80.png ",
+        "activo": true
     },
     {
         "id": 110,
         "codigo": "JCI0024",
         "nombre": "CARAMELO SURTIDO X 185 GR CJ X 40",
         "precio": 5555,
-        "imagen": " ./img_catalogo/comestibles-italo/caramelo-surtido-135.png "
+        "imagen": " ./img_catalogo/comestibles-italo/caramelo-surtido-135.png ",
+        "activo": true
     },
     {
         "id": 111,
         "codigo": "JCI0025",
         "nombre": "CARAMELO SURTIDO X 420 GR CJ X 24",
         "precio": 11372,
-        "imagen": " ./img_catalogo/comestibles-italo/caramelos-surtido-x420.png "
+        "imagen": " ./img_catalogo/comestibles-italo/caramelos-surtido-x420.png ",
+        "activo": true
     },
     {
         "id": 112,
         "codigo": "JCI0026",
         "nombre": "CHOCO BABY X 90 GR CJ X 24",
         "precio": 4577,
-        "imagen": " ./img_catalogo/comestibles-italo/choco-baby-90.png "
+        "imagen": " ./img_catalogo/comestibles-italo/choco-baby-90.png ",
+        "activo": true
     },
     {
         "id": 113,
         "codigo": "JCI0027",
         "nombre": "CHOCO BABY X 180 GR CJ X 24",
         "precio": 8945,
-        "imagen": " ./img_catalogo/comestibles-italo/choco-baby-180.png "
+        "imagen": " ./img_catalogo/comestibles-italo/choco-baby-180.png ",
+        "activo": true
     },
     {
         "id": 114,
         "codigo": "JCI0028",
         "nombre": "CHOCOLATINA RELLENA PEQUEÑA X 6 CJ X 20",
         "precio": 13897,
-        "imagen": " ./img_catalogo/comestibles-italo/chocolatina-pequeña-6.png "
+        "imagen": " ./img_catalogo/comestibles-italo/chocolatina-pequeña-6.png ",
+        "activo": true
     },
     {
         "id": 115,
         "codigo": "JCI0029",
         "nombre": "CHOCOLATINA RELLENA MEDIANA X 6 CJ X 20",
         "precio": 24351,
-        "imagen": " ./img_catalogo/comestibles-italo/chocolatina-mediana-6.png "
+        "imagen": " ./img_catalogo/comestibles-italo/chocolatina-mediana-6.png ",
+        "activo": true
     },
     {
         "id": 116,
         "codigo": "JCI0030",
         "nombre": "CHOCOLATINA RELLENA GRANDE X 6 CJ X 14",
         "precio": 47444,
-        "imagen": " ./img_catalogo/comestibles-italo/chocolatina-grande-6.png "
+        "imagen": " ./img_catalogo/comestibles-italo/chocolatina-grande-6.png ",
+        "activo": true
     },
     {
         "id": 117,
         "codigo": "JCI0031",
         "nombre": "CHUPETA BLANDA DE FRUTAS X 144 GR BS X 12 CJ X 40",
         "precio": 4731,
-        "imagen": " ./img_catalogo/comestibles-italo/chupeta-de-frutas.png "
+        "imagen": " ./img_catalogo/comestibles-italo/chupeta-de-frutas.png ",
+        "activo": true
     },
     {
         "id": 118,
         "codigo": "JCI0032",
         "nombre": "CHUPETA BLANDA DE LECHE 144 GR CJ X 40 UND",
         "precio": 5254,
-        "imagen": " ./img_catalogo/comestibles-italo/chupeta-de-leche.png "
+        "imagen": " ./img_catalogo/comestibles-italo/chupeta-de-leche.png ",
+        "activo": true
     },
     {
         "id": 119,
         "codigo": "JCI0033",
         "nombre": "CHUPETA CHOCOLATE X 70 GR CAJA X 60 UND",
         "precio": 8754,
-        "imagen": " ./img_catalogo/comestibles-italo/chupeta-de-chocolate.png "
+        "imagen": " ./img_catalogo/comestibles-italo/chupeta-de-chocolate.png ",
+        "activo": true
     },
     {
         "id": 120,
         "codigo": "JCI0034",
         "nombre": "ESTUCHE BABY OSITOS X 90 GR",
         "precio": 12790,
-        "imagen": " ./img_catalogo/comestibles-italo/estuche-ositos.png "
+        "imagen": " ./img_catalogo/comestibles-italo/estuche-ositos.png ",
+        "activo": true
     },
     {
         "id": 121,
         "codigo": "JCI0035",
         "nombre": "ESTUCHE ENAMORADOS X 90 GR",
         "precio": 11069,
-        "imagen": " ./img_catalogo/comestibles-italo/estuche-enamorados.png "
+        "imagen": " ./img_catalogo/comestibles-italo/estuche-enamorados.png ",
+        "activo": true
     },
     {
         "id": 122,
         "codigo": "JCI0036",
         "nombre": "ESTUCHE MENSAJES CJ X 26",
         "precio": 8053,
-        "imagen": " ./img_catalogo/comestibles-italo/estuche-mensajes.png "
+        "imagen": " ./img_catalogo/comestibles-italo/estuche-mensajes.png ",
+        "activo": true
     },
     {
         "id": 123,
         "codigo": "JCI0037",
         "nombre": "ESTUCHE MUÑEQUITAS X 70 GR",
         "precio": 6972,
-        "imagen": " ./img_catalogo/comestibles-italo/estuche-muñequitas.png "
+        "imagen": " ./img_catalogo/comestibles-italo/estuche-muñequitas.png ",
+        "activo": true
     },
     {
         "id": 124,
         "codigo": "JCI0038",
         "nombre": "ESTUCHE PENSAMIENTOS X 90 GR",
         "precio": 11069,
-        "imagen": " ./img_catalogo/comestibles-italo/estuche-pensamientos.png "
+        "imagen": " ./img_catalogo/comestibles-italo/estuche-pensamientos.png ",
+        "activo": true
     },
     {
         "id": 125,
         "codigo": "JCI0039",
         "nombre": "ESTUCHE VARIEDAD X 90 GR",
         "precio": 11844,
-        "imagen": " ./img_catalogo/comestibles-italo/estuche-variedad.png "
+        "imagen": " ./img_catalogo/comestibles-italo/estuche-variedad.png ",
+        "activo": true
     },
     {
         "id": 126,
         "codigo": "JCI0040",
         "nombre": "GALLETA ANIMADAS WIN PQ X 12 CJ X 20",
         "precio": 9513,
-        "imagen": " ./img_catalogo/comestibles-italo/galleta-animada-win.png "
+        "imagen": " ./img_catalogo/comestibles-italo/galleta-animada-win.png ",
+        "activo": true
     },
     {
         "id": 127,
         "codigo": "JCI0041",
         "nombre": "GALLETA DE LECHE X 18 UN CJ X 24",
         "precio": 6838,
-        "imagen": " ./img_catalogo/comestibles-italo/galleta-de-leche.png "
+        "imagen": " ./img_catalogo/comestibles-italo/galleta-de-leche.png ",
+        "activo": true
     },
     {
         "id": 128,
         "codigo": "JCI0042",
         "nombre": "GALLETAS NAVIDAD X 160 G CJ X 20",
         "precio": 3367,
-        "imagen": " ./img_catalogo/comestibles-italo/galleta-de-navidad-italo.png "
+        "imagen": " ./img_catalogo/comestibles-italo/galleta-de-navidad-italo.png ",
+        "activo": true
     },
     {
         "id": 129,
         "codigo": "JCI0043",
         "nombre": "GOMAS CONITO BLANDY X 170 GR  CJ X 60",
         "precio": 4835,
-        "imagen": " ./img_catalogo/comestibles-italo/goma-conito-blandy.png "
+        "imagen": " ./img_catalogo/comestibles-italo/goma-conito-blandy.png ",
+        "activo": true
     },
     {
         "id": 130,
         "codigo": "JCI0044",
         "nombre": "GOMAS MEDIA LUNA X 40 GR  CJX52",
         "precio": 1488,
-        "imagen": " ./img_catalogo/comestibles-italo/goma-media-luna-40.png "
+        "imagen": " ./img_catalogo/comestibles-italo/goma-media-luna-40.png ",
+        "activo": true
     },
     {
         "id": 131,
         "codigo": "JCI0045",
         "nombre": "GOMAS MEDIA LUNA X 250 GR CJ X 24 UND",
         "precio": 8701,
-        "imagen": " ./img_catalogo/comestibles-italo/goma-media-luna-250.png "
+        "imagen": " ./img_catalogo/comestibles-italo/goma-media-luna-250.png ",
+        "activo": true
     },
     {
         "id": 132,
         "codigo": "JCI0046",
         "nombre": "GOMAS MORITAS X 200 GR CJ X 50",
         "precio": 6234,
-        "imagen": " ./img_catalogo/comestibles-italo/goma-moritas-200.png "
+        "imagen": " ./img_catalogo/comestibles-italo/goma-moritas-200.png ",
+        "activo": true
     },
     {
         "id": 133,
         "codigo": "JCI0047",
         "nombre": "GOMAS SURTIDAS X 125 GR CJ X 80",
         "precio": 3621,
-        "imagen": " ./img_catalogo/comestibles-italo/goma-surtida-125.png "
+        "imagen": " ./img_catalogo/comestibles-italo/goma-surtida-125.png ",
+        "activo": true
     },
     {
         "id": 134,
         "codigo": "JCI0048",
         "nombre": "GOMITAS PIKIS ACIDULCES CJ X 24",
         "precio": 1539,
-        "imagen": " ./img_catalogo/comestibles-italo/pikis-acidulces.png "
+        "imagen": " ./img_catalogo/comestibles-italo/pikis-acidulces.png ",
+        "activo": true
     },
     {
         "id": 135,
         "codigo": "JCI0049",
         "nombre": "GOMITAS PIKIS GOMI-MASMELO CJ X 24",
         "precio": 2110,
-        "imagen": " ./img_catalogo/comestibles-italo/pikis-gomi-masmelo.png "
+        "imagen": " ./img_catalogo/comestibles-italo/pikis-gomi-masmelo.png ",
+        "activo": true
     },
     {
         "id": 136,
         "codigo": "JCI0050",
         "nombre": "GOMITAS PIKIS OSOS EN PIJAMA CJ X 24",
         "precio": 2110,
-        "imagen": " ./img_catalogo/comestibles-italo/pikis-ositos-en-pijama.png "
+        "imagen": " ./img_catalogo/comestibles-italo/pikis-ositos-en-pijama.png ",
+        "activo": true
     },
     {
         "id": 137,
         "codigo": "JCI0051",
         "nombre": "GRAGEA X 125 GR CJ X 110",
         "precio": 2619,
-        "imagen": " ./img_catalogo/comestibles-italo/gragea-125.png "
+        "imagen": " ./img_catalogo/comestibles-italo/gragea-125.png ",
+        "activo": true
     },
     {
         "id": 138,
         "codigo": "JCI0052",
         "nombre": "GRAGEA X 500 GR CJ X 30 UN",
         "precio": 9907,
-        "imagen": " ./img_catalogo/comestibles-italo/gragea-500.png "
+        "imagen": " ./img_catalogo/comestibles-italo/gragea-500.png ",
+        "activo": true
     },
     {
         "id": 139,
         "codigo": "JCI0053",
         "nombre": "HIPER LONCH FRESA X 156 GR CJ X 24",
         "precio": 5194,
-        "imagen": " ./img_catalogo/comestibles-italo/hiper-lonch-fresa.png "
+        "imagen": " ./img_catalogo/comestibles-italo/hiper-lonch-fresa.png ",
+        "activo": true
     },
     {
         "id": 140,
         "codigo": "JCI0054",
         "nombre": "HIPER LONCH VAINILLA X 156 GR CJ X 24",
         "precio": 5194,
-        "imagen": " ./img_catalogo/comestibles-italo/hiper-lonch-vainilla.png "
+        "imagen": " ./img_catalogo/comestibles-italo/hiper-lonch-vainilla.png ",
+        "activo": true
     },
     {
         "id": 141,
         "codigo": "JCI0055",
         "nombre": "HIPER WAFER  AREQUIPE 208 GR X 28",
         "precio": 5453,
-        "imagen": " ./img_catalogo/comestibles-italo/hiper-208-arequipe.png "
+        "imagen": " ./img_catalogo/comestibles-italo/hiper-208-arequipe.png ",
+        "activo": true
     },
     {
         "id": 142,
         "codigo": "JCI0056",
         "nombre": "HIPER WAFER FRESA X 208 GR CJ X 28",
         "precio": 5453,
-        "imagen": " ./img_catalogo/comestibles-italo/hiper-208-fresa.png "
+        "imagen": " ./img_catalogo/comestibles-italo/hiper-208-fresa.png ",
+        "activo": true
     },
     {
         "id": 143,
         "codigo": "JCI0057",
         "nombre": "HIPER WAFER VAINILLA X 208 GR CJ X 28",
         "precio": 5453,
-        "imagen": " ./img_catalogo/comestibles-italo/hiper-208-vainilla.png "
+        "imagen": " ./img_catalogo/comestibles-italo/hiper-208-vainilla.png ",
+        "activo": true
     },
     {
         "id": 144,
         "codigo": "JCI0058",
         "nombre": "HUEVOS NO ME OLVIDES X 2 CJ X 70",
         "precio": 5054,
-        "imagen": " ./img_catalogo/comestibles-italo/huevos-no-me-olvides-x2.png "
+        "imagen": " ./img_catalogo/comestibles-italo/huevos-no-me-olvides-x2.png ",
+        "activo": true
     },
     {
         "id": 145,
         "codigo": "JCI0059",
         "nombre": "HUEVOS NO ME OLVIDES ITALO BOLSA X 10 UND",
         "precio": 21531,
-        "imagen": " ./img_catalogo/comestibles-italo/huevos-no-me-olvides-x10.png "
+        "imagen": " ./img_catalogo/comestibles-italo/huevos-no-me-olvides-x10.png ",
+        "activo": true
     },
     {
         "id": 146,
         "codigo": "JCI0060",
         "nombre": "MASMELOS X 50 GR CJ X 70",
         "precio": 1767,
-        "imagen": " ./img_catalogo/comestibles-italo/masmelo-50.png "
+        "imagen": " ./img_catalogo/comestibles-italo/masmelo-50.png ",
+        "activo": true
     },
     {
         "id": 147,
         "codigo": "JCI0061",
         "nombre": "MASMELOS X 80 GR CJ X 44",
         "precio": 2486,
-        "imagen": " ./img_catalogo/comestibles-italo/masmelo-80.png "
+        "imagen": " ./img_catalogo/comestibles-italo/masmelo-80.png ",
+        "activo": true
     },
     {
         "id": 148,
         "codigo": "JCI0062",
         "nombre": "MASMELOS X 120 GR CJ X 30 UN",
         "precio": 3713,
-        "imagen": " ./img_catalogo/comestibles-italo/masmelo-120.png "
+        "imagen": " ./img_catalogo/comestibles-italo/masmelo-120.png ",
+        "activo": true
     },
     {
         "id": 149,
         "codigo": "JCI0063",
         "nombre": "MASMELOS BLANCO X 120 G CJ X 30",
         "precio": 3626,
-        "imagen": " ./img_catalogo/comestibles-italo/masmelos-blanco-x120.png"
+        "imagen": " ./img_catalogo/comestibles-italo/masmelos-blanco-x120.png",
+        "activo": true
     },
     {
         "id": 150,
         "codigo": "JCI0064",
         "nombre": "MERCI BOMBOM RELLENO X 2 UN",
         "precio": 3383,
-        "imagen": " ./img_catalogo/comestibles-italo/merci-2.png "
+        "imagen": " ./img_catalogo/comestibles-italo/merci-2.png ",
+        "activo": true
     },
     {
         "id": 151,
         "codigo": "JCI0065",
         "nombre": "MERCI RELLENO X 6 UND EMB CJ X 12",
         "precio": 12945,
-        "imagen": " ./img_catalogo/comestibles-italo/merci-6.png "
+        "imagen": " ./img_catalogo/comestibles-italo/merci-6.png ",
+        "activo": true
     },
     {
         "id": 152,
         "codigo": "JCI0066",
         "nombre": "MERCI FLOR X 112 GR CJ X 15",
         "precio": 16883,
-        "imagen": " ./img_catalogo/comestibles-italo/merci-flor.png "
+        "imagen": " ./img_catalogo/comestibles-italo/merci-flor.png ",
+        "activo": true
     },
     {
         "id": 153,
         "codigo": "JCI0067",
         "nombre": "MERCI CORAZON X 112 GR CJ X 9",
         "precio": 24445,
-        "imagen": " ./img_catalogo/comestibles-italo/merci-corazon-x7.png "
+        "imagen": " ./img_catalogo/comestibles-italo/merci-corazon-x7.png ",
+        "activo": true
     },
     {
         "id": 154,
         "codigo": "JCI0068",
         "nombre": "PIKIS CHOCO GOMITAS ACIDULCES X 125 GR CJ X 24",
         "precio": 5631,
-        "imagen": " ./img_catalogo/comestibles-italo/pikis-choco-gomita-acidulces-x125.png "
+        "imagen": " ./img_catalogo/comestibles-italo/pikis-choco-gomita-acidulces-x125.png ",
+        "activo": true
     },
     {
         "id": 155,
         "codigo": "JCI0069",
         "nombre": "PIKIS MONEDAS CJ X 40",
         "precio": 9420,
-        "imagen": " ./img_catalogo/comestibles-italo/pikis-monedas.png "
+        "imagen": " ./img_catalogo/comestibles-italo/pikis-monedas.png ",
+        "activo": true
     },
     {
         "id": 156,
         "codigo": "JCI0070",
         "nombre": "RISTRA MORITAS X 40 GR 10 UND",
         "precio": 13670,
-        "imagen": " ./img_catalogo/comestibles-italo/ristra-moritas.png "
+        "imagen": " ./img_catalogo/comestibles-italo/ristra-moritas.png ",
+        "activo": true
     },
     {
         "id": 157,
         "codigo": "JCI0071",
         "nombre": "TABLETA RELLENA BL X 12 CJ X 12",
         "precio": 10786,
-        "imagen": " ./img_catalogo/comestibles-italo/tableta-rellena-12-gr.png"
+        "imagen": " ./img_catalogo/comestibles-italo/tableta-rellena-12-gr.png",
+        "activo": true
     },
     {
         "id": 158,
         "codigo": "JCI0072",
         "nombre": "UVAS CUBIERTAS CON CHOCOLATE X 40 GR X10 CJX50",
         "precio": 4061,
-        "imagen": " ./img_catalogo/comestibles-italo/uvas-con-chocolate.png "
+        "imagen": " ./img_catalogo/comestibles-italo/uvas-con-chocolate.png ",
+        "activo": true
     },
     {
         "id": 159,
         "codigo": "JCI0073",
         "nombre": "MINITACO SIN AZUCAR FRESA X 80 CJ X 24",
         "precio": 4885,
-        "imagen": " ./img_catalogo/comestibles-italo/minitaco-sin-azucar-x80-fresa.png "
+        "imagen": " ./img_catalogo/comestibles-italo/minitaco-sin-azucar-x80-fresa.png ",
+        "activo": true
     },
     {
         "id": 160,
         "codigo": "JCI0074",
         "nombre": "MINITACO SIN AZUCAR NARANJA X 80 CJ X 24",
         "precio": 4885,
-        "imagen": " ./img_catalogo/comestibles-italo/minitaco-sin-azucar-x80-naranja.png "
+        "imagen": " ./img_catalogo/comestibles-italo/minitaco-sin-azucar-x80-naranja.png ",
+        "activo": true
     },
     {
         "id": 161,
         "codigo": "JCI0075",
         "nombre": "MINITACO SIN AZUCAR VAINILLA X 80 CJ X 24",
         "precio": 4885,
-        "imagen": " ./img_catalogo/comestibles-italo/minitaco-sin-azucar-x80-vainilla.png "
+        "imagen": " ./img_catalogo/comestibles-italo/minitaco-sin-azucar-x80-vainilla.png ",
+        "activo": true
     },
     {
         "id": 162,
         "codigo": "JCI0076",
         "nombre": "WAFER MINITACO AREQUIPE X 80 GR CJ X 24",
         "precio": 1950,
-        "imagen": " ./img_catalogo/comestibles-italo/minitaco-arequipe.png "
+        "imagen": " ./img_catalogo/comestibles-italo/minitaco-arequipe.png ",
+        "activo": true
     },
     {
         "id": 163,
         "codigo": "JCI0077",
         "nombre": "WAFER MINITACO CHOCOLATE X 80 GR CJ X 24",
         "precio": 1950,
-        "imagen": " ./img_catalogo/comestibles-italo/minitaco-chocolate.png "
+        "imagen": " ./img_catalogo/comestibles-italo/minitaco-chocolate.png ",
+        "activo": true
     },
     {
         "id": 164,
         "codigo": "JCI0078",
         "nombre": "WAFER MINITACO COCO X 80 GR CJ X 24",
         "precio": 1950,
-        "imagen": " ./img_catalogo/comestibles-italo/minitaco-coco.png "
+        "imagen": " ./img_catalogo/comestibles-italo/minitaco-coco.png ",
+        "activo": true
     },
     {
         "id": 165,
         "codigo": "JCI0079",
         "nombre": "WAFER MINITACO FRESA X 80 GR CJ X 24",
         "precio": 1950,
-        "imagen": " ./img_catalogo/comestibles-italo/minitaco-fresa.png "
+        "imagen": " ./img_catalogo/comestibles-italo/minitaco-fresa.png ",
+        "activo": true
     },
     {
         "id": 166,
         "codigo": "JCI0080",
         "nombre": "WAFER MINITACO GUANABANA X 80 GR CJ X 24",
         "precio": 1950,
-        "imagen": " ./img_catalogo/comestibles-italo/minitaco-guanabana.png "
+        "imagen": " ./img_catalogo/comestibles-italo/minitaco-guanabana.png ",
+        "activo": true
     },
     {
         "id": 167,
         "codigo": "JCI0081",
         "nombre": "WAFER MINITACO LIMON X 80 GR CJ X 24",
         "precio": 1950,
-        "imagen": " ./img_catalogo/comestibles-italo/minitaco-limon.png "
+        "imagen": " ./img_catalogo/comestibles-italo/minitaco-limon.png ",
+        "activo": true
     },
     {
         "id": 168,
         "codigo": "JCI0082",
         "nombre": "WAFER MINITACO MORA X 80 GR CJ X 24",
         "precio": 1950,
-        "imagen": " ./img_catalogo/comestibles-italo/minitaco-mora.png "
+        "imagen": " ./img_catalogo/comestibles-italo/minitaco-mora.png ",
+        "activo": true
     },
     {
         "id": 169,
         "codigo": "JCI0083",
         "nombre": "WAFER MINITACO NARANJA X 80 GR CJ X 24",
         "precio": 1950,
-        "imagen": " ./img_catalogo/comestibles-italo/minitaco-naranja.png "
+        "imagen": " ./img_catalogo/comestibles-italo/minitaco-naranja.png ",
+        "activo": true
     },
     {
         "id": 170,
         "codigo": "JCI0084",
         "nombre": "WAFER MINITACO VAINILLA X 80 GR CJ X 24",
         "precio": 1950,
-        "imagen": " ./img_catalogo/comestibles-italo/minitaco-vainilla.png "
+        "imagen": " ./img_catalogo/comestibles-italo/minitaco-vainilla.png ",
+        "activo": true
     },
     {
         "id": 171,
         "codigo": "JCI0085",
         "nombre": "WAFER PAQUETACO AREQUIPE X 94 CJ X 24",
         "precio": 2276,
-        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-arequipe.png "
+        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-arequipe.png ",
+        "activo": true
     },
     {
         "id": 172,
         "codigo": "JCI0086",
         "nombre": "WAFER PAQUETACO CHOCOLATE X 94 CJ X 24",
         "precio": 2276,
-        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-chocolate.png "
+        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-chocolate.png ",
+        "activo": true
     },
     {
         "id": 173,
         "codigo": "JCI0087",
         "nombre": "WAFER PAQUETACO FRESA X 94 CJ X 24",
         "precio": 2276,
-        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-fresa.png "
+        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-fresa.png ",
+        "activo": true
     },
     {
         "id": 174,
         "codigo": "JCI0088",
         "nombre": "WAFER PAQUETACO VAINILLA X 94 CJ X 24",
         "precio": 2276,
-        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-vainilla.png "
+        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-vainilla.png ",
+        "activo": true
     },
     {
         "id": 175,
         "codigo": "JCI0089",
         "nombre": "WAFER PAQUETACO CHOCOLATE X 117 GR CJ X 48",
         "precio": 2750,
-        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-chocolate.png "
+        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-chocolate.png ",
+        "activo": true
     },
     {
         "id": 176,
         "codigo": "JCI0090",
         "nombre": "WAFER PAQUETACO COCO X 117 GR X CJ X 48",
         "precio": 2750,
-        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-coco.png "
+        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-coco.png ",
+        "activo": true
     },
     {
         "id": 177,
         "codigo": "JCI0091",
         "nombre": "WAFER PAQUETACO FRESA X 117 CJ X 48",
         "precio": 2750,
-        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-fresa.png "
+        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-fresa.png ",
+        "activo": true
     },
     {
         "id": 178,
         "codigo": "JCI0092",
         "nombre": "WAFER PAQUETACO AREQUIPE X 117 GR CJ X 48",
         "precio": 2750,
-        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-arequipe.png "
+        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-arequipe.png ",
+        "activo": true
     },
     {
         "id": 179,
         "codigo": "JCI0093",
         "nombre": "WAFER PAQUETACO NARANJA X 117 GR CJ X 48",
         "precio": 2750,
-        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-naranja.png "
+        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-naranja.png ",
+        "activo": true
     },
     {
         "id": 180,
         "codigo": "JCI0094",
         "nombre": "WAFER PAQUETACO GUANABANA  X 117 GR CJ X 48",
         "precio": 2750,
-        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-guanabana.png "
+        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-guanabana.png ",
+        "activo": true
     },
     {
         "id": 181,
         "codigo": "JCI0095",
         "nombre": "WAFER PAQUETACO VAINILLA X 117 GR CJ X 48",
         "precio": 2750,
-        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-vainilla.png "
+        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-vainilla.png ",
+        "activo": true
     },
     {
         "id": 182,
         "codigo": "JCI0096",
         "nombre": "WAFER PAQUETACO LIMON X 117 GR CJ X 48",
         "precio": 2750,
-        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-limon.png "
+        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-limon.png ",
+        "activo": true
     },
     {
         "id": 183,
         "codigo": "JCI0097",
         "nombre": "WAFER PAQUETACO MORA X 117 GR CJ X 48",
         "precio": 2750,
-        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-mora.png "
+        "imagen": " ./img_catalogo/comestibles-italo/paquetaco-mora.png ",
+        "activo": true
     },
     {
         "id": 184,
         "codigo": "JCI0098",
         "nombre": "WAFER TAQUITO AREQUIPE X 240 GR CJ X 36",
         "precio": 5656,
-        "imagen": " ./img_catalogo/comestibles-italo/wafer-taquito-arequipe.png "
+        "imagen": " ./img_catalogo/comestibles-italo/wafer-taquito-arequipe.png ",
+        "activo": true
     },
     {
         "id": 185,
         "codigo": "JCI0099",
         "nombre": "WAFER TAQUITO FRESA X 240 GR CJ X 36",
         "precio": 5656,
-        "imagen": " ./img_catalogo/comestibles-italo/wafer-taquito-fresa.png "
+        "imagen": " ./img_catalogo/comestibles-italo/wafer-taquito-fresa.png ",
+        "activo": true
     },
     {
         "id": 186,
         "codigo": "JCI0100",
         "nombre": "WAFER TAQUITO NARANJA X 240 GR CJ X 36",
         "precio": 5656,
-        "imagen": " ./img_catalogo/comestibles-italo/wafer-taquito-naranja.png "
+        "imagen": " ./img_catalogo/comestibles-italo/wafer-taquito-naranja.png ",
+        "activo": true
     },
     {
         "id": 187,
         "codigo": "JCI0101",
         "nombre": "WAFER TAQUITO VAINILLA X 240 GR CJ X 36",
         "precio": 5656,
-        "imagen": " ./img_catalogo/comestibles-italo/wafer-taquito-vainilla.png "
+        "imagen": " ./img_catalogo/comestibles-italo/wafer-taquito-vainilla.png ",
+        "activo": true
     },
     {
         "id": 188,
         "codigo": "JCR0001",
         "nombre": "VINO DE MANZANA BURBUJEANTE CASA RHIN X 750 CJ X 12",
         "precio": 13612,
-        "imagen": " ./img_catalogo/casa-rhin/vino-de-manzana-burbujeante-casa-rhin-750.png "
+        "imagen": " ./img_catalogo/casa-rhin/vino-de-manzana-burbujeante-casa-rhin-750.png ",
+        "activo": true
     },
     {
         "id": 189,
         "codigo": "JCR0002",
         "nombre": "VINO DE DURAZNO BURBUJEANTE CASA RHIN X 750 CJ X 12",
         "precio": 13628,
-        "imagen": " ./img_catalogo/casa-rhin/vino-de-durazno-burbujeante-casa-rhin-750.png "
+        "imagen": " ./img_catalogo/casa-rhin/vino-de-durazno-burbujeante-casa-rhin-750.png ",
+        "activo": true
     },
     {
         "id": 190,
         "codigo": "JCR0003",
         "nombre": "VINO ESPUMOSO KATICH BLANCO X 750 CJ X 12",
         "precio": 17969,
-        "imagen": " ./img_catalogo/casa-rhin/vino-espumoso-katich-blanco-750.png "
+        "imagen": " ./img_catalogo/casa-rhin/vino-espumoso-katich-blanco-750.png ",
+        "activo": true
     },
     {
         "id": 191,
         "codigo": "JCR0004",
         "nombre": "VINO ESPUMOSO KATICH ROSADO X 750 CJ X 12",
         "precio": 18057,
-        "imagen": " ./img_catalogo/casa-rhin/vino-espumoso-katich-rosado-750.png "
+        "imagen": " ./img_catalogo/casa-rhin/vino-espumoso-katich-rosado-750.png ",
+        "activo": true
     },
     {
         "id": 192,
         "codigo": "JCR0005",
         "nombre": "APERITIVO VINICO MOSCATEL DE PASAS X 750 CJ X 12",
         "precio": 14371,
-        "imagen": " ./img_catalogo/casa-rhin/aperitivo-vinico-moscatel-de-pasas-750.png "
+        "imagen": " ./img_catalogo/casa-rhin/aperitivo-vinico-moscatel-de-pasas-750.png ",
+        "activo": true
     },
     {
         "id": 193,
         "codigo": "JCR0007",
         "nombre": "MOSCATEL GRAN DUCADO TINTO X 1000 IPACK",
         "precio": 12071,
-        "imagen": " ./img_catalogo/casa-rhin/moscatel-gran-ducado-1000.png "
+        "imagen": " ./img_catalogo/casa-rhin/moscatel-gran-ducado-1000.png ",
+        "activo": true
     },
     {
         "id": 194,
         "codigo": "JCR0008",
         "nombre": "CREMA DE WHISKY CASA DEL RHIN X 750 CJ X 12",
         "precio": 37557,
-        "imagen": " ./img_catalogo/casa-rhin/crema-de-whisky-x750.png "
+        "imagen": " ./img_catalogo/casa-rhin/crema-de-whisky-x750.png ",
+        "activo": true
     },
     {
         "id": 195,
         "codigo": "JDA0001",
         "nombre": "BIG BOM BABY FRESILLA CJ X 16",
         "precio": 7540,
-        "imagen": " ./img_catalogo/dulce-la-americana/big-bom-baby-fresilla.png "
+        "imagen": " ./img_catalogo/dulce-la-americana/big-bom-baby-fresilla.png ",
+        "activo": true
     },
     {
         "id": 196,
         "codigo": "JDA0002",
         "nombre": "BIG BOM XL SURTIDO CJ X 16",
         "precio": 7909,
-        "imagen": " ./img_catalogo/dulce-la-americana/big-bom-xl.png "
+        "imagen": " ./img_catalogo/dulce-la-americana/big-bom-xl.png ",
+        "activo": true
     },
     {
         "id": 197,
         "codigo": "JDA0003",
         "nombre": "CHUPETA PINK HEARTS CJ X 20",
         "precio": 5235,
-        "imagen": " ./img_catalogo/dulce-la-americana/pink-hearts.png "
+        "imagen": " ./img_catalogo/dulce-la-americana/pink-hearts.png ",
+        "activo": true
     },
     {
         "id": 198,
         "codigo": "JDA0004",
         "nombre": "BIG BOM BABY PINTALABIOS CJ X 16",
         "precio": 7182,
-        "imagen": " ./img_catalogo/dulce-la-americana/big-bom-baby-pinta-labios.png "
+        "imagen": " ./img_catalogo/dulce-la-americana/big-bom-baby-pinta-labios.png ",
+        "activo": true
     },
     {
         "id": 199,
         "codigo": "JDA0005",
         "nombre": "BIG BOM BABY YOGURIN CJ X 16",
         "precio": 7182,
-        "imagen": " ./img_catalogo/dulce-la-americana/big-bom-baby-yogurin.png "
+        "imagen": " ./img_catalogo/dulce-la-americana/big-bom-baby-yogurin.png ",
+        "activo": true
     },
     {
         "id": 200,
         "codigo": "JDA0006",
         "nombre": "BIG BOM BABY CARITAS FELICES CJ X 16",
         "precio": 7541,
-        "imagen": " ./img_catalogo/dulce-la-americana/big-bom-baby-caritas-felices.png "
+        "imagen": " ./img_catalogo/dulce-la-americana/big-bom-baby-caritas-felices.png ",
+        "activo": true
     },
     {
         "id": 201,
         "codigo": "JDA0007",
         "nombre": "DULCE RELLENO SURTIDOX 100  CJ X 20 PQ",
         "precio": 6365,
-        "imagen": " ./img_catalogo/dulce-la-americana/dulce-relleno-100.png "
+        "imagen": " ./img_catalogo/dulce-la-americana/dulce-relleno-100.png ",
+        "activo": true
     },
     {
         "id": 202,
         "codigo": "JDA0008",
         "nombre": "FRUTICANDY X 100 CJ X 28",
         "precio": 4473,
-        "imagen": " ./img_catalogo/dulce-la-americana/fruti-candy-100.png "
+        "imagen": " ./img_catalogo/dulce-la-americana/fruti-candy-100.png ",
+        "activo": true
     },
     {
         "id": 203,
         "codigo": "JDA0009",
         "nombre": "FRUTICANDY X 300 CJ X 10",
         "precio": 13151,
-        "imagen": " ./img_catalogo/dulce-la-americana/fruti-candy-300.png "
+        "imagen": " ./img_catalogo/dulce-la-americana/fruti-candy-300.png ",
+        "activo": true
     },
     {
         "id": 204,
         "codigo": "JDA0010",
         "nombre": "FRUTICANDY X 500 CJ X 6",
         "precio": 21689,
-        "imagen": " ./img_catalogo/dulce-la-americana/fruti-candy-500.png "
+        "imagen": " ./img_catalogo/dulce-la-americana/fruti-candy-500.png ",
+        "activo": true
     },
     {
         "id": 205,
         "codigo": "JDL0001",
         "nombre": "VINO GATO NEGRO CABERNET X 750 CJ X 12",
         "precio": 31501,
-        "imagen": " ./img_catalogo/dislicores/gato-negro-cabernet-sauvignon-750.png "
+        "imagen": " ./img_catalogo/dislicores/gato-negro-cabernet-sauvignon-750.png ",
+        "activo": true
     },
     {
         "id": 206,
         "codigo": "JDL0002",
         "nombre": "VINO GATO NEGRO MERLOT X 750 CJ X 12",
         "precio": 31500,
-        "imagen": " ./img_catalogo/dislicores/gato-negro-merlot-750.png "
+        "imagen": " ./img_catalogo/dislicores/gato-negro-merlot-750.png ",
+        "activo": true
     },
     {
         "id": 207,
         "codigo": "JDL0003",
         "nombre": "VINO GATO NEGRO BLANCO X 750 CJ X 12",
         "precio": 31501,
-        "imagen": " ./img_catalogo/dislicores/gato-negro-blanco-750.png "
+        "imagen": " ./img_catalogo/dislicores/gato-negro-blanco-750.png ",
+        "activo": true
     },
     {
         "id": 208,
         "codigo": "JDL0004",
         "nombre": "VINO GATO NEGRO MALBEC X 750 CJ X 12",
         "precio": 31501,
-        "imagen": " ./img_catalogo/dislicores/gato-negro-malbec-750.png "
+        "imagen": " ./img_catalogo/dislicores/gato-negro-malbec-750.png ",
+        "activo": true
     },
     {
         "id": 209,
         "codigo": "JDL0005",
         "nombre": "VINO GATO NEGRO CABERNET  X 375 ML",
         "precio": 19706,
-        "imagen": " ./img_catalogo/dislicores/gato-negro-cabernet-sauvignon-375.png "
+        "imagen": " ./img_catalogo/dislicores/gato-negro-cabernet-sauvignon-375.png ",
+        "activo": true
     },
     {
         "id": 210,
         "codigo": "JDL0006",
         "nombre": "TEQUILA JOSE CUERVO ESPECIAL SILVER X 750 CJ X 12",
         "precio": 76099,
-        "imagen": " ./img_catalogo/dislicores/jose-cuervo-silver-750.png "
+        "imagen": " ./img_catalogo/dislicores/jose-cuervo-silver-750.png ",
+        "activo": true
     },
     {
         "id": 211,
         "codigo": "JDL0007",
         "nombre": "TEQUILA JOSE CUERVO ESPECIAL REPOSADO X 750 CJ X 12 UND",
         "precio": 76042,
-        "imagen": " ./img_catalogo/dislicores/jose-cuervo-reposado-750.png "
+        "imagen": " ./img_catalogo/dislicores/jose-cuervo-reposado-750.png ",
+        "activo": true
     },
     {
         "id": 212,
         "codigo": "JDS0001",
         "nombre": "VINIPEL TABACO X 200",
         "precio": 10570,
-        "imagen": " ./img_catalogo/distri-samy/vinipel-tabaco-x200-mts.png "
+        "imagen": " ./img_catalogo/distri-samy/vinipel-tabaco-x200-mts.png ",
+        "activo": true
     },
     {
         "id": 213,
         "codigo": "JDS0002",
         "nombre": "VINIPEL TABACO X 100",
         "precio": 5078,
-        "imagen": " ./img_catalogo/distri-samy/vinipel-tabaco-x100-mts.png "
+        "imagen": " ./img_catalogo/distri-samy/vinipel-tabaco-x100-mts.png ",
+        "activo": true
     },
     {
         "id": 214,
         "codigo": "JDS0003",
         "nombre": "VINIPEL TABACO X 50",
         "precio": 3725,
-        "imagen": " ./img_catalogo/distri-samy/vinipel-tabaco-x50-mts.png "
+        "imagen": " ./img_catalogo/distri-samy/vinipel-tabaco-x50-mts.png ",
+        "activo": true
     },
     {
         "id": 215,
         "codigo": "JDS0004",
         "nombre": "VINIPEL TABACO X 20",
         "precio": 2303,
-        "imagen": " ./img_catalogo/distri-samy/vinipel-tabaco-x20-mts.png "
+        "imagen": " ./img_catalogo/distri-samy/vinipel-tabaco-x20-mts.png ",
+        "activo": true
     },
     {
         "id": 216,
         "codigo": "JDS0005",
         "nombre": "VINIPEL NEGRO OSMOTICO X 20",
         "precio": 2303,
-        "imagen": " ./img_catalogo/distri-samy/vinipel-negro-osmotico-x20.png "
+        "imagen": " ./img_catalogo/distri-samy/vinipel-negro-osmotico-x20.png ",
+        "activo": true
     },
     {
         "id": 217,
         "codigo": "JDS0006",
         "nombre": "VINIPEL NEGRO OSMOTICO X 50",
         "precio": 3724,
-        "imagen": " ./img_catalogo/distri-samy/vinipel-negro-osmotico-x50.png "
+        "imagen": " ./img_catalogo/distri-samy/vinipel-negro-osmotico-x50.png ",
+        "activo": true
     },
     {
         "id": 218,
         "codigo": "JDU0001",
         "nombre": "MARG.PREFERIDA X 125 CJ 4 DISPLAY",
         "precio": 119916,
-        "imagen": " ./img_catalogo/duquesa/margarina-preferida-125.png "
+        "imagen": " ./img_catalogo/duquesa/margarina-preferida-125.png ",
+        "activo": true
     },
     {
         "id": 219,
         "codigo": "JDU0002",
         "nombre": "MARG.PREFERIDA X 250",
         "precio": 114651,
-        "imagen": " ./img_catalogo/duquesa/margarina-preferida-250.png "
+        "imagen": " ./img_catalogo/duquesa/margarina-preferida-250.png ",
+        "activo": true
     },
     {
         "id": 220,
         "codigo": "JDU0003",
         "nombre": "MARG.PREFERIDA X 500",
         "precio": 109950,
-        "imagen": " ./img_catalogo/duquesa/margarina-preferida-500.png "
+        "imagen": " ./img_catalogo/duquesa/margarina-preferida-500.png ",
+        "activo": true
     },
     {
         "id": 221,
         "codigo": "JDU0011",
         "nombre": "ESPARCIBLE PREFERIDA X 500 CJ X 18",
         "precio": 6176,
-        "imagen": " ./img_catalogo/duquesa/esparcible-la-preferida-500.png "
+        "imagen": " ./img_catalogo/duquesa/esparcible-la-preferida-500.png ",
+        "activo": true
     },
     {
         "id": 222,
         "codigo": "JDX0001",
         "nombre": "CONSERVA DE PESCADO EN SALSA DE TOMATE SANCHO CJ X 48 UND",
         "precio": 5209,
-        "imagen": " ./img_catalogo/puertomar-zomac/conservas-de-pescado-en-salsa-de-tomate-don-sancho-ovalada.png "
+        "imagen": " ./img_catalogo/puertomar-zomac/conservas-de-pescado-en-salsa-de-tomate-don-sancho-ovalada.png ",
+        "activo": true
     },
     {
         "id": 223,
         "codigo": "JDX0002",
         "nombre": "CONSERVA DE PESCADO TINAPA TOMATE DON SANCHO ABRE FACIL X 50",
         "precio": 2610,
-        "imagen": " ./img_catalogo/puertomar-zomac/conservas-de-pescado-en-salsa-de-tomate-don-sancho-tinapa.png "
+        "imagen": " ./img_catalogo/puertomar-zomac/conservas-de-pescado-en-salsa-de-tomate-don-sancho-tinapa.png ",
+        "activo": true
     },
     {
         "id": 224,
         "codigo": "JDX0004",
         "nombre": "LOMO DE ATUN SANCHO EN AGUA X 175 GR CJ X 48 UND ABRE FACIL",
         "precio": 4142,
-        "imagen": " ./img_catalogo/puertomar-zomac/lomitos-de-atun-en-agua.png "
+        "imagen": " ./img_catalogo/puertomar-zomac/lomitos-de-atun-en-agua.png ",
+        "activo": true
     },
     {
         "id": 225,
         "codigo": "JDX0005",
         "nombre": "LOMOS ACEITE DE GIRASOL DON SANCHO CJ X 48",
         "precio": 4244,
-        "imagen": " ./img_catalogo/puertomar-zomac/lomitos-de-atun-en-aceite-de-girasol.png "
+        "imagen": " ./img_catalogo/puertomar-zomac/lomitos-de-atun-en-aceite-de-girasol.png ",
+        "activo": true
     },
     {
         "id": 226,
         "codigo": "JDX0007",
         "nombre": "THREE PACK LOMO ACEITE DE GIRASOL CAJA X 20",
         "precio": 9148,
-        "imagen": " ./img_catalogo/puertomar-zomac/three-pack-lomo-aceite-de-girasol.png "
+        "imagen": " ./img_catalogo/puertomar-zomac/three-pack-lomo-aceite-de-girasol.png ",
+        "activo": true
     },
     {
         "id": 227,
         "codigo": "JDX0008",
         "nombre": "ENSALADA DE ATUN CON VEGETALES DON SANCHO CAJA X 48",
         "precio": 4317,
-        "imagen": " ./img_catalogo/puertomar-zomac/ensalada-de-atun-con-vegetales.png "
+        "imagen": " ./img_catalogo/puertomar-zomac/ensalada-de-atun-con-vegetales.png ",
+        "activo": true
     },
     {
         "id": 228,
         "codigo": "JEC0001",
         "nombre": "REEPERB CERVEZA",
         "precio": 10912,
-        "imagen": " ./img_catalogo/estacion_cervezera/cerveza-reeper-lata.png "
+        "imagen": " ./img_catalogo/estacion_cervezera/cerveza-reeper-lata.png ",
+        "activo": true
     },
     {
         "id": 229,
         "codigo": "JEC0002",
         "nombre": "KRISTOFFEL ROSE",
         "precio": 11647,
-        "imagen": " ./img_catalogo/estacion_cervezera/cerveza-kristoffel-rose.png "
+        "imagen": " ./img_catalogo/estacion_cervezera/cerveza-kristoffel-rose.png ",
+        "activo": true
     },
     {
         "id": 230,
         "codigo": "JFF0001",
         "nombre": "FARINA CANELA X 250 GR PC X 50 X10 DP",
         "precio": 3967,
-        "imagen": " ./img_catalogo/farina/farina-250-canela.png "
+        "imagen": " ./img_catalogo/farina/farina-250-canela.png ",
+        "activo": true
     },
     {
         "id": 231,
         "codigo": "JFF0002",
         "nombre": "FARINA CANELA X 500 GR PC X 24",
         "precio": 7417,
-        "imagen": " ./img_catalogo/farina/farina-500-canela.png "
+        "imagen": " ./img_catalogo/farina/farina-500-canela.png ",
+        "activo": true
     },
     {
         "id": 232,
         "codigo": "JFF0003",
         "nombre": "FARINA SURTIDA X 200 GR CJ X 48",
         "precio": 3023,
-        "imagen": " ./img_catalogo/farina/farina-200-surtida.png "
+        "imagen": " ./img_catalogo/farina/farina-200-surtida.png ",
+        "activo": true
     },
     {
         "id": 233,
         "codigo": "JFF0004",
         "nombre": "FARINA VAINILA X 250 GR PC X 50",
         "precio": 3967,
-        "imagen": " ./img_catalogo/farina/farina-250-vainilla.png "
+        "imagen": " ./img_catalogo/farina/farina-250-vainilla.png ",
+        "activo": true
     },
     {
         "id": 234,
         "codigo": "JFF0005",
         "nombre": "FARINA X 250 LECHE CONDENSADA PCX50",
         "precio": 3967,
-        "imagen": " ./img_catalogo/farina/farina-250-leche-condensada.png "
+        "imagen": " ./img_catalogo/farina/farina-250-leche-condensada.png ",
+        "activo": true
     },
     {
         "id": 235,
         "codigo": "JFF0007",
         "nombre": "FARINA CANELA X 100 GR CJ X 144",
         "precio": 1683,
-        "imagen": " ./img_catalogo/farina/farina-100-canela.png "
+        "imagen": " ./img_catalogo/farina/farina-100-canela.png ",
+        "activo": true
     },
     {
         "id": 236,
         "codigo": "JFF0008",
         "nombre": "FARINA SURTIDA 3 SABORES X 100 GR X CJ X 144 DP X12",
         "precio": 1683,
-        "imagen": " ./img_catalogo/farina/farina-100-surtida.png "
+        "imagen": " ./img_catalogo/farina/farina-100-surtida.png ",
+        "activo": true
     },
     {
         "id": 237,
         "codigo": "JFW0002",
         "nombre": "TEQUILA JIMADOR REPOSADO 700",
         "precio": 97225,
-        "imagen": " ./img_catalogo/farina/farina-100-surtida.png "
+        "imagen": " ./img_catalogo/farina/farina-100-surtida.png ",
+        "activo": true
     },
     {
         "id": 238,
         "codigo": "JFW0003",
         "nombre": "TEQUILA PATRON REPOSADO 700",
         "precio": 220700,
-        "imagen": " ./img_catalogo/global/tequila-jimador-reposado-x700.png "
+        "imagen": " ./img_catalogo/global/tequila-jimador-reposado-x700.png ",
+        "activo": true
     },
     {
         "id": 239,
         "codigo": "JFW0004",
         "nombre": "TEQUILA PATRON SILVER X 700",
         "precio": 185013,
-        "imagen": " ./img_catalogo/global/tequila-patron-silver-x700.png "
+        "imagen": " ./img_catalogo/global/tequila-patron-silver-x700.png ",
+        "activo": true
     },
     {
         "id": 240,
         "codigo": "JFW0005",
         "nombre": "VINO CASILLERO CABERNET SUAVINON X 750 CJ X 12",
         "precio": 46951,
-        "imagen": " ./img_catalogo/global/casillero-del-diablo-cabernet-x750.png "
+        "imagen": " ./img_catalogo/global/casillero-del-diablo-cabernet-x750.png ",
+        "activo": true
     },
     {
         "id": 241,
         "codigo": "JFW0006",
         "nombre": "VINO CASILLERO MERLOT X 750 CC CJ X 12",
         "precio": 46950,
-        "imagen": " ./img_catalogo/global/casillero-del-diablo-merlot-x750.png "
+        "imagen": " ./img_catalogo/global/casillero-del-diablo-merlot-x750.png ",
+        "activo": true
     },
     {
         "id": 242,
         "codigo": "JFW0007",
         "nombre": "VINO CASILLERO BLANCO SAUVIGNON X 750 CJ X 12",
         "precio": 46951,
-        "imagen": " ./img_catalogo/global/casillero-del-diablo-blanco-x750.png "
+        "imagen": " ./img_catalogo/global/casillero-del-diablo-blanco-x750.png ",
+        "activo": true
     },
     {
         "id": 243,
         "codigo": "JFW0008",
         "nombre": "VINO CASILLERO  ROSE X 750 CJ X 12",
         "precio": 46951,
-        "imagen": " ./img_catalogo/global/casillero-del-diablo-rose-x750.png "
+        "imagen": " ./img_catalogo/global/casillero-del-diablo-rose-x750.png ",
+        "activo": true
     },
     {
         "id": 244,
         "codigo": "JFW0009",
         "nombre": "VINO ESPUMOSO CHANDON  ROSE 750",
         "precio": 73168,
-        "imagen": " ./img_catalogo/global/vino-espumoso-chandon-rose.png "
+        "imagen": " ./img_catalogo/global/vino-espumoso-chandon-rose.png ",
+        "activo": true
     },
     {
         "id": 245,
         "codigo": "JFW0011",
         "nombre": "VINO ESPUMOSO CHANDON EXT.BRUT 750",
         "precio": 59000,
-        "imagen": " ./img_catalogo/global/vino-espumoso-chandon-extra-brut.png "
+        "imagen": " ./img_catalogo/global/vino-espumoso-chandon-extra-brut.png ",
+        "activo": true
     },
     {
         "id": 246,
         "codigo": "JFW0012",
         "nombre": "VINO FRONTERA CARMENERE X 750 CJ X 12",
         "precio": 29800,
-        "imagen": " ./img_catalogo/global/vino-frontera-carmenere.png "
+        "imagen": " ./img_catalogo/global/vino-frontera-carmenere.png ",
+        "activo": true
     },
     {
         "id": 247,
         "codigo": "JFW0013",
         "nombre": "VINO FRONTERA CABERNET SUAVINON X 750 CC CJ X 12",
         "precio": 29801,
-        "imagen": " ./img_catalogo/global/vino-frontera-cabernet.png "
+        "imagen": " ./img_catalogo/global/vino-frontera-cabernet.png ",
+        "activo": true
     },
     {
         "id": 248,
         "codigo": "JFW0014",
         "nombre": "VINO FRONTERA MERLOT X 750 CC CJ X 12",
         "precio": 29800,
-        "imagen": " ./img_catalogo/global/vino-frontera-merlot.png "
+        "imagen": " ./img_catalogo/global/vino-frontera-merlot.png ",
+        "activo": true
     },
     {
         "id": 249,
         "codigo": "JFW0015",
         "nombre": "VINO FRONTERA ROSE X 750 CC CJ X 12",
         "precio": 29801,
-        "imagen": " ./img_catalogo/global/vino-frontera-rose.png "
+        "imagen": " ./img_catalogo/global/vino-frontera-rose.png ",
+        "activo": true
     },
     {
         "id": 250,
         "codigo": "JFW0016",
         "nombre": "VINO FRONTERA SAUV. BLANCO X 750 CC CJ X 12",
         "precio": 30253,
-        "imagen": " ./img_catalogo/global/vino-frontera-blanco.png "
+        "imagen": " ./img_catalogo/global/vino-frontera-blanco.png ",
+        "activo": true
     },
     {
         "id": 251,
         "codigo": "JFW0018",
         "nombre": "WHISKY JACK DANIEL´S HONEY",
         "precio": 102615,
-        "imagen": " ./img_catalogo/global/jack-daniel-honey.png "
+        "imagen": " ./img_catalogo/global/jack-daniel-honey.png ",
+        "activo": true
     },
     {
         "id": 252,
         "codigo": "JFW0020",
         "nombre": "TEQUILA PATRON AÑEJO 700",
         "precio": 254187,
-        "imagen": "./img_catalogo/global/tequila-patron-añejo-x700.png "
+        "imagen": "./img_catalogo/global/tequila-patron-añejo-x700.png ",
+        "activo": true
     },
     {
         "id": 253,
         "codigo": "JFW0022",
         "nombre": "TEQUILA HERRADURA PLATA X 750",
         "precio": 157274,
-        "imagen": "./img_catalogo/global/herradura-plata.png "
+        "imagen": "./img_catalogo/global/herradura-plata.png ",
+        "activo": true
     },
     {
         "id": 254,
         "codigo": "JFW0023",
         "nombre": "WHISKY JACK DANIEL 'S APPLE",
         "precio": 100001,
-        "imagen": "./img_catalogo/global/jack-daniel-apple.png "
+        "imagen": "./img_catalogo/global/jack-daniel-apple.png ",
+        "activo": true
     },
     {
         "id": 255,
         "codigo": "JFW0024",
         "nombre": "JAGERMAISTER 700 ML CJ X 6 UND",
         "precio": 91478,
-        "imagen": "./img_catalogo/global/jagermaister-x700.png "
+        "imagen": "./img_catalogo/global/jagermaister-x700.png ",
+        "activo": true
     },
     {
         "id": 256,
         "codigo": "JFW0025",
         "nombre": "WHISKY MACALLAN 12 AÑOS DOBLE CASK 700",
         "precio": 342274,
-        "imagen": "./img_catalogo/global/macallan-doble-cask-12-años.png "
+        "imagen": "./img_catalogo/global/macallan-doble-cask-12-años.png ",
+        "activo": true
     },
     {
         "id": 257,
         "codigo": "JFW0032",
         "nombre": "TEQUILA JIMADOR BLANCO X 700 ML",
         "precio": 94168,
-        "imagen": "./img_catalogo/global/tequila-jimador-silver-x700.png "
+        "imagen": "./img_catalogo/global/tequila-jimador-silver-x700.png ",
+        "activo": true
     },
     {
         "id": 258,
         "codigo": "JFW0033",
         "nombre": "TEQUILA HERRADURA REPOSADO",
         "precio": 178494,
-        "imagen": " ./img_catalogo/global/herradura-reposado.png "
+        "imagen": " ./img_catalogo/global/herradura-reposado.png ",
+        "activo": true
     },
     {
         "id": 259,
         "codigo": "JFW0037",
         "nombre": "TEQUILA HERRADURA AÑEJO X 750",
         "precio": 219000,
-        "imagen": " ./img_catalogo/global/herradura-añejo.png "
+        "imagen": " ./img_catalogo/global/herradura-añejo.png ",
+        "activo": true
     },
     {
         "id": 260,
         "codigo": "JFW0041",
         "nombre": "VINO CASILLERO CARMENERE X 750 CJ X 12",
         "precio": 47998,
-        "imagen": " ./img_catalogo/global/casillero-del-diablo-carmenere-x750.png "
+        "imagen": " ./img_catalogo/global/casillero-del-diablo-carmenere-x750.png ",
+        "activo": true
     },
     {
         "id": 261,
         "codigo": "JFW0057",
         "nombre": "VINO CASILLERO CHARDONNAY 750",
         "precio": 46950,
-        "imagen": " ./img_catalogo/global/casillero-del-diablo-chardonnay-x750.png "
+        "imagen": " ./img_catalogo/global/casillero-del-diablo-chardonnay-x750.png ",
+        "activo": true
     },
     {
         "id": 262,
         "codigo": "JFW0073",
         "nombre": "RON BACARDI ZOMBIE X 750 CJ X 12",
         "precio": 43563,
-        "imagen": " ./img_catalogo/global/bacardi-zombie-750.png "
+        "imagen": " ./img_catalogo/global/bacardi-zombie-750.png ",
+        "activo": true
     },
     {
         "id": 263,
         "codigo": "JFW0074",
         "nombre": "RON BACARDI MOJITO X 750 CJ X 12 UND",
         "precio": 43058,
-        "imagen": " ./img_catalogo/global/bacardi-mojito-750.png "
+        "imagen": " ./img_catalogo/global/bacardi-mojito-750.png ",
+        "activo": true
     },
     {
         "id": 264,
         "codigo": "JFW0075",
         "nombre": "RON BACARDI LIMON X 700 CJ X 12 UND",
         "precio": 42381,
-        "imagen": " ./img_catalogo/global/bacardi-limon-700.png "
+        "imagen": " ./img_catalogo/global/bacardi-limon-700.png ",
+        "activo": true
     },
     {
         "id": 265,
         "codigo": "JFW0076",
         "nombre": "RON BACARDI LIMON X 375 CJ X 24 UND",
         "precio": 25417,
-        "imagen": " ./img_catalogo/global/bacardi-limon-x375.png "
+        "imagen": " ./img_catalogo/global/bacardi-limon-x375.png ",
+        "activo": true
     },
     {
         "id": 266,
         "codigo": "JFW0077",
         "nombre": "RON BACARDI AÑEJO X 750 CJ X 12 UND",
         "precio": 44036,
-        "imagen": " ./img_catalogo/global/bacardi-añejo-700.png "
+        "imagen": " ./img_catalogo/global/bacardi-añejo-700.png ",
+        "activo": true
     },
     {
         "id": 267,
         "codigo": "JFW0078",
         "nombre": "RON BACARDI SUPERIOR CARTA BLANCA X 750 CJ X 12 UND",
         "precio": 48216,
-        "imagen": " ./img_catalogo/global/bacardi-carta-blanca-700.png "
+        "imagen": " ./img_catalogo/global/bacardi-carta-blanca-700.png ",
+        "activo": true
     },
     {
         "id": 268,
         "codigo": "JFW0079",
         "nombre": "WHISKY WILLIAM LAWSON´S X 700 CC CJ X 12 UND",
         "precio": 45638,
-        "imagen": " ./img_catalogo/global/whisky-william-lawson.png "
+        "imagen": " ./img_catalogo/global/whisky-william-lawson.png ",
+        "activo": true
     },
     {
         "id": 269,
         "codigo": "JFW0089",
         "nombre": "BULLDOG GIN 750",
         "precio": 158972,
-        "imagen": " ./img_catalogo/global/bulldog-gin.png "
+        "imagen": " ./img_catalogo/global/bulldog-gin.png ",
+        "activo": true
     },
     {
         "id": 270,
         "codigo": "JFW0090",
         "nombre": "GINEGRA BOMBAY SAPPHIRE X 500 ML",
         "precio": 88715,
-        "imagen": " ./img_catalogo/global/bombay-sapphire-x500.png "
+        "imagen": " ./img_catalogo/global/bombay-sapphire-x500.png ",
+        "activo": true
     },
     {
         "id": 271,
         "codigo": "JFW0091",
         "nombre": "GINEBRA BOMBAY SAPPHIRE X 700 ML",
         "precio": 115531,
-        "imagen": " ./img_catalogo/global/bombay-sapphire-x700.png "
+        "imagen": " ./img_catalogo/global/bombay-sapphire-x700.png ",
+        "activo": true
     },
     {
         "id": 272,
         "codigo": "JFW0103",
         "nombre": "WHISKY JACK DANIEL´S FIRE",
         "precio": 100001,
-        "imagen": " ./img_catalogo/global/jack-daniel-fire.png "
+        "imagen": " ./img_catalogo/global/jack-daniel-fire.png ",
+        "activo": true
     },
     {
         "id": 273,
         "codigo": "JFW0107",
         "nombre": "WHISKY JACK DANIEL´S N° 7",
         "precio": 100001,
-        "imagen": " ./img_catalogo/global/jack-daniel-n7.png "
+        "imagen": " ./img_catalogo/global/jack-daniel-n7.png ",
+        "activo": true
     },
     {
         "id": 274,
         "codigo": "JFW0114",
         "nombre": "RON BACARDI MANDARINA 750 ML CJ X 12",
         "precio": 43662,
-        "imagen": " ./img_catalogo/global/bacardi-mandarina-x750.png "
+        "imagen": " ./img_catalogo/global/bacardi-mandarina-x750.png ",
+        "activo": true
     },
     {
         "id": 275,
         "codigo": "JFW0117",
         "nombre": "RON BACARDI BAHAMA MAMA 750 ML CJ X 12",
         "precio": 42217,
-        "imagen": " ./img_catalogo/global/bacardi-bahama-mama-x750.png "
+        "imagen": " ./img_catalogo/global/bacardi-bahama-mama-x750.png ",
+        "activo": true
     },
     {
         "id": 276,
         "codigo": "JFW0126",
         "nombre": "RON BACARDI HURACANE X 750 CJ X 12",
         "precio": 43209,
-        "imagen": " ./img_catalogo/global/bacardi-hurricane-750.png "
+        "imagen": " ./img_catalogo/global/bacardi-hurricane-750.png ",
+        "activo": true
     },
     {
         "id": 277,
         "codigo": "JFW0127",
         "nombre": "WHISKY KING OF QUEENS 750 ML CJ X 12",
         "precio": 45600,
-        "imagen": " ./img_catalogo/global/whisky-king-of-queens-x750.png "
+        "imagen": " ./img_catalogo/global/whisky-king-of-queens-x750.png ",
+        "activo": true
     },
     {
         "id": 278,
         "codigo": "JJS0002",
         "nombre": "ESPONJA MATRIX X 12 UND CJ 48",
         "precio": 6406,
-        "imagen": " ./img_catalogo/esponja-matrix/esponja-matrix.png "
+        "imagen": " ./img_catalogo/esponja-matrix/esponja-matrix.png ",
+        "activo": true
     },
     {
         "id": 279,
         "codigo": "JJS0003",
         "nombre": "MEGAESTROPAJO CUADRADO X 12 UND",
         "precio": 2318,
-        "imagen": " ./img_catalogo/estropajo/estropajo-cuadrado.png "
+        "imagen": " ./img_catalogo/estropajo/estropajo-cuadrado.png ",
+        "activo": true
     },
     {
         "id": 280,
         "codigo": "JJS0005",
         "nombre": "MEGAESTROPAJO DISCO FACIAL X 12 UND",
         "precio": 1830,
-        "imagen": " ./img_catalogo/estropajo/estropajo-facial.png "
+        "imagen": " ./img_catalogo/estropajo/estropajo-facial.png ",
+        "activo": true
     },
     {
         "id": 281,
         "codigo": "JJS0006",
         "nombre": "MEGAESTROPAJO ESPALDA X 12 UND",
         "precio": 4439,
-        "imagen": " ./img_catalogo/estropajo/estropajo-espalda.png "
+        "imagen": " ./img_catalogo/estropajo/estropajo-espalda.png ",
+        "activo": true
     },
     {
         "id": 282,
         "codigo": "JJS0007",
         "nombre": "MEGAESTROPAJO NATURAL X 12 UND",
         "precio": 1854,
-        "imagen": " ./img_catalogo/estropajo/estropajo-natural.png "
+        "imagen": " ./img_catalogo/estropajo/estropajo-natural.png ",
+        "activo": true
     },
     {
         "id": 283,
         "codigo": "JJS0008",
         "nombre": "MEGAESTROPAJO TIPO GUANTE X 12 UND",
         "precio": 4269,
-        "imagen": " ./img_catalogo/estropajo/estropajo-guante.png "
+        "imagen": " ./img_catalogo/estropajo/estropajo-guante.png ",
+        "activo": true
     },
     {
         "id": 284,
         "codigo": "JLA0001",
         "nombre": "DESQUITE AGUARDIENTE ARTESANAL X 750 ML CJ X 6",
         "precio": 61900,
-        "imagen": " ./img_catalogo/desquite/desquite.png "
-    },
-    
-    {
-        "id": 286,
-        "codigo": "JLA0002",
-        "nombre": "DESQUITE + FLASK",
-        "precio": 57001,
-        "imagen": " ./img_catalogo/desquite/desquite-flask.png "
+        "imagen": " ./img_catalogo/desquite/desquite.png ",
+        "activo": true
     },
     {
         "id": 285,
+        "codigo": "JLA0002",
+        "nombre": "DESQUITE + FLASK",
+        "precio": 57001,
+        "imagen": " ./img_catalogo/desquite/desquite-flask.png ",
+        "activo": true
+    },
+    {
+        "id": 286,
         "codigo": "JLC0001",
         "nombre": "ALASKA ACEITE DE CITRONELA X 250",
         "precio": 10835,
-        "imagen": " ./img_catalogo/cofarma/alaska-aceite-de-citronela-x250.png "
+        "imagen": " ./img_catalogo/cofarma/alaska-aceite-de-citronela-x250.png ",
+        "activo": true
     },
     {
         "id": 287,
         "codigo": "JLC0002",
         "nombre": "AUTOMATICO + REPUESTO FLORAL CJ X 6",
         "precio": 28919,
-        "imagen": " ./img_catalogo/cofarma/automatico-aparato-floral.png "
+        "imagen": " ./img_catalogo/cofarma/automatico-aparato-floral.png ",
+        "activo": true
     },
     {
         "id": 288,
         "codigo": "JLC0003",
         "nombre": "AUTOMATICO + REPUESTO VAINILLA CJ X 6",
         "precio": 28919,
-        "imagen": " ./img_catalogo/cofarma/automatico-aparato-vainilla.png "
+        "imagen": " ./img_catalogo/cofarma/automatico-aparato-vainilla.png ",
+        "activo": true
     },
     {
         "id": 289,
         "codigo": "JLC0004",
         "nombre": "AUTOMATICO REPT FLORAL X 12",
         "precio": 15270,
-        "imagen": " ./img_catalogo/cofarma/automatico-repuesta-floral.png "
+        "imagen": " ./img_catalogo/cofarma/automatico-repuesta-floral.png ",
+        "activo": true
     },
     {
         "id": 290,
         "codigo": "JLC0005",
         "nombre": "AUTOMATICO REPT VAINILLA X 12",
         "precio": 15270,
-        "imagen": " ./img_catalogo/cofarma/automatico-repuesta-vainilla.png "
+        "imagen": " ./img_catalogo/cofarma/automatico-repuesta-vainilla.png ",
+        "activo": true
     },
     {
         "id": 291,
         "codigo": "JLC0006",
         "nombre": "BON BRISA TROPICAL X 250 ML SPRAY CJ X 12",
         "precio": 4962,
-        "imagen": " ./img_catalogo/cofarma/bon-aire-brisa-tropical-x250.png "
+        "imagen": " ./img_catalogo/cofarma/bon-aire-brisa-tropical-x250.png ",
+        "activo": true
     },
     {
         "id": 292,
         "codigo": "JLC0007",
         "nombre": "BON FRUTOS ROJOS  X 250 ML SPRAY CJ X 12",
         "precio": 4962,
-        "imagen": " ./img_catalogo/cofarma/bon-aire-frutos-rojos-x250.png "
+        "imagen": " ./img_catalogo/cofarma/bon-aire-frutos-rojos-x250.png ",
+        "activo": true
     },
     {
         "id": 293,
         "codigo": "JLC0008",
         "nombre": "BON BABY FRESH X 400 ML CJ X 12",
         "precio": 8092,
-        "imagen": " ./img_catalogo/cofarma/bon-aire-baby-fresh-x400.png "
+        "imagen": " ./img_catalogo/cofarma/bon-aire-baby-fresh-x400.png ",
+        "activo": true
     },
     {
         "id": 294,
         "codigo": "JLC0009",
         "nombre": "BON BAMBU X 400 ML CJ X 12",
         "precio": 8092,
-        "imagen": " ./img_catalogo/cofarma/bon-aire-bambu-x400.png "
+        "imagen": " ./img_catalogo/cofarma/bon-aire-bambu-x400.png ",
+        "activo": true
     },
     {
         "id": 295,
         "codigo": "JLC0010",
         "nombre": "BON BRISA TROPICAL X 400 CJ X 12",
         "precio": 8092,
-        "imagen": " ./img_catalogo/cofarma/bon-aire-brisa-tropical-x400.png "
+        "imagen": " ./img_catalogo/cofarma/bon-aire-brisa-tropical-x400.png ",
+        "activo": true
     },
     {
         "id": 296,
         "codigo": "JLC0011",
         "nombre": "BON CANELA X 400 ML CJ X 12",
         "precio": 8092,
-        "imagen": " ./img_catalogo/cofarma/bon-aire-canela-x400.png "
+        "imagen": " ./img_catalogo/cofarma/bon-aire-canela-x400.png ",
+        "activo": true
     },
     {
         "id": 297,
         "codigo": "JLC0012",
         "nombre": "BON FRUTAS DE CARIBE X 400 CJ X 12",
         "precio": 8092,
-        "imagen": " ./img_catalogo/cofarma/bon-aire-frutas-del-caribe-x400.png "
+        "imagen": " ./img_catalogo/cofarma/bon-aire-frutas-del-caribe-x400.png ",
+        "activo": true
     },
     {
         "id": 298,
         "codigo": "JLC0013",
         "nombre": "BON FRUTOS ROJOS X 400 ML CJ X 12",
         "precio": 8092,
-        "imagen": " ./img_catalogo/cofarma/bon-aire-frutos-rojos-x400.png "
+        "imagen": " ./img_catalogo/cofarma/bon-aire-frutos-rojos-x400.png ",
+        "activo": true
     },
     {
         "id": 299,
         "codigo": "JLC0014",
         "nombre": "BON LAVANDA X 400 ML CJ X 12",
         "precio": 8092,
-        "imagen": " ./img_catalogo/cofarma/bon-aire-lavanda-x400.png "
+        "imagen": " ./img_catalogo/cofarma/bon-aire-lavanda-x400.png ",
+        "activo": true
     },
     {
         "id": 300,
         "codigo": "JLC0015",
         "nombre": "BON VAINILLA X 400 ML CJ X 12",
         "precio": 8092,
-        "imagen": " ./img_catalogo/cofarma/bon-aire-vainilla-y-ambar-x400.png "
+        "imagen": " ./img_catalogo/cofarma/bon-aire-vainilla-y-ambar-x400.png ",
+        "activo": true
     },
     {
         "id": 301,
         "codigo": "JLC0016",
         "nombre": "BON ORQUIDEA DE LOS ANDES X 400 ML  CJ X 12",
         "precio": 8092,
-        "imagen": " ./img_catalogo/cofarma/bon-aire-orquidea-de-los-andes-x400.png "
+        "imagen": " ./img_catalogo/cofarma/bon-aire-orquidea-de-los-andes-x400.png ",
+        "activo": true
     },
     {
         "id": 302,
         "codigo": "JLC0017",
         "nombre": "ELEC X 1 FRUTOS ROJOS CJ X 12 UND",
         "precio": 8420,
-        "imagen": " ./img_catalogo/cofarma/bon-aire-electrico-frutos-rojos-x1.png "
+        "imagen": " ./img_catalogo/cofarma/bon-aire-electrico-frutos-rojos-x1.png ",
+        "activo": true
     },
     {
         "id": 303,
         "codigo": "JLC0018",
         "nombre": "ELEC X 1 MANDARINA Y TOROJA CJ X 12",
         "precio": 8420,
-        "imagen": " ./img_catalogo/cofarma/bon-aire-electrico-mandarina-y-toronja-x1.png "
+        "imagen": " ./img_catalogo/cofarma/bon-aire-electrico-mandarina-y-toronja-x1.png ",
+        "activo": true
     },
     {
         "id": 304,
         "codigo": "JLC0019",
         "nombre": "ELEC X 1 VAINILLA CJ X 12 UND",
         "precio": 8420,
-        "imagen": " ./img_catalogo/cofarma/bon-aire-electrico-vainilla-x1.png "
+        "imagen": " ./img_catalogo/cofarma/bon-aire-electrico-vainilla-x1.png ",
+        "activo": true
     },
     {
         "id": 305,
         "codigo": "JLC0020",
         "nombre": "ELEC X 2 MANDARINA Y TORONJA",
         "precio": 16662,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/bon-aire-mandarina-toroja-x2.png",
+        "activo": true
     },
     {
         "id": 306,
         "codigo": "JLC0021",
         "nombre": "BON ELEC X 3 COMBINADO CJ X 12",
         "precio": 22059,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/bon-aire-combianado-x3.png",
+        "activo": true
     },
     {
         "id": 307,
         "codigo": "JLC0022",
         "nombre": "BON ELEC X 3 FRUTAS DEL CARIBE CJ X 12",
         "precio": 22059,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/bon-aire-frutas-del-caribe-x3.png ",
+        "activo": true
     },
     {
         "id": 308,
         "codigo": "JLC0023",
         "nombre": "BON ELEC X 3 FRUTOS ROJOS CJ X 12",
         "precio": 22059,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/bon-aire-frutos-rojos-x3.png ",
+        "activo": true
     },
     {
         "id": 309,
         "codigo": "JLC0024",
         "nombre": "BON ELEC X 3 VAINILLA FRANCESA CJ X 12",
         "precio": 22059,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/bon-aire-vainilla-x3.png ",
+        "activo": true
     },
     {
         "id": 310,
         "codigo": "JLC0025",
         "nombre": "VAPO ELEC FRUTAS DEL CARIBE CJ X 12",
         "precio": 12575,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/vapo-frutas-del-caribe.png ",
+        "activo": true
     },
     {
         "id": 311,
         "codigo": "JLC0026",
         "nombre": "VAPO ELEC FRUTOS ROJOS CJ X 12",
         "precio": 12575,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/vapo-frutos-rojos.png ",
+        "activo": true
     },
     {
         "id": 312,
         "codigo": "JLC0027",
         "nombre": "VAPO ELEC VAINILLA FRANCESA CJ X 12",
         "precio": 12575,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/vapo-vainilla.png ",
+        "activo": true
     },
     {
         "id": 313,
         "codigo": "JLC0028",
         "nombre": "BON GEL AGUA DE VERBENA X 170 ML CJ X 12",
         "precio": 5263,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/bon-aire-gel-agua-de-verbena-x170.png ",
+        "activo": true
     },
     {
         "id": 314,
         "codigo": "JLC0029",
         "nombre": "BON GEL FRUTAS DEL CARIBE X 170 ML CJ X 12",
         "precio": 5263,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/bon-aire-gel-frutas-del-caribe-x170.png ",
+        "activo": true
     },
     {
         "id": 315,
         "codigo": "JLC0030",
         "nombre": "BON GEL FRUTOS ROJOS X 170 ML CJ X 12",
         "precio": 5263,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/bon-aire-gel-frutos-rojos-x170.png ",
+        "activo": true
     },
     {
         "id": 316,
         "codigo": "JLC0031",
         "nombre": "GEL FRUTOS ROJOS MORA SILVESTRE X 80 ML CJ X 12",
         "precio": 3677,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/bon-aire-frutos-rojos-x80.png ",
+        "activo": true
     },
     {
         "id": 317,
         "codigo": "JLC0032",
         "nombre": "BONAIRE AUTO MADEIRA BRISA TROPICAL X 6 ML",
         "precio": 11620,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/bon-aire-madeira-brisa-tropical.png ",
+        "activo": true
     },
     {
         "id": 318,
         "codigo": "JLC0033",
         "nombre": "BONAIRE AUTO MADEIRA VAINILLA X 6 ML",
         "precio": 11619,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/bon-aire-madeira-vainilla.png ",
+        "activo": true
     },
     {
         "id": 319,
         "codigo": "JLC0034",
         "nombre": "PINOLINA CANELA X 150 ML CJ X 24 *",
         "precio": 988,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-canela-x150.png ",
+        "activo": true
     },
     {
         "id": 320,
         "codigo": "JLC0035",
         "nombre": "PINOLINA CITRONELA X 150 ML CJ X 24 *",
         "precio": 988,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-citronela-x150.png ",
+        "activo": true
     },
     {
         "id": 321,
         "codigo": "JLC0036",
         "nombre": "PINOLINA LAVANDA X 150 ML CJ X 24 *",
         "precio": 988,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-lavanda-x150.png ",
+        "activo": true
     },
     {
         "id": 322,
         "codigo": "JLC0037",
         "nombre": "PINOLINA BABY FRESH X 460 *",
         "precio": 3118,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-baby-fresh-x460.png ",
+        "activo": true
     },
     {
         "id": 323,
         "codigo": "JLC0038",
         "nombre": "PINOLINA BAMBU X 460 *",
         "precio": 3118,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-bambu-x460.png ",
+        "activo": true
     },
     {
         "id": 324,
         "codigo": "JLC0039",
         "nombre": "PINOLINA CANELA X 460 CJ X 24 *",
         "precio": 3118,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-canela-x460.png ",
+        "activo": true
     },
     {
         "id": 325,
         "codigo": "JLC0040",
         "nombre": "PINOLINA CITRONELA X 460 ML CJ X 24 *",
         "precio": 3118,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-citronela-x460.png ",
+        "activo": true
     },
     {
         "id": 326,
         "codigo": "JLC0041",
         "nombre": "PINOLINA FLORAL X 460 ML CJ X 24 *",
         "precio": 3118,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-floral-x460.png ",
+        "activo": true
     },
     {
         "id": 327,
         "codigo": "JLC0042",
         "nombre": "PINOLINA FRUTOS ROJOS X 460 *",
         "precio": 3118,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-frutos-rojos-x460.png ",
+        "activo": true
     },
     {
         "id": 328,
         "codigo": "JLC0043",
         "nombre": "PINOLINA LAVANDA X 460 ML CJ X 24 UND *",
         "precio": 3118,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-lavanda-x460.png ",
+        "activo": true
     },
     {
         "id": 329,
         "codigo": "JLC0044",
         "nombre": "PINOLINA BABY FRESH X 960 ML CJ X 12 *",
         "precio": 6728,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-baby-fresh-x960.png ",
+        "activo": true
     },
     {
         "id": 330,
         "codigo": "JLC0045",
         "nombre": "PINOLINA BAMBU X 960 ML CJ X 12 *",
         "precio": 6728,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-bambu-x960.png ",
+        "activo": true
     },
     {
         "id": 331,
         "codigo": "JLC0046",
         "nombre": "PINOLINA CANELA Y MIEL  X 960 ML CJ X 12 *",
         "precio": 6728,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-canela-x960.png ",
+        "activo": true
     },
     {
         "id": 332,
         "codigo": "JLC0047",
         "nombre": "PINOLINA CITRONELA X 960 ML CJ X 12 *",
         "precio": 6728,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-citronela-x960.png ",
+        "activo": true
     },
     {
         "id": 333,
         "codigo": "JLC0048",
         "nombre": "PINOLINA LAVANDA X 960 CJ X 12 *",
         "precio": 6728,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-lavanda-x960.png ",
+        "activo": true
     },
     {
         "id": 334,
         "codigo": "JLC0049",
         "nombre": "PINOLINA FLORAL X 960 ML CJ X 12 *",
         "precio": 6728,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-floral-x960.png ",
+        "activo": true
     },
     {
         "id": 335,
         "codigo": "JLC0050",
         "nombre": "PINOLINA X 960 ENCANTO DE COCO *",
         "precio": 6728,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-encanto-de-coco-x960.png ",
+        "activo": false
     },
     {
         "id": 336,
         "codigo": "JLC0051",
         "nombre": "PINOLINA FRUTOS ROJOS X 960 ML CJ X 12 *",
         "precio": 6728,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-frutos-rojos-x960.png ",
+        "activo": true
     },
     {
         "id": 337,
         "codigo": "JLC0052",
         "nombre": "PINOLINA BAMBU X 2000 CJ X 6 UND *",
         "precio": 11648,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-bambu-x2000.png ",
+        "activo": true
     },
     {
         "id": 338,
         "codigo": "JLC0053",
         "nombre": "PINOLINA CANELA X 2000 CJ X6 UND *",
         "precio": 11648,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-canela-x2000.png ",
+        "activo": true
     },
     {
         "id": 339,
         "codigo": "JLC0054",
         "nombre": "PINOLINA CITRONELA X 2000 ML CJ X 6 *",
         "precio": 11648,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-citronela-x2000.png ",
+        "activo": true
     },
     {
         "id": 340,
         "codigo": "JLC0055",
         "nombre": "PINOLINA FRUTOS ROJOS X 2000 CJ X 6 UND *",
         "precio": 11648,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-frutos-rojos-x2000.png ",
+        "activo": true
     },
     {
         "id": 341,
         "codigo": "JLC0056",
         "nombre": "PINOLINA LAVANDA X 2000 CJ X 6 UND *",
         "precio": 11648,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-lavanda-x2000.png ",
+        "activo": true
     },
     {
         "id": 342,
         "codigo": "JLC0057",
         "nombre": "PINOLINA VAINILLA X 2000 CJ X 6",
         "precio": 11648,
-        "imagen": ""
+        "imagen": " ./img_catalogo/cofarma/pinolina-vainilla-x2000.png ",
+        "activo": false
     },
     {
         "id": 343,
         "codigo": "JLC0058",
         "nombre": "PINOLINA CITRONELA GALON CJ X 4 *",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 18196,
+        "imagen": " ./img_catalogo/cofarma/pinolina-citronela-galon.png ",
+        "activo": true
     },
     {
         "id": 344,
         "codigo": "JLC0059",
         "nombre": "PINOLINA GALON CANELA CJ X 4 *",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 18196,
+        "imagen": " ./img_catalogo/cofarma/pinolina-canela-galon.png ",
+        "activo": true
     },
     {
         "id": 345,
         "codigo": "JLC0060",
         "nombre": "PINOLINA GALON LAVANDA CJ X 4 *",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 18196,
+        "imagen": " ./img_catalogo/cofarma/pinolina-lavanda-galon.png ",
+        "activo": true
     },
     {
         "id": 346,
         "codigo": "JLC0061",
         "nombre": "PINOLINA GALON VAINILLA CJ  X 4",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 18195,
+        "imagen": " ./img_catalogo/cofarma/pinolina-vainilla-galon.png ",
+        "activo": true
     },
     {
         "id": 347,
         "codigo": "JLC0062",
         "nombre": "PINOLINA 5000 ML CANELA",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 19960,
+        "imagen": " ./img_catalogo/cofarma/pinolina-canela-5000.png ",
+        "activo": true
     },
     {
         "id": 348,
         "codigo": "JLC0063",
         "nombre": "PINOLINA 5000 ML CITRONELA",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 19960,
+        "imagen": " ./img_catalogo/cofarma/pinolina-citronela-5000.png ",
+        "activo": true
     },
     {
         "id": 349,
         "codigo": "JLC0064",
         "nombre": "PINOLINA 5000 ML LAVANDA",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 19960,
+        "imagen": " ./img_catalogo/cofarma/pinolina-lavanda-5000.png ",
+        "activo": true
     },
     {
         "id": 350,
         "codigo": "JLC0065",
         "nombre": "PINOLINA DOY PACK CANELA X 200 ML CJ X 48 *",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 1353,
+        "imagen": " ./img_catalogo/cofarma/pinolina-canela-x200.png ",
+        "activo": true
     },
     {
         "id": 351,
         "codigo": "JLC0066",
         "nombre": "PINOLINA DOY PACK CITRONELA X 200 ML CJ X 48 *",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 1353,
+        "imagen": " ./img_catalogo/cofarma/pinolina-citronela-x200.png ",
+        "activo": true
     },
     {
         "id": 352,
         "codigo": "JLC0067",
         "nombre": "PINOLINA DOY PACK FRUTOS ROJOS X 200 CJ X 48*",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 1353,
+        "imagen": " ./img_catalogo/cofarma/pinolina-frutos-rojos-x200.png ",
+        "activo": true
     },
     {
         "id": 353,
         "codigo": "JLC0068",
         "nombre": "PINOLINA DOY PACK LAVANDA X 200 ML CJ X 48 *",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 1353,
+        "imagen": " ./img_catalogo/cofarma/pinolina-lavanda-x200.png ",
+        "activo": true
     },
     {
         "id": 354,
         "codigo": "JLC0069",
         "nombre": "RAYOL MATATODO X 230 ML CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 7260,
+        "imagen": " ./img_catalogo/cofarma/rayol-matatodo-x230.png ",
+        "activo": true
     },
     {
         "id": 355,
         "codigo": "JLC0070",
         "nombre": "RAYOL VOLADORES X 230 ML CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 6934,
+        "imagen": " ./img_catalogo/cofarma/rayol-voladores-x230.png ",
+        "activo": true
     },
     {
         "id": 356,
         "codigo": "JLC0071",
         "nombre": "RAYOL MATATODO X 400 ML CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 12037,
+        "imagen": " ./img_catalogo/cofarma/rayol-matatodo-x400.png ",
+        "activo": true
     },
     {
         "id": 357,
         "codigo": "JLC0072",
         "nombre": "RAYOL RASTREROS X 400 ML CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 12159,
+        "imagen": " ./img_catalogo/cofarma/rayol-rastreros-x400.png ",
+        "activo": true
     },
     {
         "id": 358,
         "codigo": "JLC0073",
         "nombre": "RAYOL VOLADORES X 400 ML CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 10380,
+        "imagen": " ./img_catalogo/cofarma/rayol-voladores-x400.png ",
+        "activo": true
     },
     {
         "id": 359,
         "codigo": "JLC0074",
         "nombre": "TERGO GLOP  X 3 LAVANDA CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 12242,
+        "imagen": " ./img_catalogo/cofarma/tergo-lavanda-x3.png ",
+        "activo": true
     },
     {
         "id": 360,
         "codigo": "JLC0075",
         "nombre": "TERGO GLOP X 3 PINO CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 12242,
+        "imagen": " ./img_catalogo/cofarma/tergo-pino-x3.png ",
+        "activo": true
     },
     {
         "id": 361,
         "codigo": "JLC0076",
         "nombre": "TERGO GLOP CITRUS X 1 CJ X 24",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 4871,
+        "imagen": " ./img_catalogo/cofarma/tergo-citrus-x1.png ",
+        "activo": true
     },
     {
         "id": 362,
         "codigo": "JLC0077",
         "nombre": "TERGO GLOP LAVANDA X 1 CJ X 24",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 4871,
+        "imagen": " ./img_catalogo/cofarma/tergo-lavanda-x1.png ",
+        "activo": true
     },
     {
         "id": 363,
         "codigo": "JLC0078",
         "nombre": "TERGO GLOP PINO X 1 CJ X 24",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 4871,
+        "imagen": " ./img_catalogo/cofarma/tergo-pino-x1.png ",
+        "activo": true
     },
     {
         "id": 364,
         "codigo": "JLC0079",
         "nombre": "VARITAS BAMBU X 40 CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 6735,
+        "imagen": " ./img_catalogo/cofarma/varitas-bambu-x40.png ",
+        "activo": true
     },
     {
         "id": 365,
         "codigo": "JLC0080",
         "nombre": "VARITAS FRUTOS ROJOSX40 ML",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 6735,
+        "imagen": " ./img_catalogo/cofarma/varitas-frutos-rojos-x40.png ",
+        "activo": true
     },
     {
         "id": 366,
         "codigo": "JLC0081",
         "nombre": "VARITAS MANZANA CANELA X  40 ML",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 5612,
+        "imagen": " ./img_catalogo/cofarma/varitas-manzana-canala-x40.png ",
+        "activo": true
     },
     {
         "id": 367,
         "codigo": "JLC0082",
         "nombre": "VARITAS VAINILLA X 40 ML",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 6735,
+        "imagen": " ./img_catalogo/cofarma/varitas-vainilla-x40.png ",
+        "activo": true
     },
     {
         "id": 368,
         "codigo": "JLC0083",
         "nombre": "VARITAS ARMONIA FLORAL X 80 ML CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 12358,
+        "imagen": " ./img_catalogo/cofarma/varitas-armonia-floral-x80.png ",
+        "activo": true
     },
     {
         "id": 369,
         "codigo": "JLC0084",
         "nombre": "VARITAS BAMBU X 80 ML CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 12358,
+        "imagen": " ./img_catalogo/cofarma/varitas-bambu-x80.png ",
+        "activo": true
     },
     {
         "id": 370,
         "codigo": "JLC0085",
         "nombre": "VARITAS FRUTOS ROJOS X 80 ML CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 12358,
+        "imagen": " ./img_catalogo/cofarma/varitas-frutos-rojos-x80.png ",
+        "activo": true
     },
     {
         "id": 371,
         "codigo": "JLC0086",
         "nombre": "VARITAS GRANADILLA X 80 ML CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 12358,
+        "imagen": " ./img_catalogo/cofarma/varitas-granadilla-x80.png ",
+        "activo": true
     },
     {
         "id": 372,
         "codigo": "JLC0087",
         "nombre": "VARITAS LAVANDA MANZANILLA X 80 ML",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 12358,
+        "imagen": " ./img_catalogo/cofarma/varitas-lavanda-x80.png ",
+        "activo": true
     },
     {
         "id": 373,
         "codigo": "JLC0088",
         "nombre": "VARITAS MANZANA CANELA X 80 ML CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 12358,
+        "imagen": " ./img_catalogo/cofarma/varitas-manzana-canela-x80.png ",
+        "activo": true
     },
     {
         "id": 374,
         "codigo": "JLC0089",
         "nombre": "VARITAS VAINILLA X 80 ML CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "precio": 12358,
+        "imagen": " ./img_catalogo/cofarma/varitas-vainilla-x80.png ",
+        "activo": true
     },
     {
         "id": 375,
         "codigo": "JLC0090",
-        "nombre": "VARITAS ARMONIA FLORAL X 80 ML CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "nombre": "VARITAS SECAS MORA FRAMBUESA CJ X 12",
+        "precio": 9149,
+        "imagen": "./img_catalogo/cofarma/varitas-secas-mora-frambuesa.png ",
+        "activo": true
     },
     {
         "id": 376,
         "codigo": "JLC0091",
-        "nombre": "VARITAS SECAS MORA FRAMBUESA CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "nombre": "ALASKA VARSOL SIN OLOR X 460 CJ X 12",
+        "precio": 11950,
+        "imagen": " ./img_catalogo/cofarma/alaska-varsol-sin-olor-x460.png ",
+        "activo": true
     },
     {
         "id": 377,
         "codigo": "JLC0092",
-        "nombre": "ALASKA VARSOL SIN OLOR X 460 CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
+        "nombre": "ALASKA VARSOL X 960 ML SIN OLOR",
+        "precio": 20204,
+        "imagen": " ./img_catalogo/cofarma/alaska-varsol-sin-olor-x960.png ",
+        "activo": true
     },
     {
         "id": 378,
         "codigo": "JLC0093",
-        "nombre": "ALASKA VARSOL X 960 ML SIN OLOR",
-        "precio": "#N/D",
-        "imagen": ""
+        "nombre": "ALASKA ALMIDON X 500 ML DOY PACK",
+        "precio": 4917,
+        "imagen": " ./img_catalogo/cofarma/almidon-alaska-doy-pack-x500.png ",
+        "activo": true
     },
     {
         "id": 379,
         "codigo": "JLC0094",
-        "nombre": "ALASKA ALMIDON X 500 ML DOY PACK",
-        "precio": "#N/D",
-        "imagen": ""
+        "nombre": "ALASKA ALMINDON X 1000 PISTOLA CJ X 12",
+        "precio": 12384,
+        "imagen": " ./img_catalogo/cofarma/almidon-alaska-pistola-x1000.png ",
+        "activo": true
     },
     {
         "id": 380,
-        "codigo": "JLC0095",
-        "nombre": "ALASKA ALMINDON X 1000 PISTOLA CJ X 12",
-        "precio": "#N/D",
-        "imagen": ""
-    },
-    {
-        "id": 381,
         "codigo": "JLH0001",
         "nombre": "CEBADA PERLADA 500 GR PACA X25",
         "precio": 2479,
-        "imagen": ""
+        "imagen": " ./img_catalogo/doris-patricia-fonseca/cebada-perlada-500.png ",
+        "activo": true
     },
     {
-        "id": 382,
+        "id": 381,
         "codigo": "JLH0002",
         "nombre": "CUCHUCO CEBADA 500 GR PACA X 25 UND",
         "precio": 2479,
-        "imagen": ""
+        "imagen": "./img_catalogo/doris-patricia-fonseca/cuchuco-de-cebada-500.png ",
+        "activo": true
     },
     {
-        "id": 383,
+        "id": 382,
         "codigo": "JLH0003",
         "nombre": "CUCHUCO DE MAIZ 500 GR PACA X 25 UND",
         "precio": 2261,
-        "imagen": ""
+        "imagen": "./img_catalogo/doris-patricia-fonseca/cuchuco-de-maiz-500.png ",
+        "activo": true
     },
     {
-        "id": 384,
+        "id": 383,
         "codigo": "JLH0004",
         "nombre": "CUCHUCO DE TRIGO 500 GR PACA X 25 UND",
         "precio": 1731,
-        "imagen": ""
+        "imagen": "./img_catalogo/doris-patricia-fonseca/cuchuco-de-trigo-500.png ",
+        "activo": true
     },
     {
-        "id": 385,
+        "id": 384,
         "codigo": "JLH0005",
         "nombre": "HARINA DE MAIZ  PINTADO 500 GR PACA X 25 UND",
         "precio": 1796,
-        "imagen": ""
+        "imagen": " ./img_catalogo/doris-patricia-fonseca/harina-de-maiz-pintado-500.png ",
+        "activo": true
     },
     {
-        "id": 386,
+        "id": 385,
         "codigo": "JLH0006",
         "nombre": "HARINA DE MAIZ AMARILLA X 500 PC X 25",
         "precio": 1434,
-        "imagen": ""
+        "imagen": " ./img_catalogo/doris-patricia-fonseca/harina-de-maiz-amarilla-500.png ",
+        "activo": true
     },
     {
-        "id": 387,
+        "id": 386,
         "codigo": "JLH0007",
         "nombre": "HARINA DE MAIZ BLANCO X 500 GR PC X  25",
         "precio": 1561,
-        "imagen": ""
+        "imagen": " ./img_catalogo/doris-patricia-fonseca/harina-de-maiz-blanco-500.png ",
+        "activo": true
     },
     {
-        "id": 388,
+        "id": 387,
         "codigo": "JLT0001",
         "nombre": "GUANTE  DOMESTICO TALLA 7",
         "precio": 3327,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 389,
+        "id": 388,
         "codigo": "JLT0002",
         "nombre": "GUANTE DOMESTICO TALLA 7 1/2 *",
         "precio": 3327,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 390,
+        "id": 389,
         "codigo": "JLT0003",
         "nombre": "GUANTE DOMESTICO TALLA 8 *",
         "precio": 3327,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 391,
+        "id": 390,
         "codigo": "JLT0004",
         "nombre": "GUANTE DOMESTICO TALLA 8 1/2 *",
         "precio": 3327,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 392,
+        "id": 391,
         "codigo": "JLT0005",
         "nombre": "GUANTE DOMESTICO TALLA 9 *",
         "precio": 3327,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 393,
+        "id": 392,
         "codigo": "JLT0006",
         "nombre": "GUANTE CALIBRE 25 TALLA 7",
         "precio": 3462,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 394,
+        "id": 393,
         "codigo": "JLT0007",
         "nombre": "GUANTE CALIBRE 25 TALLA 7 1/2 *",
         "precio": 3462,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 395,
+        "id": 394,
         "codigo": "JLT0008",
         "nombre": "GUANTE CALIBRE 25 TALLA 8 *",
         "precio": 3462,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 396,
+        "id": 395,
         "codigo": "JLT0009",
         "nombre": "GUANTE CALIBRE 25 TALLA 8 1/2 *",
         "precio": 3462,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 397,
+        "id": 396,
         "codigo": "JLT0010",
         "nombre": "GUANTE CALIBRE 25 TALLA 9 *",
         "precio": 3462,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 398,
+        "id": 397,
         "codigo": "JLT0011",
         "nombre": "GUANTE CALIBRE 35 TALLA 7",
         "precio": 4952,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 399,
+        "id": 398,
         "codigo": "JLT0012",
         "nombre": "GUANTE CALIBRE 35 TALLA 7 1/2 *",
         "precio": 4952,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 400,
+        "id": 399,
         "codigo": "JLT0013",
         "nombre": "GUANTE CALIBRE 35 TALLA 8 *",
         "precio": 4952,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 401,
+        "id": 400,
         "codigo": "JLT0014",
         "nombre": "GUANTE CALIBRE 35 TALLA 8 1/2 *",
         "precio": 4952,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 402,
+        "id": 401,
         "codigo": "JLT0015",
         "nombre": "GUANTE CALIBRE 35 TALLA 9 *",
         "precio": 4952,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 403,
+        "id": 402,
         "codigo": "JMB0001",
         "nombre": "VITACHOCOLATE X 500 GR EN BARRA CJ X 50 UND",
         "precio": 8514,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 404,
+        "id": 403,
         "codigo": "JMB0002",
         "nombre": "VITACHOCOLATE X 250 GR EN BARRA CJ X 50 UND",
         "precio": 4344,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 405,
+        "id": 404,
         "codigo": "JMN0001",
         "nombre": "SAL MI SAL X 500 PC X 25",
         "precio": 819,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 406,
+        "id": 405,
         "codigo": "JMN0002",
         "nombre": "SAL MI SAL  X 1000 PC X 20",
         "precio": 1565,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 407,
+        "id": 406,
         "codigo": "JMN0003",
         "nombre": "JABON BIG BLU CUADRADO X 300 G CJ X 25",
         "precio": 1547,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 408,
+        "id": 407,
         "codigo": "JMN0004",
         "nombre": "JABON BIG BLU CUADRADO X 3 CJ X 16",
         "precio": 4641,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 409,
+        "id": 408,
         "codigo": "JPD0001",
         "nombre": "PROTECTOR  X 15 PRECIO ESPECIAL CAJA X 36",
         "precio": 3161,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 410,
+        "id": 409,
         "codigo": "JPD0002",
         "nombre": "PROTECTOR ELLAS ANATOMICO PAGUE 160 LLEV 180 CJ X 10",
         "precio": 14217,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 411,
+        "id": 410,
         "codigo": "JPD0003",
         "nombre": "PROTECTOR X 30 PRECIO ESPECIAL CAJA X 18",
         "precio": 6084,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 412,
+        "id": 411,
         "codigo": "JPD0006",
         "nombre": "TOALLA NOCTURNA + NOCTURNA PC X 18",
         "precio": 6610,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 413,
+        "id": 412,
         "codigo": "JPD0007",
         "nombre": "TOALLAS ELLAS CON ALAS  PC X 24 (VERDE)",
         "precio": 4304,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 414,
+        "id": 413,
         "codigo": "JPD0011",
         "nombre": "TOALLA NOCTURNA +DELGADA PC X 24",
         "precio": 4262,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 415,
+        "id": 414,
         "codigo": "JPD0012",
         "nombre": "TOALLA ELLAS DESGADAS X 40 UND PCA X 12",
         "precio": 8411,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 416,
+        "id": 415,
         "codigo": "JPD0013",
         "nombre": "TOALLA ELLAS DELGA. NARANJA  PAGUE 10 LLEVE 20 PC X 24",
         "precio": 5060,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
+    },
+    {
+        "id": 416,
+        "codigo": "JPD0016",
+        "nombre": "PROTECTOR ELLAS X 10 PACA X 144 UND",
+        "precio": 1053,
+        "imagen": "",
+        "activo": true
     },
     {
         "id": 417,
-        "codigo": "JPD0016",
-        "nombre": "PROTECTOR ELLAS X 10 PACA X 72 UND",
-        "precio": 1053,
-        "imagen": ""
-    },
-    {
-        "id": 418,
         "codigo": "JPD0018",
         "nombre": "JABON INTIMO ELLAS X 200 ML CAJA X 12 UND",
         "precio": 6992,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 419,
+        "id": 418,
         "codigo": "JPD0023",
         "nombre": "TOALLAS ELLAS CON ALAS PACA X 48 (VERDE)",
         "precio": 2298,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 420,
+        "id": 419,
         "codigo": "JPN0001",
         "nombre": "PAPELS ROSAL XXG 12 PAQUETES X 4 ROLLOS",
         "precio": 6902,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 421,
+        "id": 420,
         "codigo": "JPN0002",
         "nombre": "PAPELS ROSAL XXG 4 PAQUETES X 12 ROLLOS",
         "precio": 16561,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 422,
+        "id": 421,
         "codigo": "JPN0003",
         "nombre": "PAPELS ROSAL XXG 3 PAQUETES X 15 ROLLOS",
         "precio": 21551,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 423,
+        "id": 422,
         "codigo": "JPN0004",
         "nombre": "PAPELS ROSAL XG 12 PAQUETES X 4 ROLLOS",
         "precio": 5682,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 424,
+        "id": 423,
         "codigo": "JPN0005",
         "nombre": "PAPELS ROSAL XG 4 PAQUETES X 12 ROLLOS X 25 MTS",
         "precio": 12965,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 425,
+        "id": 424,
         "codigo": "JPN0006",
         "nombre": "PAPELS SUAVE GOLD 12 PAQUETES X 4 ROLLOS",
         "precio": 9119,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 426,
+        "id": 425,
         "codigo": "JPN0007",
         "nombre": "PAPELS SUAVE GOLD 4 PAQUETES X 12 ROLLOS",
         "precio": 25516,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 427,
+        "id": 426,
         "codigo": "JPN0008",
         "nombre": "TOALLA DE COCINA FAVORITA CJ X 24",
         "precio": 1714,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 428,
+        "id": 427,
         "codigo": "JPN0009",
         "nombre": "TOALLA DE COCINA FAVORITA POR X 3  CJ X 8",
         "precio": 5040,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 429,
+        "id": 428,
         "codigo": "JPN0010",
         "nombre": "PAÑUELO FACIAL SUAVE PEQUEÑO CJ X 18",
         "precio": 3450,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 430,
+        "id": 429,
         "codigo": "JPN0011",
         "nombre": "PAÑUELO FACIAL SUAVE BOLSILLO 30 PAQUETES X 4 UNIDADES",
         "precio": 3195,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 431,
+        "id": 430,
         "codigo": "JPN0012",
         "nombre": "PAÑAL BEBE DREAMS ETAPA 3 TALLA G PACA X 8",
         "precio": 23717,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 432,
+        "id": 431,
         "codigo": "JPN0013",
         "nombre": "PAÑAL BEBE DREAMS ETAPA 4 TALLA XG PACA X 8",
         "precio": 29889,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 433,
+        "id": 432,
         "codigo": "JPN0014",
         "nombre": "TOALLA HIGIENICA SUAVE NOCTURNA MIX CJ X 24",
         "precio": 3000,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 434,
+        "id": 433,
         "codigo": "JPN0015",
         "nombre": "TOALLA HIGIENICA SUAVE DELGADA MIX CJ X 36",
         "precio": 2572,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 435,
+        "id": 434,
         "codigo": "JPN0016",
         "nombre": "PROTECTOR DIARIO SUAVE X 15 CJ X 36",
         "precio": 1321,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 436,
+        "id": 435,
         "codigo": "JPN0017",
         "nombre": "PAPELS ROSAL XXG POR UNIDAD",
         "precio": 1582,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 437,
+        "id": 436,
         "codigo": "JPN0018",
         "nombre": "PAPELS ROSAL G POR UNIDAD",
         "precio": 1139,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 438,
+        "id": 437,
         "codigo": "JPN0019",
         "nombre": "PAPELS ROSAL G 4 PAQUETES X 12 ROLLOS",
         "precio": 12731,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 439,
+        "id": 438,
         "codigo": "JPN0020",
         "nombre": "PAPELS ROSAL XXG 8 PAQUETES X 6 ROLLOS",
         "precio": 8212,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 440,
+        "id": 439,
         "codigo": "JPN0021",
         "nombre": "SERVILLETA FAVORITA X 300  CJ X 15",
         "precio": 3619,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 441,
+        "id": 440,
         "codigo": "JPN0022",
         "nombre": "SERVILLETA SUAVE GOLD  X 40  CJ X 24",
         "precio": 4748,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 442,
+        "id": 441,
         "codigo": "JPN0023",
         "nombre": "SERVILLETA ROSAL X 100 CJ X 30",
         "precio": 3357,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 443,
+        "id": 442,
         "codigo": "JPN0024",
         "nombre": "SERVILLETA ROSAL MEGAPACK CJ X 10",
         "precio": 9299,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 444,
+        "id": 443,
         "codigo": "JPN0025",
         "nombre": "SERVILLETA SUAVE GOLD  X 100  CJ X 24",
         "precio": 6014,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 445,
+        "id": 444,
         "codigo": "JPN0026",
         "nombre": "SERVILLETA FAVORITA CAFETERIA X 100 CJ X 30",
         "precio": 2121,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 446,
+        "id": 445,
         "codigo": "JPN0027",
         "nombre": "TOALLA COCINA ROSAL X 1 CJ X 12",
         "precio": 6501,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 447,
+        "id": 446,
         "codigo": "JPN0028",
         "nombre": "TOALLA COCINA ROSAL X 3 CJ X 4",
         "precio": 14801,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 448,
+        "id": 447,
         "codigo": "JPN0029",
         "nombre": "PAPEL ROSAL MAXIMO 4PAQUETES X 12 ROLLOS",
         "precio": 12001,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 449,
+        "id": 448,
         "codigo": "JPO0001",
         "nombre": "AREPASAN BLANCA X 1000 GR PC X 10",
         "precio": 2588,
-        "imagen": " ./img_catalogo/precocidos/arepasan-1000.png "
+        "imagen": " ./img_catalogo/precocidos/arepasan-1000.png ",
+        "activo": true
     },
     {
-        "id": 450,
+        "id": 449,
         "codigo": "JPO0002",
         "nombre": "AREPASAN BLANCA X 500 GR PC X 24",
         "precio": 1323,
-        "imagen": " ./img_catalogo/precocidos/arepasan-500.PNG "
+        "imagen": " ./img_catalogo/precocidos/arepasan-500.PNG ",
+        "activo": true
     },
     {
-        "id": 451,
+        "id": 450,
         "codigo": "JPO0003",
         "nombre": "HARINA LA MONJITA X 500 GR PC X 24",
         "precio": 1281,
-        "imagen": " ./img_catalogo/precocidos/harina-de-trigo-la-monjita-500.png "
+        "imagen": " ./img_catalogo/precocidos/harina-de-trigo-la-monjita-500.png ",
+        "activo": true
     },
     {
-        "id": 452,
+        "id": 451,
         "codigo": "JPO0005",
         "nombre": "MACARRON RIOKA X 250 PC X 24",
         "precio": 941,
-        "imagen": " ./img_catalogo/precocidos/pasta-macarron-250.jpg "
+        "imagen": " ./img_catalogo/precocidos/pasta-macarron-250.jpg ",
+        "activo": true
     },
     {
-        "id": 453,
+        "id": 452,
         "codigo": "JPO0006",
         "nombre": "FIDEOS RIOKA X 250 PC X 24",
         "precio": 941,
-        "imagen": " ./img_catalogo/precocidos/pasta-fideos-250.jpg "
+        "imagen": " ./img_catalogo/precocidos/pasta-fideos-250.jpg ",
+        "activo": true
     },
     {
-        "id": 454,
+        "id": 453,
         "codigo": "JPO0007",
         "nombre": "CONCHAS RIOKA X 250 PC X 24",
         "precio": 941,
-        "imagen": " ./img_catalogo/precocidos/psta-conchas-250.jpg "
+        "imagen": " ./img_catalogo/precocidos/psta-conchas-250.jpg ",
+        "activo": true
     },
     {
-        "id": 455,
+        "id": 454,
         "codigo": "JPO0008",
         "nombre": "SPAGUETTI RIOKA X 1000 PC X 12",
         "precio": 3758,
-        "imagen": " ./img_catalogo/precocidos/pasta-espaguetti-1000.jpg "
+        "imagen": " ./img_catalogo/precocidos/pasta-espaguetti-1000.jpg ",
+        "activo": true
     },
     {
-        "id": 456,
+        "id": 455,
         "codigo": "JPO0009",
         "nombre": "SPAGUETTI RIOKA X 250 PC X 24",
         "precio": 941,
-        "imagen": " ./img_catalogo/precocidos/pasta-espaguetti-250.jpg "
+        "imagen": " ./img_catalogo/precocidos/pasta-espaguetti-250.jpg ",
+        "activo": true
     },
     {
-        "id": 457,
+        "id": 456,
         "codigo": "JPO0010",
         "nombre": "FIDEOS RIOKA X 1000 PC X 6",
         "precio": 3758,
-        "imagen": " ./img_catalogo/precocidos/pasta-fideos-1000.jpg "
+        "imagen": " ./img_catalogo/precocidos/pasta-fideos-1000.jpg ",
+        "activo": true
     },
     {
-        "id": 458,
+        "id": 457,
         "codigo": "JPO0011",
         "nombre": "CONCHAS RIOKA X 1000 PC X 6",
         "precio": 3758,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 459,
+        "id": 458,
         "codigo": "JPO0012",
         "nombre": "MACARRON X 1000 PC X 6",
         "precio": 3758,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 460,
+        "id": 459,
         "codigo": "JPR0001",
         "nombre": "ARENA FELIGATO VALVULA X 4 KL PC X 6",
         "precio": 11877,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 461,
+        "id": 460,
         "codigo": "JPR0002",
         "nombre": "ARENA FELIGATO X 25 KL",
         "precio": 64635,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 462,
+        "id": 461,
         "codigo": "JPR0003",
         "nombre": "ARENA FELIGATO LAVANDA X 4,5 KL PC X 6",
         "precio": 14635,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 463,
+        "id": 462,
         "codigo": "JPR0006",
         "nombre": "ARENA FELIGATO X 8 KL PC X 4",
         "precio": 21961,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 464,
+        "id": 463,
         "codigo": "JPR0008",
         "nombre": "ARENA FELIGATO SIN VALVULA  X 4 KL PC X 6",
         "precio": 10487,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 465,
+        "id": 464,
         "codigo": "JPS0001",
         "nombre": "VINAGRE DE MANZANA X 500 ML CJ X 24",
         "precio": 1270,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 466,
+        "id": 465,
         "codigo": "JPS0002",
         "nombre": "VINAGRE BLANCO X 500 ML CJ X 24",
         "precio": 1270,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 467,
+        "id": 466,
         "codigo": "JPS0003",
         "nombre": "VINAGRE BLANCO X 3000 ML CJ X 6",
         "precio": 5081,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 468,
+        "id": 467,
         "codigo": "JPS0004",
         "nombre": "VINAGRE BLANCO X 1000 ML CJ X 12",
         "precio": 2542,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 469,
+        "id": 468,
         "codigo": "JPS0005",
         "nombre": "VINAGRE BLANCO X 5000 ML CJ X 4",
         "precio": 7622,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
-        "id": 470,
+        "id": 469,
         "codigo": "JPS0006",
         "nombre": "VINAGRE DE MANZANA X 3000 ML CJ X 6",
         "precio": 5081,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
+    },
+    {
+        "id": 470,
+        "codigo": "JPS0007",
+        "nombre": "VINAGRE DE MANZANA X 1000 ML CJ X 12",
+        "precio": 2542,
+        "imagen": "",
+        "activo": true
     },
     {
         "id": 471,
         "codigo": "JPS0009",
         "nombre": "SALSA DE AJI CJ X 12",
         "precio": 2562,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
         "id": 472,
         "codigo": "JRR0001",
         "nombre": "TISANAS SURTIDA PC X 24 UND",
         "precio": 39909,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
         "id": 473,
         "codigo": "JRR0002",
         "nombre": "AROMATICA PANELA FRUTOS ROJOS PC X 12",
         "precio": 3630,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
         "id": 474,
         "codigo": "JRR0003",
         "nombre": "AROMATICA PANELA SURTIDA PC X 12DP",
         "precio": 3630,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
         "id": 475,
         "codigo": "JRR0005",
         "nombre": "AROMATICA PANELA MARACUYA X 12",
         "precio": 3630,
-        "imagen": ""
+        "imagen": "",
+        "activo": true
     },
     {
         "id": 476,
         "codigo": "JRS0006",
         "nombre": "MEGA NATILLA AREQUIPE X 300 CJ X 20 UND",
         "precio": 2911,
-        "imagen": " ./img_catalogo/temporada/mega-natilla-arequipe.jpg "
+        "imagen": " ./img_catalogo/temporada/mega-natilla-arequipe.jpg ",
+        "activo": true
     },
     {
         "id": 477,
         "codigo": "JRS0007",
         "nombre": "MEGA NATILLA MARACUYA X 300 CAJA X 20 UND",
         "precio": 2911,
-        "imagen": " ./img_catalogo/temporada/mega-natilla-maracuya.jpg "
+        "imagen": " ./img_catalogo/temporada/mega-natilla-maracuya.jpg ",
+        "activo": true
     },
     {
         "id": 478,
         "codigo": "JRS0008",
         "nombre": "MEGA NATILLA COCO X 300 CAJA X 20 UND",
         "precio": 2911,
-        "imagen": " ./img_catalogo/temporada/mega-natilla-coco.jpg "
+        "imagen": " ./img_catalogo/temporada/mega-natilla-coco.jpg ",
+        "activo": true
     },
     {
         "id": 479,
         "codigo": "JRS0009",
         "nombre": "MEGA NATILLA TRACIONAL X 300 CAJA X 20 UND",
         "precio": 2911,
-        "imagen": " ./img_catalogo/temporada/mega-natilla-tradicional.jpg "
+        "imagen": " ./img_catalogo/temporada/mega-natilla-tradicional.jpg ",
+        "activo": true
     },
     {
         "id": 480,
         "codigo": "JRS0010",
         "nombre": "MEGA BUÑUELOS X 300 GR CAJA X 20 UND",
         "precio": 2911,
-        "imagen": " ./img_catalogo/temporada/mega-buñuelo.jpg "
+        "imagen": " ./img_catalogo/temporada/mega-buñuelo.jpg ",
+        "activo": true
     },
     {
         "id": 481,
         "codigo": "JVN0001",
         "nombre": "GELATINA FRUT DAY X 250 CJ X  50",
         "precio": 4329,
-        "imagen": " ./img_catalogo/ventas-nacionales/gelatina-frutday-250.png "
+        "imagen": " ./img_catalogo/ventas-nacionales/gelatina-frutday-250.png ",
+        "activo": true
     },
     {
         "id": 482,
         "codigo": "JVN0002",
         "nombre": "GELATINA FRUT DAY X 500 CJ X 50",
         "precio": 8658,
-        "imagen": " ./img_catalogo/ventas-nacionales/gelatina-frutday-500.png "
+        "imagen": " ./img_catalogo/ventas-nacionales/gelatina-frutday-500.png ",
+        "activo": true
     },
     {
         "id": 483,
         "codigo": "JVN0003",
         "nombre": "GELATINA FRUT DAY X 1000 CJ  X 25",
         "precio": 17318,
-        "imagen": " ./img_catalogo/ventas-nacionales/gelatina-frutday-1000.png "
+        "imagen": " ./img_catalogo/ventas-nacionales/gelatina-frutday-1000.png ",
+        "activo": true
     },
     {
         "id": 484,
         "codigo": "JVN0004",
         "nombre": "GELATINA FRUT DAY X 105 GR 3 SABORES CJ X 32",
         "precio": 3171,
-        "imagen": " ./img_catalogo/ventas-nacionales/gelatina-frutday-cajita.png"
+        "imagen": " ./img_catalogo/ventas-nacionales/gelatina-frutday-cajita.png",
+        "activo": true
     }
 ]

@@ -23,10 +23,11 @@ fetch("products.json")
   .catch((error) => console.error("Error cargando los productos:", error));
 
 function displayProducts(productsList) {
-  filteredProducts = productsList; // Guardamos la lista filtrada
+  // Filtrar solo productos activos
+  filteredProducts = productsList.filter(product => product.activo);
   const startIndex = (currentPage - 1) * productsPerPage;
   const endIndex = startIndex + productsPerPage;
-  const paginatedProducts = productsList.slice(startIndex, endIndex);
+  const paginatedProducts = filteredProducts.slice(startIndex, endIndex);
   
   productsContainer.innerHTML = "";
   
@@ -57,8 +58,8 @@ function displayProducts(productsList) {
     productsContainer.appendChild(productDiv);
   });
 
-  // Agregar controles de paginación
-  displayPagination(productsList.length);
+  // Agregar controles de paginación con la nueva lista filtrada
+  displayPagination(filteredProducts.length);
 }
 
 function displayPagination(totalProducts) {
@@ -219,10 +220,12 @@ const sendWhatsAppOrder = () => {
 sendWhatsAppButton.addEventListener("click", sendWhatsAppOrder);
 searchInput.addEventListener("input", () => {
   const searchTerm = searchInput.value.toLowerCase();
-  currentPage = 1; // Resetear a la primera página al buscar
+  currentPage = 1;
   const filteredProducts = products.filter(product =>
-    product.nombre.toLowerCase().includes(searchTerm) ||
-    product.codigo.toLowerCase().includes(searchTerm)
+    product.activo && (
+      product.nombre.toLowerCase().includes(searchTerm) ||
+      product.codigo.toLowerCase().includes(searchTerm)
+    )
   );
   displayProducts(filteredProducts);
 });
@@ -237,10 +240,6 @@ function removeFromCart(id) {
   cart = cart.filter((item) => item.id !== id);
   updateCart();
 }
-
-// Inicializar la aplicación
-loadProducts();
-
 
 // Explicación de las mejoras y funciones:
 // 1. Organización del código:

@@ -4,7 +4,7 @@
 Sistema web para la gestión y toma de pedidos desarrollado para SURA. Permite visualizar productos, crear órdenes y gestionar pedidos de manera eficiente.
 
 ## Estructura del Proyecto 
-```
+```bash
 ├toma-pedidos-sura/
 ├── index.html
 ├── css/
