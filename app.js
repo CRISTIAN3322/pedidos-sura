@@ -208,7 +208,7 @@ const sendWhatsAppOrder = () => {
     descripcion ? `%0A%0ANotas adicionales:%0A${descripcion}` : ''
   }`;
 
-  window.open(`https://wa.me/573045428015?text=${message}`, "_blank");
+  window.open(`https://wa.me/573223184865?text=${message}`, "_blank");
   
   // Limpiar datos después de enviar
   cart = [];
