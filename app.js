@@ -15,27 +15,27 @@ let filteredProducts = [];
 
 // Cargar productos desde JSON
 fetch("products.json")
-  .then((response) => response.json())
-  .then((data) => {
-    products = data;
-    displayProducts(products);
-  })
-  .catch((error) => console.error("Error cargando los productos:", error));
+    .then((response) => response.json())
+    .then((data) => {
+        products = data;
+        displayProducts(products);
+    })
+    .catch((error) => console.error("Error cargando los productos:", error));
 
 function displayProducts(productsList) {
-  // Filtrar solo productos activos
-  filteredProducts = productsList.filter(product => product.activo);
-  const startIndex = (currentPage - 1) * productsPerPage;
-  const endIndex = startIndex + productsPerPage;
-  const paginatedProducts = filteredProducts.slice(startIndex, endIndex);
-  
-  productsContainer.innerHTML = "";
-  
-  // Mostrar productos de la página actual
-  paginatedProducts.forEach((product) => {
-    const productDiv = document.createElement("div");
-    productDiv.classList.add("product");
-    productDiv.innerHTML = `
+    // Filtrar solo productos activos
+    filteredProducts = productsList.filter(product => product.activo);
+    const startIndex = (currentPage - 1) * productsPerPage;
+    const endIndex = startIndex + productsPerPage;
+    const paginatedProducts = filteredProducts.slice(startIndex, endIndex);
+
+    productsContainer.innerHTML = "";
+
+    // Mostrar productos de la página actual
+    paginatedProducts.forEach((product) => {
+        const productDiv = document.createElement("div");
+        productDiv.classList.add("product");
+        productDiv.innerHTML = `
         <img src="${product.imagen}" alt="${product.nombre}">
         <h3>${product.nombre}</h3>
         <p>Código: ${product.codigo}</p>
@@ -55,83 +55,83 @@ function displayProducts(productsList) {
           </button>
         </div>
       `;
-    productsContainer.appendChild(productDiv);
-  });
+        productsContainer.appendChild(productDiv);
+    });
 
-  // Agregar controles de paginación con la nueva lista filtrada
-  displayPagination(filteredProducts.length);
+    // Agregar controles de paginación con la nueva lista filtrada
+    displayPagination(filteredProducts.length);
 }
 
 function displayPagination(totalProducts) {
-  const totalPages = Math.ceil(totalProducts / productsPerPage);
-  const paginationDiv = document.createElement("div");
-  paginationDiv.classList.add("pagination");
-  
-  // Botón anterior
-  const prevButton = document.createElement("button");
-  prevButton.innerText = "Anterior";
-  prevButton.disabled = currentPage === 1;
-  prevButton.onclick = () => {
-    if (currentPage > 1) {
-      currentPage--;
-      displayProducts(filteredProducts);
-    }
-  };
-  
-  // Input para número de página
-  const pageInput = document.createElement("input");
-  pageInput.type = "number";
-  pageInput.min = 1;
-  pageInput.max = totalPages;
-  pageInput.value = currentPage;
-  pageInput.classList.add("page-input");
-  
-  // Manejar cambio de página mediante input
-  pageInput.onchange = (e) => {
-    let newPage = parseInt(e.target.value);
-    if (newPage < 1) newPage = 1;
-    if (newPage > totalPages) newPage = totalPages;
-    currentPage = newPage;
-    displayProducts(filteredProducts);
-  };
-  
-  // Información del total de páginas
-  const pageInfo = document.createElement("span");
-  pageInfo.innerText = `de ${totalPages}`;
-  
-  // Botón siguiente
-  const nextButton = document.createElement("button");
-  nextButton.innerText = "Siguiente";
-  nextButton.disabled = currentPage === totalPages;
-  nextButton.onclick = () => {
-    if (currentPage < totalPages) {
-      currentPage++;
-      displayProducts(filteredProducts);
-    }
-  };
-  
-  paginationDiv.appendChild(prevButton);
-  paginationDiv.appendChild(pageInput);
-  paginationDiv.appendChild(pageInfo);
-  paginationDiv.appendChild(nextButton);
-  
-  productsContainer.appendChild(paginationDiv);
+    const totalPages = Math.ceil(totalProducts / productsPerPage);
+    const paginationDiv = document.createElement("div");
+    paginationDiv.classList.add("pagination");
+
+    // Botón anterior
+    const prevButton = document.createElement("button");
+    prevButton.innerText = "Anterior";
+    prevButton.disabled = currentPage === 1;
+    prevButton.onclick = () => {
+        if (currentPage > 1) {
+            currentPage--;
+            displayProducts(filteredProducts);
+        }
+    };
+
+    // Input para número de página
+    const pageInput = document.createElement("input");
+    pageInput.type = "number";
+    pageInput.min = 1;
+    pageInput.max = totalPages;
+    pageInput.value = currentPage;
+    pageInput.classList.add("page-input");
+
+    // Manejar cambio de página mediante input
+    pageInput.onchange = (e) => {
+        let newPage = parseInt(e.target.value);
+        if (newPage < 1) newPage = 1;
+        if (newPage > totalPages) newPage = totalPages;
+        currentPage = newPage;
+        displayProducts(filteredProducts);
+    };
+
+    // Información del total de páginas
+    const pageInfo = document.createElement("span");
+    pageInfo.innerText = `de ${totalPages}`;
+
+    // Botón siguiente
+    const nextButton = document.createElement("button");
+    nextButton.innerText = "Siguiente";
+    nextButton.disabled = currentPage === totalPages;
+    nextButton.onclick = () => {
+        if (currentPage < totalPages) {
+            currentPage++;
+            displayProducts(filteredProducts);
+        }
+    };
+
+    paginationDiv.appendChild(prevButton);
+    paginationDiv.appendChild(pageInput);
+    paginationDiv.appendChild(pageInfo);
+    paginationDiv.appendChild(nextButton);
+
+    productsContainer.appendChild(paginationDiv);
 }
 
 // También necesitamos modificar la función addToCart para aceptar la cantidad
 function addToCart(id, codigo, nombre, precio, cantidad) {
-  cantidad = parseInt(cantidad);
-  const product = cart.find((item) => item.id === id);
-  if (product) {
-    product.cantidad += cantidad;
-  } else {
-    cart.push({ id, codigo, nombre, precio, cantidad });
-  }
-  updateCart();
+    cantidad = parseInt(cantidad);
+    const product = cart.find((item) => item.id === id);
+    if (product) {
+        product.cantidad += cantidad;
+    } else {
+        cart.push({ id, codigo, nombre, precio, cantidad });
+    }
+    updateCart();
 }
 
 function updateCart() {
-  cartContainer.innerHTML = `
+    cartContainer.innerHTML = `
     <div class="pedido">
       <div class="descripcion-pedido">
         <label for="descripcion">Descripción adicional:</label>
@@ -163,12 +163,12 @@ function updateCart() {
     </div>
     `;
 
-  const tbody = cartContainer.querySelector("tbody");
+    const tbody = cartContainer.querySelector("tbody");
 
-  cart.forEach((item) => {
-    const total = item.precio * item.cantidad;
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
+    cart.forEach((item) => {
+        const total = item.precio * item.cantidad;
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
       <td>${item.codigo}</td>
       <td>${item.nombre}</td>
       <td>$${item.precio.toFixed(2)}</td>
@@ -181,26 +181,26 @@ function updateCart() {
           <button onclick="removeFromCart(${item.id})">Eliminar</button>
         </td>
       `;
-    tbody.appendChild(tr);
-  });
+        tbody.appendChild(tr);
+    });
 }
 
 // Modificar el envío por WhatsApp para incluir la descripción
 const sendWhatsAppOrder = () => {
-  if (cart.length === 0) {
-    alert("El carrito está vacío.");
-    return;
-  }
+        if (cart.length === 0) {
+            alert("El carrito está vacío.");
+            return;
+        }
 
-  const descripcion = document.getElementById("descripcion")?.value.trim();
-  
-  // Agregamos la validación de la descripción
-  if (!descripcion) {
-    alert("Por favor ingrese el nombre o NIT del cliente. Este campo es obligatorio.");
-    return;
-  }
+        const descripcion = document.getElementById("descripcion").value.trim();
 
-  const message = `Hola, quiero hacer un pedido:%0A%0A${
+        // Agregamos la validación de la descripción
+        if (!descripcion) {
+            alert("Por favor ingrese el nombre o NIT del cliente. Este campo es obligatorio.");
+            return;
+        }
+
+        const message = `Hola, quiero hacer un pedido:%0A%0A${
     cart.map(item => 
       `- ${item.nombre} (Código: ${item.codigo}) x${item.cantidad} ($${(item.precio * item.cantidad).toFixed(2)})`
     ).join('%0A')
