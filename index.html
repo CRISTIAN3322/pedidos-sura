@@ -1,62 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Carrito de compras para realizar pedidos de productos SURA">
-  <meta name="keywords" content="carrito de compras, pedidos, productos, SURA">
-  <title>Carrito de Compras SURA | Realiza tus pedidos en línea</title>
-  <link rel="stylesheet" href="css/main.css">
-  <!-- Precargar recursos críticos -->
-  <link rel="preload" href="css/main.css" as="style">
-  <link rel="preload" href="app.js" as="script">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carrito de compras para realizar pedidos de productos SURA">
+    <meta name="keywords" content="carrito de compras, pedidos, productos, SURA">
+    <title>Carrito de Compras SURA | Realiza tus pedidos en línea</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Precargar recursos críticos -->
+    <link rel="preload" href="css/main.css" as="style">
+    <link rel="preload" href="app.js" as="script">
 </head>
+
 <body>
-  <header class="header">
-    <div class="header__container">
-      <h1 class="header__title">Carrito de Compras SURA</h1>
-      <h3 class="header__subtitle">PRUEBAS</h3>
-      
-      <div class="search">
-        <label class="search__label" for="search">Buscar productos:</label>
-        <input class="search__input" 
-               type="text" 
-               id="search" 
-               name="search"
-               placeholder="Buscar productos por código o nombre..." 
-               aria-label="Buscar productos">
-      </div>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__title">Carrito de Compras SURA</h1>
+            <h3 class="header__subtitle">Actualizado 14 de enero 2025</h3>
 
-      <a class="cart-button" 
-         href="#cart" 
-         aria-label="Ver carrito de compras">
-        <img class="cart-button__icon" 
-             src="./img_catalogo/iconos/carrito-de-compras.png" 
-             alt="Ícono de carrito de compras"
-             width="24" 
-             height="24"
-             loading="lazy">
-        <span class="cart-button__text">Ver Pedido</span>
-      </a>
-  </header>
+            <div class="search">
+                <label class="search__label" for="search">Buscar productos:</label>
+                <input class="search__input" type="text" id="search" name="search" placeholder="Buscar productos por código o nombre..." aria-label="Buscar productos">
+            </div>
 
-  <main class="main">
-    <section class="products" id="products" aria-label="Productos disponibles">
-    </section>
-  </main>
-  
-  <footer class="cart-section">
-    <h2 class="cart-section__title">Carrito</h2>
-    <div class="cart-section__items" id="cart"></div>
-    <button class="cart-section__submit" 
-            id="send-whatsapp" 
-            type="button" 
-            aria-label="Enviar pedido por WhatsApp">
+            <a class="cart-button" href="#cart" aria-label="Ver carrito de compras">
+                <img class="cart-button__icon" src="./img_catalogo/iconos/carrito-de-compras.png" alt="Ícono de carrito de compras" width="24" height="24" loading="lazy">
+                <span class="cart-button__text">Ver Pedido</span>
+            </a>
+    </header>
+
+    <main class="main">
+        <section class="products" id="products" aria-label="Productos disponibles">
+        </section>
+    </main>
+
+    <footer class="cart-section">
+        <h2 class="cart-section__title">Carrito</h2>
+        <div class="cart-section__items" id="cart"></div>
+        <button class="cart-section__submit" id="send-whatsapp" type="button" aria-label="Enviar pedido por WhatsApp">
       Enviar Pedido por WhatsApp
     </button>
-  </footer>
-  
-  <script src="app.js" defer></script>
-</body>
-</html>
+    </footer>
 
+    <script src="app.js" defer></script>
+</body>
+
+</html>
