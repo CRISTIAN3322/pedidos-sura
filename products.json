@@ -666,7 +666,7 @@
         "id": 84,
         "codigo": "JCG0011",
         "nombre": "FLIPS CHOCOLATE X 120GR CJ X 14",
-        "precio": 3856,
+        "precio": 4041,
         "imagen": " ./img_catalogo/congrupo/flips-chocolate-120.png ",
         "activo": true
     },
@@ -674,7 +674,7 @@
         "id": 85,
         "codigo": "JCG0012",
         "nombre": "FLIPS DULCE DE LECHE X 120GR CJ X 14",
-        "precio": 3856,
+        "precio": 4041,
         "imagen": " ./img_catalogo/congrupo/flips-dulce-de-leche-120.png ",
         "activo": true
     },
