@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": 1,
         "codigo": "JAL0001",
         "nombre": "ALUMINIO ALUMIFLEX X 7 MTS  CJ X 24 - 1000037",
@@ -465,7 +464,7 @@
     },
     {
         "id": 59,
-        "codigo": "JAW0005",
+        "codigo": "JAW0001",
         "nombre": "PAÑITOS HUMEDOS FRESQUITOS  X 10 UN PQ X 48 UND *",
         "precio": 793,
         "imagen": " ./img_catalogo/atw/freskitos-10.png ",
@@ -473,31 +472,31 @@
     },
     {
         "id": 60,
-        "codigo": "JAW0006",
-        "nombre": "PAÑITOS  FRESQUITOS HUMEDOS  PQ X 102 UND *",
-        "precio": 4750,
-        "imagen": " ./img_catalogo/atw/freskitos-102.png ",
-        "activo": true
-    },
-    {
-        "id": 61,
-        "codigo": "JAW0010",
+        "codigo": "JAW0002",
         "nombre": "PAÑITOS PEPINO DESMAQUILLADORES X 10 UN PC X 48 DERMODIVA",
         "precio": 762,
         "imagen": " ./img_catalogo/atw/dermadiva-pepino.png ",
         "activo": true
     },
     {
-        "id": 62,
-        "codigo": "JAW0011",
+        "id": 61,
+        "codigo": "JAW0003",
         "nombre": "PAÑITOS DESMAQUILLADORES COLAGENO X 10 UN PC X 48",
         "precio": 763,
         "imagen": " ./img_catalogo/atw/dermadiva-colageno.png ",
         "activo": true
     },
     {
+        "id": 62,
+        "codigo": "JAW0004",
+        "nombre": "PAÑITOS  FRESQUITOS HUMEDOS  PQ X 102 UND *",
+        "precio": 4750,
+        "imagen": " ./img_catalogo/atw/freskitos-102.png ",
+        "activo": true
+    },
+    {
         "id": 63,
-        "codigo": "JAW0015",
+        "codigo": "JAW0005",
         "nombre": "PAÑITOS HUMEDOS 105 UND FRESKITICOS CJ X 24 UND *",
         "precio": 3850,
         "imagen": " ./img_catalogo/atw/freskitos-105.png ",
@@ -505,7 +504,7 @@
     },
     {
         "id": 64,
-        "codigo": "JAW0019",
+        "codigo": "JAW0006",
         "nombre": "ENJUAGUE BUCAL ACTIVMINT YERBABUENA X 300 ML CJ X 15",
         "precio": 4789,
         "imagen": " ./img_catalogo/atw/enjuage-bucal-yerbabuena.png ",
@@ -513,7 +512,7 @@
     },
     {
         "id": 65,
-        "codigo": "JAW0020",
+        "codigo": "JAW0007",
         "nombre": "ENJUAGUE BUCAL ACTIVMINT MENTA X 300 ML CJ X 15",
         "precio": 4789,
         "imagen": " ./img_catalogo/atw/enjuage-bucal-menta.png ",
@@ -699,7 +698,7 @@
         "id": 88,
         "codigo": "JCI0001",
         "nombre": "ALMENDRA FRANCESA X 50 GRDP12",
-        "precio": 2397,
+        "precio": 2917,
         "imagen": " ./img_catalogo/comestibles-italo/almendra-francesa-50.png ",
         "activo": true
     },
@@ -707,7 +706,7 @@
         "id": 89,
         "codigo": "JCI0002",
         "nombre": "ALMENDRA FRANCESA X 135 GR CJ X 36",
-        "precio": 6043,
+        "precio": 7357,
         "imagen": " ./img_catalogo/comestibles-italo/almendra-francesa-135.png ",
         "activo": true
     },
@@ -715,7 +714,7 @@
         "id": 90,
         "codigo": "JCI0003",
         "nombre": "ALMENDRA FRANCESA X 250 GR CJ X 50",
-        "precio": 10656,
+        "precio": 12972,
         "imagen": " ./img_catalogo/comestibles-italo/almendra-francesa-250.png ",
         "activo": true
     },
@@ -723,7 +722,7 @@
         "id": 91,
         "codigo": "JCI0004",
         "nombre": "ALMENDRA PIRAMIDE X 50 GR",
-        "precio": 3789,
+        "precio": 4054,
         "imagen": " ./img_catalogo/comestibles-italo/almendra-francesa-piramide-50.png ",
         "activo": true
     },
@@ -731,7 +730,7 @@
         "id": 92,
         "codigo": "JCI0005",
         "nombre": "ALMENDRA PIRAMIDE X 150 GR CJ X 28",
-        "precio": 9851,
+        "precio": 10794,
         "imagen": " ./img_catalogo/comestibles-italo/almendra-piramide-x150.png ",
         "activo": true
     },
@@ -739,7 +738,7 @@
         "id": 93,
         "codigo": "JCI0006",
         "nombre": "ALMENDRA FRANCESA SIN AZUCAR X 50 GR CJ X 43",
-        "precio": 7151,
+        "precio": 7833,
         "imagen": " ./img_catalogo/comestibles-italo/almendra-sin-azucar-x50.png ",
         "activo": true
     },
@@ -747,7 +746,7 @@
         "id": 94,
         "codigo": "JCI0007",
         "nombre": "AZUCAR PULVERIZADA X 500GR CJ X 25",
-        "precio": 6061,
+        "precio": 8301,
         "imagen": " ./img_catalogo/comestibles-italo/azucar-pulverizada-x500.png ",
         "activo": true
     },
@@ -755,7 +754,7 @@
         "id": 95,
         "codigo": "JCI0008",
         "nombre": "BOM BOM BONKISS CLASICO BS X 18 CJ X 12",
-        "precio": 12002,
+        "precio": 16908,
         "imagen": " ./img_catalogo/comestibles-italo/bonkiss-clasico.png ",
         "activo": true
     },
@@ -765,13 +764,13 @@
         "nombre": "BOM BOM DE LECHE CONDENSADA X 144 GR CJ X 45",
         "precio": 3543,
         "imagen": " ./img_catalogo/comestibles-italo/bombon-leche-condesada.png ",
-        "activo": true
+        "activo": false
     },
     {
         "id": 97,
         "codigo": "JCI0010",
         "nombre": "BOM BON COOKIES N CREAM X 5 CJ X 24",
-        "precio": 0,
+        "precio": 4781,
         "imagen": " ./img_catalogo/comestibles-italo/bom-bon-cookies-n-cream-x5.png",
         "activo": true
     },
@@ -787,7 +786,7 @@
         "id": 99,
         "codigo": "JCI0012",
         "nombre": "CARAMELO BLANDO DE MENTA X 94 GR CJ X 60",
-        "precio": 2461,
+        "precio": 2701,
         "imagen": " ./img_catalogo/comestibles-italo/caramelo-blando-menta.png ",
         "activo": true
     },
@@ -795,7 +794,7 @@
         "id": 100,
         "codigo": "JCI0013",
         "nombre": "CARAMELO CANDY MIX CJ X 6",
-        "precio": 23318,
+        "precio": 25549,
         "imagen": " ./img_catalogo/comestibles-italo/caramelo-candy-mix-903-gr.png ",
         "activo": true
     },
@@ -803,7 +802,7 @@
         "id": 101,
         "codigo": "JCI0014",
         "nombre": "CARAMELO DE CAFÉ ITALO X  25 UND CJ X 48",
-        "precio": 3118,
+        "precio": 3415,
         "imagen": " ./img_catalogo/comestibles-italo/caramelo-cafe-x25.png ",
         "activo": true
     },
@@ -811,7 +810,7 @@
         "id": 102,
         "codigo": "JCI0015",
         "nombre": "CARAMELO DE COCO X 20 UND CJ X 60",
-        "precio": 2583,
+        "precio": 2823,
         "imagen": " ./img_catalogo/comestibles-italo/caramelo-de-coco-x20.png ",
         "activo": true
     },
@@ -819,7 +818,7 @@
         "id": 103,
         "codigo": "JCI0016",
         "nombre": "CARAMELO DE COCO X 100 UND CJ X 12",
-        "precio": 11520,
+        "precio": 12597,
         "imagen": " ./img_catalogo/comestibles-italo/caramelo-blando-de-coco-x100.png ",
         "activo": true
     },
@@ -829,13 +828,13 @@
         "nombre": "CARAMELO DE LECHE X 20 UND CJ X 60",
         "precio": 2513,
         "imagen": " ./img_catalogo/comestibles-italo/caramelo-de-leche-x20.png ",
-        "activo": true
+        "activo": false
     },
     {
         "id": 105,
         "codigo": "JCI0018",
         "nombre": "CARAMELO DE LECHE X 100 UND CJ X 12",
-        "precio": 11522,
+        "precio": 12597,
         "imagen": " ./img_catalogo/comestibles-italo/caramelo-blando-de-leche-x100.png ",
         "activo": true
     },
@@ -843,7 +842,7 @@
         "id": 106,
         "codigo": "JCI0019",
         "nombre": "CARAMELO LACTYS DURAZNO X 105 GR CJ X 48",
-        "precio": 3176,
+        "precio": 3490,
         "imagen": " ./img_catalogo/comestibles-italo/caramelo-lactys-durazno.png ",
         "activo": true
     },
@@ -851,7 +850,7 @@
         "id": 107,
         "codigo": "JCI0020",
         "nombre": "CARAMELO LACTYS FRESA X 105 GR CJ X 48",
-        "precio": 3176,
+        "precio": 3490,
         "imagen": " ./img_catalogo/comestibles-italo/caramelo-lactys-fresa.png ",
         "activo": true
     },
@@ -859,15 +858,15 @@
         "id": 108,
         "codigo": "JCI0021",
         "nombre": "CARAMELO MORITAS X 25 CJ X 48",
-        "precio": 2105,
+        "precio": 2238,
         "imagen": " ./img_catalogo/comestibles-italo/caramelo-moritas.png ",
-        "activo": true
+        "activo": false
     },
     {
         "id": 109,
         "codigo": "JCI0023",
         "nombre": "CARAMELO SURTIDO X 80 GR CJ X 60",
-        "precio": 2487,
+        "precio": 2661,
         "imagen": " ./img_catalogo/comestibles-italo/caramelo-surtido-80.png ",
         "activo": true
     },
@@ -875,7 +874,7 @@
         "id": 110,
         "codigo": "JCI0024",
         "nombre": "CARAMELO SURTIDO X 185 GR CJ X 40",
-        "precio": 5555,
+        "precio": 5944,
         "imagen": " ./img_catalogo/comestibles-italo/caramelo-surtido-135.png ",
         "activo": true
     },
@@ -883,7 +882,7 @@
         "id": 111,
         "codigo": "JCI0025",
         "nombre": "CARAMELO SURTIDO X 420 GR CJ X 24",
-        "precio": 11372,
+        "precio": 12445,
         "imagen": " ./img_catalogo/comestibles-italo/caramelos-surtido-x420.png ",
         "activo": true
     },
@@ -891,7 +890,7 @@
         "id": 112,
         "codigo": "JCI0026",
         "nombre": "CHOCO BABY X 90 GR CJ X 24",
-        "precio": 4577,
+        "precio": 5730,
         "imagen": " ./img_catalogo/comestibles-italo/choco-baby-90.png ",
         "activo": true
     },
@@ -899,7 +898,7 @@
         "id": 113,
         "codigo": "JCI0027",
         "nombre": "CHOCO BABY X 180 GR CJ X 24",
-        "precio": 8945,
+        "precio": 11201,
         "imagen": " ./img_catalogo/comestibles-italo/choco-baby-180.png ",
         "activo": true
     },
@@ -907,7 +906,7 @@
         "id": 114,
         "codigo": "JCI0028",
         "nombre": "CHOCOLATINA RELLENA PEQUEÑA X 6 CJ X 20",
-        "precio": 13897,
+        "precio": 15226,
         "imagen": " ./img_catalogo/comestibles-italo/chocolatina-pequeña-6.png ",
         "activo": true
     },
@@ -915,7 +914,7 @@
         "id": 115,
         "codigo": "JCI0029",
         "nombre": "CHOCOLATINA RELLENA MEDIANA X 6 CJ X 20",
-        "precio": 24351,
+        "precio": 26681,
         "imagen": " ./img_catalogo/comestibles-italo/chocolatina-mediana-6.png ",
         "activo": true
     },
@@ -923,7 +922,7 @@
         "id": 116,
         "codigo": "JCI0030",
         "nombre": "CHOCOLATINA RELLENA GRANDE X 6 CJ X 14",
-        "precio": 47444,
+        "precio": 51980,
         "imagen": " ./img_catalogo/comestibles-italo/chocolatina-grande-6.png ",
         "activo": true
     },
@@ -931,7 +930,7 @@
         "id": 117,
         "codigo": "JCI0031",
         "nombre": "CHUPETA BLANDA DE FRUTAS X 144 GR BS X 12 CJ X 40",
-        "precio": 4731,
+        "precio": 5191,
         "imagen": " ./img_catalogo/comestibles-italo/chupeta-de-frutas.png ",
         "activo": true
     },
@@ -947,7 +946,7 @@
         "id": 119,
         "codigo": "JCI0033",
         "nombre": "CHUPETA CHOCOLATE X 70 GR CAJA X 60 UND",
-        "precio": 8754,
+        "precio": 9133,
         "imagen": " ./img_catalogo/comestibles-italo/chupeta-de-chocolate.png ",
         "activo": true
     },
@@ -955,7 +954,7 @@
         "id": 120,
         "codigo": "JCI0034",
         "nombre": "ESTUCHE BABY OSITOS X 90 GR",
-        "precio": 12790,
+        "precio": 14015,
         "imagen": " ./img_catalogo/comestibles-italo/estuche-ositos.png ",
         "activo": true
     },
@@ -963,7 +962,7 @@
         "id": 121,
         "codigo": "JCI0035",
         "nombre": "ESTUCHE ENAMORADOS X 90 GR",
-        "precio": 11069,
+        "precio": 12128,
         "imagen": " ./img_catalogo/comestibles-italo/estuche-enamorados.png ",
         "activo": true
     },
@@ -971,7 +970,7 @@
         "id": 122,
         "codigo": "JCI0036",
         "nombre": "ESTUCHE MENSAJES CJ X 26",
-        "precio": 8053,
+        "precio": 8823,
         "imagen": " ./img_catalogo/comestibles-italo/estuche-mensajes.png ",
         "activo": true
     },
@@ -987,7 +986,7 @@
         "id": 124,
         "codigo": "JCI0038",
         "nombre": "ESTUCHE PENSAMIENTOS X 90 GR",
-        "precio": 11069,
+        "precio": 12128,
         "imagen": " ./img_catalogo/comestibles-italo/estuche-pensamientos.png ",
         "activo": true
     },
@@ -995,7 +994,7 @@
         "id": 125,
         "codigo": "JCI0039",
         "nombre": "ESTUCHE VARIEDAD X 90 GR",
-        "precio": 11844,
+        "precio": 12977,
         "imagen": " ./img_catalogo/comestibles-italo/estuche-variedad.png ",
         "activo": true
     },
@@ -1003,7 +1002,7 @@
         "id": 126,
         "codigo": "JCI0040",
         "nombre": "GALLETA ANIMADAS WIN PQ X 12 CJ X 20",
-        "precio": 9513,
+        "precio": 10963,
         "imagen": " ./img_catalogo/comestibles-italo/galleta-animada-win.png ",
         "activo": true
     },
@@ -1011,7 +1010,7 @@
         "id": 127,
         "codigo": "JCI0041",
         "nombre": "GALLETA DE LECHE X 18 UN CJ X 24",
-        "precio": 6838,
+        "precio": 7894,
         "imagen": " ./img_catalogo/comestibles-italo/galleta-de-leche.png ",
         "activo": true
     },
@@ -1027,7 +1026,7 @@
         "id": 129,
         "codigo": "JCI0043",
         "nombre": "GOMAS CONITO BLANDY X 170 GR  CJ X 60",
-        "precio": 4835,
+        "precio": 5172,
         "imagen": " ./img_catalogo/comestibles-italo/goma-conito-blandy.png ",
         "activo": true
     },
@@ -1035,7 +1034,7 @@
         "id": 130,
         "codigo": "JCI0044",
         "nombre": "GOMAS MEDIA LUNA X 40 GR  CJX52",
-        "precio": 1488,
+        "precio": 1590,
         "imagen": " ./img_catalogo/comestibles-italo/goma-media-luna-40.png ",
         "activo": true
     },
@@ -1051,7 +1050,7 @@
         "id": 132,
         "codigo": "JCI0046",
         "nombre": "GOMAS MORITAS X 200 GR CJ X 50",
-        "precio": 6234,
+        "precio": 6829,
         "imagen": " ./img_catalogo/comestibles-italo/goma-moritas-200.png ",
         "activo": true
     },
@@ -1059,7 +1058,7 @@
         "id": 133,
         "codigo": "JCI0047",
         "nombre": "GOMAS SURTIDAS X 125 GR CJ X 80",
-        "precio": 3621,
+        "precio": 3875,
         "imagen": " ./img_catalogo/comestibles-italo/goma-surtida-125.png ",
         "activo": true
     },
@@ -1067,7 +1066,7 @@
         "id": 134,
         "codigo": "JCI0048",
         "nombre": "GOMITAS PIKIS ACIDULCES CJ X 24",
-        "precio": 1539,
+        "precio": 1605,
         "imagen": " ./img_catalogo/comestibles-italo/pikis-acidulces.png ",
         "activo": true
     },
@@ -1075,7 +1074,7 @@
         "id": 135,
         "codigo": "JCI0049",
         "nombre": "GOMITAS PIKIS GOMI-MASMELO CJ X 24",
-        "precio": 2110,
+        "precio": 2418,
         "imagen": " ./img_catalogo/comestibles-italo/pikis-gomi-masmelo.png ",
         "activo": true
     },
@@ -1083,7 +1082,7 @@
         "id": 136,
         "codigo": "JCI0050",
         "nombre": "GOMITAS PIKIS OSOS EN PIJAMA CJ X 24",
-        "precio": 2110,
+        "precio": 2539,
         "imagen": " ./img_catalogo/comestibles-italo/pikis-ositos-en-pijama.png ",
         "activo": true
     },
@@ -1091,7 +1090,7 @@
         "id": 137,
         "codigo": "JCI0051",
         "nombre": "GRAGEA X 125 GR CJ X 110",
-        "precio": 2619,
+        "precio": 2668,
         "imagen": " ./img_catalogo/comestibles-italo/gragea-125.png ",
         "activo": true
     },
@@ -1099,7 +1098,7 @@
         "id": 138,
         "codigo": "JCI0052",
         "nombre": "GRAGEA X 500 GR CJ X 30 UN",
-        "precio": 9907,
+        "precio": 10095,
         "imagen": " ./img_catalogo/comestibles-italo/gragea-500.png ",
         "activo": true
     },
@@ -1107,7 +1106,7 @@
         "id": 139,
         "codigo": "JCI0053",
         "nombre": "HIPER LONCH FRESA X 156 GR CJ X 24",
-        "precio": 5194,
+        "precio": 5819,
         "imagen": " ./img_catalogo/comestibles-italo/hiper-lonch-fresa.png ",
         "activo": true
     },
@@ -1115,7 +1114,7 @@
         "id": 140,
         "codigo": "JCI0054",
         "nombre": "HIPER LONCH VAINILLA X 156 GR CJ X 24",
-        "precio": 5194,
+        "precio": 5819,
         "imagen": " ./img_catalogo/comestibles-italo/hiper-lonch-vainilla.png ",
         "activo": true
     },
@@ -1123,7 +1122,7 @@
         "id": 141,
         "codigo": "JCI0055",
         "nombre": "HIPER WAFER  AREQUIPE 208 GR X 28",
-        "precio": 5453,
+        "precio": 5974,
         "imagen": " ./img_catalogo/comestibles-italo/hiper-208-arequipe.png ",
         "activo": true
     },
@@ -1131,7 +1130,7 @@
         "id": 142,
         "codigo": "JCI0056",
         "nombre": "HIPER WAFER FRESA X 208 GR CJ X 28",
-        "precio": 5453,
+        "precio": 5974,
         "imagen": " ./img_catalogo/comestibles-italo/hiper-208-fresa.png ",
         "activo": true
     },
@@ -1139,7 +1138,7 @@
         "id": 143,
         "codigo": "JCI0057",
         "nombre": "HIPER WAFER VAINILLA X 208 GR CJ X 28",
-        "precio": 5453,
+        "precio": 5974,
         "imagen": " ./img_catalogo/comestibles-italo/hiper-208-vainilla.png ",
         "activo": true
     },
@@ -1147,7 +1146,7 @@
         "id": 144,
         "codigo": "JCI0058",
         "nombre": "HUEVOS NO ME OLVIDES X 2 CJ X 70",
-        "precio": 5054,
+        "precio": 5536,
         "imagen": " ./img_catalogo/comestibles-italo/huevos-no-me-olvides-x2.png ",
         "activo": true
     },
@@ -1155,7 +1154,7 @@
         "id": 145,
         "codigo": "JCI0059",
         "nombre": "HUEVOS NO ME OLVIDES ITALO BOLSA X 10 UND",
-        "precio": 21531,
+        "precio": 27646,
         "imagen": " ./img_catalogo/comestibles-italo/huevos-no-me-olvides-x10.png ",
         "activo": true
     },
@@ -1163,7 +1162,7 @@
         "id": 146,
         "codigo": "JCI0060",
         "nombre": "MASMELOS X 50 GR CJ X 70",
-        "precio": 1767,
+        "precio": 1891,
         "imagen": " ./img_catalogo/comestibles-italo/masmelo-50.png ",
         "activo": true
     },
@@ -1171,7 +1170,7 @@
         "id": 147,
         "codigo": "JCI0061",
         "nombre": "MASMELOS X 80 GR CJ X 44",
-        "precio": 2486,
+        "precio": 2660,
         "imagen": " ./img_catalogo/comestibles-italo/masmelo-80.png ",
         "activo": true
     },
@@ -1179,7 +1178,7 @@
         "id": 148,
         "codigo": "JCI0062",
         "nombre": "MASMELOS X 120 GR CJ X 30 UN",
-        "precio": 3713,
+        "precio": 3972,
         "imagen": " ./img_catalogo/comestibles-italo/masmelo-120.png ",
         "activo": true
     },
@@ -1187,7 +1186,7 @@
         "id": 149,
         "codigo": "JCI0063",
         "nombre": "MASMELOS BLANCO X 120 G CJ X 30",
-        "precio": 3626,
+        "precio": 3972,
         "imagen": " ./img_catalogo/comestibles-italo/masmelos-blanco-x120.png",
         "activo": true
     },
@@ -1195,7 +1194,7 @@
         "id": 150,
         "codigo": "JCI0064",
         "nombre": "MERCI BOMBOM RELLENO X 2 UN",
-        "precio": 3383,
+        "precio": 3495,
         "imagen": " ./img_catalogo/comestibles-italo/merci-2.png ",
         "activo": true
     },
@@ -1203,7 +1202,7 @@
         "id": 151,
         "codigo": "JCI0065",
         "nombre": "MERCI RELLENO X 6 UND EMB CJ X 12",
-        "precio": 12945,
+        "precio": 13190,
         "imagen": " ./img_catalogo/comestibles-italo/merci-6.png ",
         "activo": true
     },
@@ -1211,7 +1210,7 @@
         "id": 152,
         "codigo": "JCI0066",
         "nombre": "MERCI FLOR X 112 GR CJ X 15",
-        "precio": 16883,
+        "precio": 17201,
         "imagen": " ./img_catalogo/comestibles-italo/merci-flor.png ",
         "activo": true
     },
@@ -1227,7 +1226,7 @@
         "id": 154,
         "codigo": "JCI0068",
         "nombre": "PIKIS CHOCO GOMITAS ACIDULCES X 125 GR CJ X 24",
-        "precio": 5631,
+        "precio": 6169,
         "imagen": " ./img_catalogo/comestibles-italo/pikis-choco-gomita-acidulces-x125.png ",
         "activo": true
     },
@@ -1235,7 +1234,7 @@
         "id": 155,
         "codigo": "JCI0069",
         "nombre": "PIKIS MONEDAS CJ X 40",
-        "precio": 9420,
+        "precio": 10320,
         "imagen": " ./img_catalogo/comestibles-italo/pikis-monedas.png ",
         "activo": true
     },
@@ -1243,7 +1242,7 @@
         "id": 156,
         "codigo": "JCI0070",
         "nombre": "RISTRA MORITAS X 40 GR 10 UND",
-        "precio": 13670,
+        "precio": 14980,
         "imagen": " ./img_catalogo/comestibles-italo/ristra-moritas.png ",
         "activo": true
     },
@@ -1251,7 +1250,7 @@
         "id": 157,
         "codigo": "JCI0071",
         "nombre": "TABLETA RELLENA BL X 12 CJ X 12",
-        "precio": 10786,
+        "precio": 11819,
         "imagen": " ./img_catalogo/comestibles-italo/tableta-rellena-12-gr.png",
         "activo": true
     },
@@ -1259,7 +1258,7 @@
         "id": 158,
         "codigo": "JCI0072",
         "nombre": "UVAS CUBIERTAS CON CHOCOLATE X 40 GR X10 CJX50",
-        "precio": 4061,
+        "precio": 4578,
         "imagen": " ./img_catalogo/comestibles-italo/uvas-con-chocolate.png ",
         "activo": true
     },
@@ -1267,7 +1266,7 @@
         "id": 159,
         "codigo": "JCI0073",
         "nombre": "MINITACO SIN AZUCAR FRESA X 80 CJ X 24",
-        "precio": 4885,
+        "precio": 5353,
         "imagen": " ./img_catalogo/comestibles-italo/minitaco-sin-azucar-x80-fresa.png ",
         "activo": true
     },
@@ -1275,7 +1274,7 @@
         "id": 160,
         "codigo": "JCI0074",
         "nombre": "MINITACO SIN AZUCAR NARANJA X 80 CJ X 24",
-        "precio": 4885,
+        "precio": 5353,
         "imagen": " ./img_catalogo/comestibles-italo/minitaco-sin-azucar-x80-naranja.png ",
         "activo": true
     },
@@ -1283,7 +1282,7 @@
         "id": 161,
         "codigo": "JCI0075",
         "nombre": "MINITACO SIN AZUCAR VAINILLA X 80 CJ X 24",
-        "precio": 4885,
+        "precio": 5353,
         "imagen": " ./img_catalogo/comestibles-italo/minitaco-sin-azucar-x80-vainilla.png ",
         "activo": true
     },
@@ -1291,7 +1290,7 @@
         "id": 162,
         "codigo": "JCI0076",
         "nombre": "WAFER MINITACO AREQUIPE X 80 GR CJ X 24",
-        "precio": 1950,
+        "precio": 2156,
         "imagen": " ./img_catalogo/comestibles-italo/minitaco-arequipe.png ",
         "activo": true
     },
@@ -1299,7 +1298,7 @@
         "id": 163,
         "codigo": "JCI0077",
         "nombre": "WAFER MINITACO CHOCOLATE X 80 GR CJ X 24",
-        "precio": 1950,
+        "precio": 2156,
         "imagen": " ./img_catalogo/comestibles-italo/minitaco-chocolate.png ",
         "activo": true
     },
@@ -1307,7 +1306,7 @@
         "id": 164,
         "codigo": "JCI0078",
         "nombre": "WAFER MINITACO COCO X 80 GR CJ X 24",
-        "precio": 1950,
+        "precio": 2156,
         "imagen": " ./img_catalogo/comestibles-italo/minitaco-coco.png ",
         "activo": true
     },
@@ -1315,7 +1314,7 @@
         "id": 165,
         "codigo": "JCI0079",
         "nombre": "WAFER MINITACO FRESA X 80 GR CJ X 24",
-        "precio": 1950,
+        "precio": 2156,
         "imagen": " ./img_catalogo/comestibles-italo/minitaco-fresa.png ",
         "activo": true
     },
@@ -1323,7 +1322,7 @@
         "id": 166,
         "codigo": "JCI0080",
         "nombre": "WAFER MINITACO GUANABANA X 80 GR CJ X 24",
-        "precio": 1950,
+        "precio": 2156,
         "imagen": " ./img_catalogo/comestibles-italo/minitaco-guanabana.png ",
         "activo": true
     },
@@ -1331,7 +1330,7 @@
         "id": 167,
         "codigo": "JCI0081",
         "nombre": "WAFER MINITACO LIMON X 80 GR CJ X 24",
-        "precio": 1950,
+        "precio": 2156,
         "imagen": " ./img_catalogo/comestibles-italo/minitaco-limon.png ",
         "activo": true
     },
@@ -1339,7 +1338,7 @@
         "id": 168,
         "codigo": "JCI0082",
         "nombre": "WAFER MINITACO MORA X 80 GR CJ X 24",
-        "precio": 1950,
+        "precio": 2156,
         "imagen": " ./img_catalogo/comestibles-italo/minitaco-mora.png ",
         "activo": true
     },
@@ -1347,7 +1346,7 @@
         "id": 169,
         "codigo": "JCI0083",
         "nombre": "WAFER MINITACO NARANJA X 80 GR CJ X 24",
-        "precio": 1950,
+        "precio": 2156,
         "imagen": " ./img_catalogo/comestibles-italo/minitaco-naranja.png ",
         "activo": true
     },
@@ -1355,7 +1354,7 @@
         "id": 170,
         "codigo": "JCI0084",
         "nombre": "WAFER MINITACO VAINILLA X 80 GR CJ X 24",
-        "precio": 1950,
+        "precio": 2156,
         "imagen": " ./img_catalogo/comestibles-italo/minitaco-vainilla.png ",
         "activo": true
     },
@@ -1363,7 +1362,7 @@
         "id": 171,
         "codigo": "JCI0085",
         "nombre": "WAFER PAQUETACO AREQUIPE X 94 CJ X 24",
-        "precio": 2276,
+        "precio": 2429,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-arequipe.png ",
         "activo": true
     },
@@ -1371,7 +1370,7 @@
         "id": 172,
         "codigo": "JCI0086",
         "nombre": "WAFER PAQUETACO CHOCOLATE X 94 CJ X 24",
-        "precio": 2276,
+        "precio": 2429,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-chocolate.png ",
         "activo": true
     },
@@ -1379,7 +1378,7 @@
         "id": 173,
         "codigo": "JCI0087",
         "nombre": "WAFER PAQUETACO FRESA X 94 CJ X 24",
-        "precio": 2276,
+        "precio": 2429,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-fresa.png ",
         "activo": true
     },
@@ -1387,7 +1386,7 @@
         "id": 174,
         "codigo": "JCI0088",
         "nombre": "WAFER PAQUETACO VAINILLA X 94 CJ X 24",
-        "precio": 2276,
+        "precio": 2429,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-x94-vainilla.png ",
         "activo": true
     },
@@ -1395,7 +1394,7 @@
         "id": 175,
         "codigo": "JCI0089",
         "nombre": "WAFER PAQUETACO CHOCOLATE X 117 GR CJ X 48",
-        "precio": 2750,
+        "precio": 3074,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-chocolate.png ",
         "activo": true
     },
@@ -1403,7 +1402,7 @@
         "id": 176,
         "codigo": "JCI0090",
         "nombre": "WAFER PAQUETACO COCO X 117 GR X CJ X 48",
-        "precio": 2750,
+        "precio": 3074,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-coco.png ",
         "activo": true
     },
@@ -1411,7 +1410,7 @@
         "id": 177,
         "codigo": "JCI0091",
         "nombre": "WAFER PAQUETACO FRESA X 117 CJ X 48",
-        "precio": 2750,
+        "precio": 3074,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-fresa.png ",
         "activo": true
     },
@@ -1419,7 +1418,7 @@
         "id": 178,
         "codigo": "JCI0092",
         "nombre": "WAFER PAQUETACO AREQUIPE X 117 GR CJ X 48",
-        "precio": 2750,
+        "precio": 3074,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-arequipe.png ",
         "activo": true
     },
@@ -1427,7 +1426,7 @@
         "id": 179,
         "codigo": "JCI0093",
         "nombre": "WAFER PAQUETACO NARANJA X 117 GR CJ X 48",
-        "precio": 2750,
+        "precio": 3074,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-naranja.png ",
         "activo": true
     },
@@ -1435,7 +1434,7 @@
         "id": 180,
         "codigo": "JCI0094",
         "nombre": "WAFER PAQUETACO GUANABANA  X 117 GR CJ X 48",
-        "precio": 2750,
+        "precio": 3074,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-guanabana.png ",
         "activo": true
     },
@@ -1443,7 +1442,7 @@
         "id": 181,
         "codigo": "JCI0095",
         "nombre": "WAFER PAQUETACO VAINILLA X 117 GR CJ X 48",
-        "precio": 2750,
+        "precio": 3074,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-vainilla.png ",
         "activo": true
     },
@@ -1451,7 +1450,7 @@
         "id": 182,
         "codigo": "JCI0096",
         "nombre": "WAFER PAQUETACO LIMON X 117 GR CJ X 48",
-        "precio": 2750,
+        "precio": 3074,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-limon.png ",
         "activo": true
     },
@@ -1459,7 +1458,7 @@
         "id": 183,
         "codigo": "JCI0097",
         "nombre": "WAFER PAQUETACO MORA X 117 GR CJ X 48",
-        "precio": 2750,
+        "precio": 3074,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-mora.png ",
         "activo": true
     },
@@ -1467,7 +1466,7 @@
         "id": 184,
         "codigo": "JCI0098",
         "nombre": "WAFER TAQUITO AREQUIPE X 240 GR CJ X 36",
-        "precio": 5656,
+        "precio": 7285,
         "imagen": " ./img_catalogo/comestibles-italo/wafer-taquito-arequipe.png ",
         "activo": true
     },
@@ -1475,7 +1474,7 @@
         "id": 185,
         "codigo": "JCI0099",
         "nombre": "WAFER TAQUITO FRESA X 240 GR CJ X 36",
-        "precio": 5656,
+        "precio": 7285,
         "imagen": " ./img_catalogo/comestibles-italo/wafer-taquito-fresa.png ",
         "activo": true
     },
@@ -1483,7 +1482,7 @@
         "id": 186,
         "codigo": "JCI0100",
         "nombre": "WAFER TAQUITO NARANJA X 240 GR CJ X 36",
-        "precio": 5656,
+        "precio": 7285,
         "imagen": " ./img_catalogo/comestibles-italo/wafer-taquito-naranja.png ",
         "activo": true
     },
@@ -1491,7 +1490,7 @@
         "id": 187,
         "codigo": "JCI0101",
         "nombre": "WAFER TAQUITO VAINILLA X 240 GR CJ X 36",
-        "precio": 5656,
+        "precio": 7285,
         "imagen": " ./img_catalogo/comestibles-italo/wafer-taquito-vainilla.png ",
         "activo": true
     },
@@ -1739,7 +1738,7 @@
         "id": 218,
         "codigo": "JDU0001",
         "nombre": "MARG.PREFERIDA X 125 CJ 4 DISPLAY",
-        "precio": 119916,
+        "precio": 126761,
         "imagen": " ./img_catalogo/duquesa/margarina-preferida-125.png ",
         "activo": true
     },
@@ -1747,7 +1746,7 @@
         "id": 219,
         "codigo": "JDU0002",
         "nombre": "MARG.PREFERIDA X 250",
-        "precio": 114651,
+        "precio": 119718,
         "imagen": " ./img_catalogo/duquesa/margarina-preferida-250.png ",
         "activo": true
     },
@@ -1755,7 +1754,7 @@
         "id": 220,
         "codigo": "JDU0003",
         "nombre": "MARG.PREFERIDA X 500",
-        "precio": 109950,
+        "precio": 114436,
         "imagen": " ./img_catalogo/duquesa/margarina-preferida-500.png ",
         "activo": true
     },
@@ -1763,7 +1762,7 @@
         "id": 221,
         "codigo": "JDU0011",
         "nombre": "ESPARCIBLE PREFERIDA X 500 CJ X 18",
-        "precio": 6176,
+        "precio": 6545,
         "imagen": " ./img_catalogo/duquesa/esparcible-la-preferida-500.png ",
         "activo": true
     },
@@ -2233,6 +2232,14 @@
     },
     {
         "id": 280,
+        "codigo": "JJS0004",
+        "nombre": "MEGAESTROPAJO TIPO GUANTE X 12 UND",
+        "precio": 4269,
+        "imagen": " ./img_catalogo/estropajo/estropajo-guante.png ",
+        "activo": true
+    },
+    {
+        "id": 281,
         "codigo": "JJS0005",
         "nombre": "MEGAESTROPAJO DISCO FACIAL X 12 UND",
         "precio": 1830,
@@ -2240,7 +2247,7 @@
         "activo": true
     },
     {
-        "id": 281,
+        "id": 282,
         "codigo": "JJS0006",
         "nombre": "MEGAESTROPAJO ESPALDA X 12 UND",
         "precio": 4439,
@@ -2248,19 +2255,11 @@
         "activo": true
     },
     {
-        "id": 282,
+        "id": 283,
         "codigo": "JJS0007",
         "nombre": "MEGAESTROPAJO NATURAL X 12 UND",
         "precio": 1854,
         "imagen": " ./img_catalogo/estropajo/estropajo-natural.png ",
-        "activo": true
-    },
-    {
-        "id": 283,
-        "codigo": "JJS0008",
-        "nombre": "MEGAESTROPAJO TIPO GUANTE X 12 UND",
-        "precio": 4269,
-        "imagen": " ./img_catalogo/estropajo/estropajo-guante.png ",
         "activo": true
     },
     {
@@ -3211,7 +3210,7 @@
         "id": 402,
         "codigo": "JMB0001",
         "nombre": "VITACHOCOLATE X 500 GR EN BARRA CJ X 50 UND",
-        "precio": 8514,
+        "precio": 8963,
         "imagen": "",
         "activo": true
     },
@@ -3219,7 +3218,7 @@
         "id": 403,
         "codigo": "JMB0002",
         "nombre": "VITACHOCOLATE X 250 GR EN BARRA CJ X 50 UND",
-        "precio": 4344,
+        "precio": 4574,
         "imagen": "",
         "activo": true
     },
@@ -3379,7 +3378,7 @@
         "id": 423,
         "codigo": "JPN0005",
         "nombre": "PAPELS ROSAL XG 4 PAQUETES X 12 ROLLOS X 25 MTS",
-        "precio": 12965,
+        "precio": 15629,
         "imagen": "",
         "activo": true
     },
@@ -3387,7 +3386,7 @@
         "id": 424,
         "codigo": "JPN0006",
         "nombre": "PAPELS SUAVE GOLD 12 PAQUETES X 4 ROLLOS",
-        "precio": 9119,
+        "precio": 9515,
         "imagen": "",
         "activo": true
     },
@@ -3395,7 +3394,7 @@
         "id": 425,
         "codigo": "JPN0007",
         "nombre": "PAPELS SUAVE GOLD 4 PAQUETES X 12 ROLLOS",
-        "precio": 25516,
+        "precio": 26858,
         "imagen": "",
         "activo": true
     },
@@ -3451,7 +3450,7 @@
         "id": 432,
         "codigo": "JPN0014",
         "nombre": "TOALLA HIGIENICA SUAVE NOCTURNA MIX CJ X 24",
-        "precio": 3000,
+        "precio": 4551,
         "imagen": "",
         "activo": true
     },
@@ -3459,7 +3458,7 @@
         "id": 433,
         "codigo": "JPN0015",
         "nombre": "TOALLA HIGIENICA SUAVE DELGADA MIX CJ X 36",
-        "precio": 2572,
+        "precio": 3984,
         "imagen": "",
         "activo": true
     },
@@ -3467,7 +3466,7 @@
         "id": 434,
         "codigo": "JPN0016",
         "nombre": "PROTECTOR DIARIO SUAVE X 15 CJ X 36",
-        "precio": 1321,
+        "precio": 1790,
         "imagen": "",
         "activo": true
     },
