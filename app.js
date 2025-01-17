@@ -37,7 +37,7 @@ function displayProducts(productsList) {
         productDiv.classList.add("product");
         productDiv.innerHTML = `
         <img src="${product.imagen}" alt="${product.nombre}">
-        <h3>${product.nombre}</h3>
+        <h4>${product.nombre}</h4>
         <p>Código: ${product.codigo}</p>
         <p>Precio: $${product.precio.toFixed(2)}</p>
         <div class="cantidad-container">
