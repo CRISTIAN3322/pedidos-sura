@@ -13,6 +13,32 @@ const productsPerPage = 12; // Productos por página
 let currentPage = 1;
 let filteredProducts = [];
 
+// Función para cargar el carrito desde localStorage
+function loadCart() {
+    const savedCart = localStorage.getItem('suraCart');
+    if (savedCart) {
+        cart = JSON.parse(savedCart);
+        updateCart();
+    }
+}
+
+// Asegurarnos de que el DOM esté completamente cargado antes de ejecutar loadCart
+document.addEventListener('DOMContentLoaded', () => {
+    loadCart();
+    // Agregar event listeners para los botones de eliminar
+    document.getElementById('cart').addEventListener('click', (e) => {
+        if (e.target.classList.contains('cart-item__remove')) {
+            const productId = e.target.dataset.id;
+            removeFromCart(productId);
+        }
+    });
+});
+
+// Función para guardar el carrito en localStorage
+function saveCart() {
+    localStorage.setItem('suraCart', JSON.stringify(cart));
+}
+
 // Cargar productos desde JSON
 fetch("products.json")
     .then((response) => response.json())
@@ -118,7 +144,7 @@ function displayPagination(totalProducts) {
     productsContainer.appendChild(paginationDiv);
 }
 
-// También necesitamos modificar la función addToCart para aceptar la cantidad
+// Modificar la función que agrega productos al carrito
 function addToCart(id, codigo, nombre, precio, cantidad) {
     cantidad = parseInt(cantidad);
     const product = cart.find((item) => item.id === id);
@@ -128,6 +154,7 @@ function addToCart(id, codigo, nombre, precio, cantidad) {
         cart.push({ id, codigo, nombre, precio, cantidad });
     }
     updateCart();
+    saveCart(); // Guardar después de cada modificación
 }
 
 function updateCart() {
@@ -239,7 +266,21 @@ function calculateTotal() {
 function removeFromCart(id) {
   cart = cart.filter((item) => item.id !== id);
   updateCart();
+  saveCart();
 }
+
+// Función para limpiar el carrito
+function clearCart() {
+    cart = [];
+    localStorage.removeItem('suraCart');
+    updateCartDisplay();
+}
+
+// Agregar event listener para el botón de limpiar
+document.getElementById('clear-cart').addEventListener('click', clearCart);
+
+// Cargar el carrito cuando la página se inicie
+document.addEventListener('DOMContentLoaded', loadCart);
 
 // Explicación de las mejoras y funciones:
 // 1. Organización del código:
@@ -259,3 +300,12 @@ function removeFromCart(id) {
 //  Reducción de manipulaciones DOM
 //  Mejor manejo de eventos
 //  Uso de métodos modernos de array
+
+function changeQuantity(id, newQuantity) {
+    const item = cart.find((item) => item.id === id);
+    if (item) {
+        item.cantidad = parseInt(newQuantity);
+        updateCart();
+        saveCart();
+    }
+}
