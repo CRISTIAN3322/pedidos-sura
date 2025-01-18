@@ -522,7 +522,7 @@
         "id": 66,
         "codigo": "JBL0006",
         "nombre": "ITALCAN 30KG",
-        "precio": 104768,
+        "precio": 97187,
         "imagen": " ./img_catalogo/bellini/italcan-30-kl.png ",
         "activo": true
     },
@@ -530,7 +530,7 @@
         "id": 67,
         "codigo": "JBL0007",
         "nombre": "ITALCAN 10KG",
-        "precio": 32970,
+        "precio": 32114,
         "imagen": " ./img_catalogo/bellini/italcan-10-kl.png ",
         "activo": true
     },
@@ -1394,7 +1394,7 @@
         "id": 175,
         "codigo": "JCI0089",
         "nombre": "WAFER PAQUETACO CHOCOLATE X 117 GR CJ X 48",
-        "precio": 3074,
+        "precio": 2981,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-chocolate.png ",
         "activo": true
     },
@@ -1402,7 +1402,7 @@
         "id": 176,
         "codigo": "JCI0090",
         "nombre": "WAFER PAQUETACO COCO X 117 GR X CJ X 48",
-        "precio": 3074,
+        "precio": 2981,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-coco.png ",
         "activo": true
     },
@@ -1410,7 +1410,7 @@
         "id": 177,
         "codigo": "JCI0091",
         "nombre": "WAFER PAQUETACO FRESA X 117 CJ X 48",
-        "precio": 3074,
+        "precio": 2981,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-fresa.png ",
         "activo": true
     },
@@ -1418,7 +1418,7 @@
         "id": 178,
         "codigo": "JCI0092",
         "nombre": "WAFER PAQUETACO AREQUIPE X 117 GR CJ X 48",
-        "precio": 3074,
+        "precio": 2981,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-arequipe.png ",
         "activo": true
     },
@@ -1426,7 +1426,7 @@
         "id": 179,
         "codigo": "JCI0093",
         "nombre": "WAFER PAQUETACO NARANJA X 117 GR CJ X 48",
-        "precio": 3074,
+        "precio": 2981,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-naranja.png ",
         "activo": true
     },
@@ -1434,7 +1434,7 @@
         "id": 180,
         "codigo": "JCI0094",
         "nombre": "WAFER PAQUETACO GUANABANA  X 117 GR CJ X 48",
-        "precio": 3074,
+        "precio": 2981,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-guanabana.png ",
         "activo": true
     },
@@ -1442,7 +1442,7 @@
         "id": 181,
         "codigo": "JCI0095",
         "nombre": "WAFER PAQUETACO VAINILLA X 117 GR CJ X 48",
-        "precio": 3074,
+        "precio": 2981,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-vainilla.png ",
         "activo": true
     },
@@ -1450,7 +1450,7 @@
         "id": 182,
         "codigo": "JCI0096",
         "nombre": "WAFER PAQUETACO LIMON X 117 GR CJ X 48",
-        "precio": 3074,
+        "precio": 2981,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-limon.png ",
         "activo": true
     },
@@ -1458,7 +1458,7 @@
         "id": 183,
         "codigo": "JCI0097",
         "nombre": "WAFER PAQUETACO MORA X 117 GR CJ X 48",
-        "precio": 3074,
+        "precio": 2981,
         "imagen": " ./img_catalogo/comestibles-italo/paquetaco-mora.png ",
         "activo": true
     },
@@ -3570,7 +3570,7 @@
         "id": 447,
         "codigo": "JPO0001",
         "nombre": "AREPASAN BLANCA X 1000 GR PC X 10",
-        "precio": 2588,
+        "precio": 2820,
         "imagen": " ./img_catalogo/precocidos/arepasan-1000.png ",
         "activo": true
     },
@@ -3578,7 +3578,7 @@
         "id": 448,
         "codigo": "JPO0002",
         "nombre": "AREPASAN BLANCA X 500 GR PC X 24",
-        "precio": 1323,
+        "precio": 1410,
         "imagen": " ./img_catalogo/precocidos/arepasan-500.PNG ",
         "activo": true
     },
@@ -3586,7 +3586,7 @@
         "id": 449,
         "codigo": "JPO0003",
         "nombre": "HARINA LA MONJITA X 500 GR PC X 24",
-        "precio": 1281,
+        "precio": 1276,
         "imagen": " ./img_catalogo/precocidos/harina-de-trigo-la-monjita-500.png ",
         "activo": true
     },
@@ -3594,7 +3594,7 @@
         "id": 450,
         "codigo": "JPO0005",
         "nombre": "MACARRON RIOKA X 250 PC X 24",
-        "precio": 941,
+        "precio": 992,
         "imagen": " ./img_catalogo/precocidos/pasta-macarron-250.jpg ",
         "activo": true
     },
@@ -3602,7 +3602,7 @@
         "id": 451,
         "codigo": "JPO0006",
         "nombre": "FIDEOS RIOKA X 250 PC X 24",
-        "precio": 941,
+        "precio": 992,
         "imagen": " ./img_catalogo/precocidos/pasta-fideos-250.jpg ",
         "activo": true
     },
@@ -3610,7 +3610,7 @@
         "id": 452,
         "codigo": "JPO0007",
         "nombre": "CONCHAS RIOKA X 250 PC X 24",
-        "precio": 941,
+        "precio": 992,
         "imagen": " ./img_catalogo/precocidos/psta-conchas-250.jpg ",
         "activo": true
     },
@@ -3618,7 +3618,7 @@
         "id": 453,
         "codigo": "JPO0008",
         "nombre": "SPAGUETTI RIOKA X 1000 PC X 12",
-        "precio": 3758,
+        "precio": 3870,
         "imagen": " ./img_catalogo/precocidos/pasta-espaguetti-1000.jpg ",
         "activo": true
     },
@@ -3626,7 +3626,7 @@
         "id": 454,
         "codigo": "JPO0009",
         "nombre": "SPAGUETTI RIOKA X 250 PC X 24",
-        "precio": 941,
+        "precio": 992,
         "imagen": " ./img_catalogo/precocidos/pasta-espaguetti-250.jpg ",
         "activo": true
     },
@@ -3634,7 +3634,7 @@
         "id": 455,
         "codigo": "JPO0010",
         "nombre": "FIDEOS RIOKA X 1000 PC X 6",
-        "precio": 3758,
+        "precio": 3870,
         "imagen": " ./img_catalogo/precocidos/pasta-fideos-1000.jpg ",
         "activo": true
     },
@@ -3642,7 +3642,7 @@
         "id": 456,
         "codigo": "JPO0011",
         "nombre": "CONCHAS RIOKA X 1000 PC X 6",
-        "precio": 3758,
+        "precio": 3870,
         "imagen": "",
         "activo": true
     },
@@ -3650,7 +3650,7 @@
         "id": 457,
         "codigo": "JPO0012",
         "nombre": "MACARRON X 1000 PC X 6",
-        "precio": 3758,
+        "precio": 3870,
         "imagen": "",
         "activo": true
     },
