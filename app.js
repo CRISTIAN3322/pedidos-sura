@@ -1,23 +1,27 @@
 // Referencias a elementos HTML
-const productsContainer = document.getElementById("products");
-const cartContainer = document.getElementById("cart");
-const sendWhatsAppButton = document.getElementById("send-whatsapp");
-const searchInput = document.getElementById("search");
+const elements = {
+    productsContainer: document.getElementById("products"),
+    cartContainer: document.getElementById("cart"),
+    sendWhatsAppButton: document.getElementById("send-whatsapp"),
+    searchInput: document.getElementById("search"),
+    clearCartButton: document.getElementById('clear-cart'),
+    descripcionInput: document.getElementById("descripcion")
+};
 
 // Variables globales
-let cart = [];
-let products = [];
-
-// Agregar variables de paginación
-const productsPerPage = 12; // Productos por página
-let currentPage = 1;
-let filteredProducts = [];
+const state = {
+    cart: [],
+    products: [],
+    productsPerPage: 12,
+    currentPage: 1,
+    filteredProducts: []
+};
 
 // Función para cargar el carrito desde localStorage
 function loadCart() {
     const savedCart = localStorage.getItem('suraCart');
     if (savedCart) {
-        cart = JSON.parse(savedCart);
+        state.cart = JSON.parse(savedCart);
         updateCart();
     }
 }
@@ -25,8 +29,7 @@ function loadCart() {
 // Asegurarnos de que el DOM esté completamente cargado antes de ejecutar loadCart
 document.addEventListener('DOMContentLoaded', () => {
     loadCart();
-    // Agregar event listeners para los botones de eliminar
-    document.getElementById('cart').addEventListener('click', (e) => {
+    elements.cartContainer.addEventListener('click', (e) => {
         if (e.target.classList.contains('cart-item__remove')) {
             const productId = e.target.dataset.id;
             removeFromCart(productId);
@@ -36,26 +39,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Función para guardar el carrito en localStorage
 function saveCart() {
-    localStorage.setItem('suraCart', JSON.stringify(cart));
+    localStorage.setItem('suraCart', JSON.stringify(state.cart));
 }
 
 // Cargar productos desde JSON
-fetch("products.json")
-    .then((response) => response.json())
-    .then((data) => {
-        products = data;
-        displayProducts(products);
-    })
-    .catch((error) => console.error("Error cargando los productos:", error));
+async function loadProducts() {
+    try {
+        const response = await fetch("products.json");
+        state.products = await response.json();
+        displayProducts(state.products);
+    } catch (error) {
+        console.error("Error cargando los productos:", error);
+    }
+}
 
+// Función para mostrar productos
 function displayProducts(productsList) {
     // Filtrar solo productos activos
-    filteredProducts = productsList.filter(product => product.activo);
-    const startIndex = (currentPage - 1) * productsPerPage;
-    const endIndex = startIndex + productsPerPage;
-    const paginatedProducts = filteredProducts.slice(startIndex, endIndex);
+    state.filteredProducts = productsList.filter(product => product.activo);
+    const startIndex = (state.currentPage - 1) * state.productsPerPage;
+    const endIndex = startIndex + state.productsPerPage;
+    const paginatedProducts = state.filteredProducts.slice(startIndex, endIndex);
 
-    productsContainer.innerHTML = "";
+    elements.productsContainer.innerHTML = "";
 
     // Mostrar productos de la página actual
     paginatedProducts.forEach((product) => {
@@ -73,35 +79,32 @@ function displayProducts(productsList) {
                  value="1" 
                  class="cantidad-input" 
                  id="cantidad-${product.id}">
-          <button onclick="addToCart(${product.id}, '${product.codigo}', '${
-      product.nombre
-    }', ${product.precio}, document.getElementById('cantidad-${
-      product.id
-    }').value)">
+          <button onclick="addToCart(${product.id}, '${product.codigo}', '${product.nombre}', ${product.precio}, document.getElementById('cantidad-${product.id}').value)">
             Agregar al Carrito
           </button>
         </div>
       `;
-        productsContainer.appendChild(productDiv);
+        elements.productsContainer.appendChild(productDiv);
     });
 
     // Agregar controles de paginación con la nueva lista filtrada
-    displayPagination(filteredProducts.length);
+    displayPagination(state.filteredProducts.length);
 }
 
+// Función para mostrar la paginación
 function displayPagination(totalProducts) {
-    const totalPages = Math.ceil(totalProducts / productsPerPage);
+    const totalPages = Math.ceil(totalProducts / state.productsPerPage);
     const paginationDiv = document.createElement("div");
     paginationDiv.classList.add("pagination");
 
     // Botón anterior
     const prevButton = document.createElement("button");
     prevButton.innerText = "Anterior";
-    prevButton.disabled = currentPage === 1;
+    prevButton.disabled = state.currentPage === 1;
     prevButton.onclick = () => {
-        if (currentPage > 1) {
-            currentPage--;
-            displayProducts(filteredProducts);
+        if (state.currentPage > 1) {
+            state.currentPage--;
+            displayProducts(state.filteredProducts);
         }
     };
 
@@ -110,7 +113,7 @@ function displayPagination(totalProducts) {
     pageInput.type = "number";
     pageInput.min = 1;
     pageInput.max = totalPages;
-    pageInput.value = currentPage;
+    pageInput.value = state.currentPage;
     pageInput.classList.add("page-input");
 
     // Manejar cambio de página mediante input
@@ -118,8 +121,8 @@ function displayPagination(totalProducts) {
         let newPage = parseInt(e.target.value);
         if (newPage < 1) newPage = 1;
         if (newPage > totalPages) newPage = totalPages;
-        currentPage = newPage;
-        displayProducts(filteredProducts);
+        state.currentPage = newPage;
+        displayProducts(state.filteredProducts);
     };
 
     // Información del total de páginas
@@ -129,11 +132,11 @@ function displayPagination(totalProducts) {
     // Botón siguiente
     const nextButton = document.createElement("button");
     nextButton.innerText = "Siguiente";
-    nextButton.disabled = currentPage === totalPages;
+    nextButton.disabled = state.currentPage === totalPages;
     nextButton.onclick = () => {
-        if (currentPage < totalPages) {
-            currentPage++;
-            displayProducts(filteredProducts);
+        if (state.currentPage < totalPages) {
+            state.currentPage++;
+            displayProducts(state.filteredProducts);
         }
     };
 
@@ -142,24 +145,24 @@ function displayPagination(totalProducts) {
     paginationDiv.appendChild(pageInfo);
     paginationDiv.appendChild(nextButton);
 
-    productsContainer.appendChild(paginationDiv);
+    elements.productsContainer.appendChild(paginationDiv);
 }
 
 // Modificar la función que agrega productos al carrito
 function addToCart(id, codigo, nombre, precio, cantidad) {
     cantidad = parseInt(cantidad);
-    const product = cart.find((item) => item.id === id);
+    const product = state.cart.find((item) => item.id === id);
     if (product) {
         product.cantidad += cantidad;
     } else {
-        cart.push({ id, codigo, nombre, precio, cantidad });
+        state.cart.push({ id, codigo, nombre, precio, cantidad });
     }
     updateCart();
     saveCart(); // Guardar después de cada modificación
 }
 
 function updateCart() {
-    cartContainer.innerHTML = `
+    elements.cartContainer.innerHTML = `
     <div class="pedido">
       <div class="descripcion-pedido">
         <label for="descripcion">Descripción adicional:</label>
@@ -182,18 +185,16 @@ function updateCart() {
         <tfoot>
           <tr>
             <td colspan="4"><strong>Total del Pedido:</strong></td>
-            <td colspan="2"><strong>$${calculateTotal().toFixed(
-              2
-            )}</strong></td>
+            <td colspan="2"><strong>$${calculateTotal().toFixed(2)}</strong></td>
           </tr>
         </tfoot>
       </table>
     </div>
     `;
 
-    const tbody = cartContainer.querySelector("tbody");
+    const tbody = elements.cartContainer.querySelector("tbody");
 
-    cart.forEach((item) => {
+    state.cart.forEach((item) => {
         const total = item.precio * item.cantidad;
         const tr = document.createElement("tr");
         tr.innerHTML = `
@@ -215,41 +216,41 @@ function updateCart() {
 
 // Modificar el envío por WhatsApp para incluir la descripción
 const sendWhatsAppOrder = () => {
-    if (cart.length === 0) {
-        alert("El carrito está vacío.");
-        return;
-    }
+  if (state.cart.length === 0) {
+      alert("El carrito está vacío.");
+      return;
+  }
 
-    const descripcion = document.getElementById("descripcion").value.trim();
+  const descripcion = document.getElementById("descripcion").value.trim();
 
-    // Agregamos la validación de la descripción
-    if (!descripcion) {
-        alert("Por favor ingrese el nombre o NIT del cliente. Este campo es obligatorio.");
-        return;
-    }
+  // Agregamos la validación de la descripción
+  if (!descripcion) {
+      alert("Por favor ingrese el nombre o NIT del cliente. Este campo es obligatorio.");
+      return;
+  }
 
-    const message = `Hola, quiero hacer un pedido:%0A%0A${
-        cart.map(item => 
-            `- ${item.nombre} (Código: ${item.codigo}) x${item.cantidad} ($${(item.precio * item.cantidad).toFixed(2)})`
-        ).join('%0A')
-    }%0A%0ATotal: $${calculateTotal().toFixed(2)}${
-        descripcion ? `%0A%0ANotas adicionales:%0A${descripcion}` : ''
-    }`;
+  const message = `Hola, quiero hacer un pedido:%0A%0A${
+      state.cart.map(item => 
+          `- ${item.nombre} (Código: ${item.codigo}) x${item.cantidad} ($${(item.precio * item.cantidad).toFixed(2)})`
+      ).join('%0A')
+  }%0A%0ATotal: $${calculateTotal().toFixed(2)}${
+      descripcion ? `%0A%0ANotas adicionales:%0A${descripcion}` : ''
+  }`;
 
-    window.open(`https://wa.me/573223184865?text=${message}`, "_blank");
+  window.open(`https://wa.me/573223184865?text=${message}`, "_blank");
     
     // Limpiar datos después de enviar
-    cart = [];
-    document.getElementById("descripcion").value = "";
+    state.cart = [];
+    elements.descripcionInput.value = "";
     updateCart(); // Actualizar la vista del carrito después de limpiar
 }
 
 // Event Listeners
-sendWhatsAppButton.addEventListener("click", sendWhatsAppOrder);
-searchInput.addEventListener("input", () => {
-  const searchTerm = searchInput.value.toLowerCase();
-  currentPage = 1;
-  const filteredProducts = products.filter(product =>
+elements.sendWhatsAppButton.addEventListener("click", sendWhatsAppOrder);
+elements.searchInput.addEventListener("input", () => {
+  const searchTerm = elements.searchInput.value.toLowerCase();
+  state.currentPage = 1;
+  const filteredProducts = state.products.filter(product =>
     product.activo && (
       product.nombre.toLowerCase().includes(searchTerm) ||
       product.codigo.toLowerCase().includes(searchTerm)
@@ -260,69 +261,35 @@ searchInput.addEventListener("input", () => {
 
 // Agregar función para calcular el total
 function calculateTotal() {
-  return cart.reduce((sum, item) => sum + item.precio * item.cantidad, 0);
+  return state.cart.reduce((sum, item) => sum + item.precio * item.cantidad, 0);
 }
 
 // Eliminar producto del carrito
 function removeFromCart(id) {
-  cart = cart.filter((item) => item.id !== id);
+  state.cart = state.cart.filter((item) => item.id !== id);
   updateCart();
   saveCart();
 }
 
 // Función para limpiar el carrito
 function clearCart() {
-    cart = [];
+    state.cart = [];
     localStorage.removeItem('suraCart');
-    updateCartDisplay();
+    updateCart();
 }
 
 // Agregar event listener para el botón de limpiar
-document.getElementById('clear-cart').addEventListener('click', clearCart);
+elements.clearCartButton.addEventListener('click', clearCart);
 
-// Cargar el carrito cuando la página se inicie
-document.addEventListener('DOMContentLoaded', loadCart);
+// Cargar productos al iniciar
+loadProducts();
 
-// Explicación de las mejoras y funciones:
-// 1. Organización del código:
-//  Se agruparon todas las referencias DOM en un objeto elements
-//  Se centralizó el estado en un objeto state
-//  Se creó un objeto cartManager para manejar la lógica del carrito
-// 2. Funciones principales:
-//  loadProducts: Carga asíncrona de productos usando async/await
-//  displayProducts: Muestra los productos en la interfaz
-//  cartManager.add: Agrega productos al carrito
-//  cartManager.remove: Elimina productos del carrito
-//  cartManager.changeQuantity: Actualiza cantidades
-//  cartManager.calculateTotal: Calcula el total del pedido
-//  updateCart: Actualiza la vista del carrito
-// 3. Mejoras de rendimiento:
-//  Uso de template strings para HTML
-//  Reducción de manipulaciones DOM
-//  Mejor manejo de eventos
-//  Uso de métodos modernos de array
-
+// Función para cambiar la cantidad de un producto
 function changeQuantity(id, newQuantity) {
-    const item = cart.find((item) => item.id === id);
+    const item = state.cart.find((item) => item.id === id);
     if (item) {
         item.cantidad = parseInt(newQuantity);
         updateCart();
         saveCart();
     }
-}
-
-function agregarProductoAlCarrito(producto) {
-    // Verificar si el producto ya está en el carrito
-    const productoExistente = carrito.find(item => item.id === producto.id);
-    
-    if (productoExistente) {
-        // Si el producto ya existe, incrementar la cantidad
-        productoExistente.cantidad += 1;
-    } else {
-        // Si no existe, agregar el producto al carrito con cantidad 1
-        carrito.push({ ...producto, cantidad: 1 });
-    }
-    
-    // Actualizar la visualización del carrito
-    actualizarCarrito();
 }
