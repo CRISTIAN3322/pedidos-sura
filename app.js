@@ -65,7 +65,8 @@ function displayProducts(productsList) {
         <img src="${product.imagen}" alt="${product.nombre}">
         <h4>${product.nombre}</h4>
         <p>Código: ${product.codigo}</p>
-        <p>Precio: $${product.precio.toFixed(2)}</p>
+        <p>Precio: $${product.precio.toFixed(0)}</p>
+        <p class="size-font">${product.barra}</p>
         <div class="cantidad-container">
           <input type="number" 
                  min="1" 
@@ -214,33 +215,33 @@ function updateCart() {
 
 // Modificar el envío por WhatsApp para incluir la descripción
 const sendWhatsAppOrder = () => {
-        if (cart.length === 0) {
-            alert("El carrito está vacío.");
-            return;
-        }
+    if (cart.length === 0) {
+        alert("El carrito está vacío.");
+        return;
+    }
 
-        const descripcion = document.getElementById("descripcion").value.trim();
+    const descripcion = document.getElementById("descripcion").value.trim();
 
-        // Agregamos la validación de la descripción
-        if (!descripcion) {
-            alert("Por favor ingrese el nombre o NIT del cliente. Este campo es obligatorio.");
-            return;
-        }
+    // Agregamos la validación de la descripción
+    if (!descripcion) {
+        alert("Por favor ingrese el nombre o NIT del cliente. Este campo es obligatorio.");
+        return;
+    }
 
-        const message = `Hola, quiero hacer un pedido:%0A%0A${
-    cart.map(item => 
-      `- ${item.nombre} (Código: ${item.codigo}) x${item.cantidad} ($${(item.precio * item.cantidad).toFixed(2)})`
-    ).join('%0A')
-  }%0A%0ATotal: $${calculateTotal().toFixed(2)}${
-    descripcion ? `%0A%0ANotas adicionales:%0A${descripcion}` : ''
-  }`;
+    const message = `Hola, quiero hacer un pedido:%0A%0A${
+        cart.map(item => 
+            `- ${item.nombre} (Código: ${item.codigo}) x${item.cantidad} ($${(item.precio * item.cantidad).toFixed(2)})`
+        ).join('%0A')
+    }%0A%0ATotal: $${calculateTotal().toFixed(2)}${
+        descripcion ? `%0A%0ANotas adicionales:%0A${descripcion}` : ''
+    }`;
 
-  window.open(`https://wa.me/573223184865?text=${message}`, "_blank");
-  
-  // Limpiar datos después de enviar
-  cart = [];
-  document.getElementById("descripcion").value = "";
-  updateCart();
+    window.open(`https://wa.me/573223184865?text=${message}`, "_blank");
+    
+    // Limpiar datos después de enviar
+    cart = [];
+    document.getElementById("descripcion").value = "";
+    updateCart(); // Actualizar la vista del carrito después de limpiar
 }
 
 // Event Listeners
@@ -308,4 +309,20 @@ function changeQuantity(id, newQuantity) {
         updateCart();
         saveCart();
     }
+}
+
+function agregarProductoAlCarrito(producto) {
+    // Verificar si el producto ya está en el carrito
+    const productoExistente = carrito.find(item => item.id === producto.id);
+    
+    if (productoExistente) {
+        // Si el producto ya existe, incrementar la cantidad
+        productoExistente.cantidad += 1;
+    } else {
+        // Si no existe, agregar el producto al carrito con cantidad 1
+        carrito.push({ ...producto, cantidad: 1 });
+    }
+    
+    // Actualizar la visualización del carrito
+    actualizarCarrito();
 }

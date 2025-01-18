@@ -96,6 +96,22 @@ input[type="text"] {
     width: 30px;
     margin: 0;
 }
+.cart-section__clear {
+    margin-top: 10px;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.cart-button {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
 
 .btn-pedido {
     display: block;
@@ -134,6 +150,12 @@ input[type="text"] {
     width: 60px;
     padding: 5px;
     text-align: center;
+}
+
+.size-font{
+    font-size: 12px;
+    font-weight: 700;
+    color: red;
 }
 
 
