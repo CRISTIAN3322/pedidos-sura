@@ -230,13 +230,12 @@ const sendWhatsAppOrder = () => {
         }
 
         const message = `Hola, quiero hacer un pedido:%0A%0A${
-  
+      descripcion ? `Notas adicionales:%0A${descripcion}%0A%0A` : ''
+  }${
       state.cart.map(item => 
           `- ${item.nombre} (Código: ${item.codigo}) x${item.cantidad} ($${(item.precio * item.cantidad).toFixed(2)})`
       ).join('%0A')
-  }%0A%0ATotal: $${calculateTotal().toFixed(2)}${
-      descripcion ? `%0A%0ANotas adicionales:%0A${descripcion}` : ''
-  }`;
+  }%0A%0ATotal: $${calculateTotal().toFixed(2)}`;
 
   window.open(`https://wa.me/573223184865?text=${message}`, "_blank");
     
