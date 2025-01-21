@@ -216,20 +216,21 @@ function updateCart() {
 
 // Modificar el envío por WhatsApp para incluir la descripción
 const sendWhatsAppOrder = () => {
-  if (state.cart.length === 0) {
-      alert("El carrito está vacío.");
-      return;
-  }
+        if (state.cart.length === 0) {
+            alert("El carrito está vacío.");
+            return;
+        }
 
-  const descripcion = document.getElementById("descripcion").value.trim();
+        const descripcion = document.getElementById("descripcion").value.trim();
 
-  // Agregamos la validación de la descripción
-  if (!descripcion) {
-      alert("Por favor ingrese el nombre o NIT del cliente. Este campo es obligatorio.");
-      return;
-  }
+        // Agregamos la validación de la descripción
+        if (!descripcion) {
+            alert("Por favor ingrese el nombre o NIT del cliente. Este campo es obligatorio.");
+            return;
+        }
 
-  const message = `Hola, quiero hacer un pedido:%0A%0A${
+        const message = `Hola, quiero hacer un pedido:%0A%0A${
+  
       state.cart.map(item => 
           `- ${item.nombre} (Código: ${item.codigo}) x${item.cantidad} ($${(item.precio * item.cantidad).toFixed(2)})`
       ).join('%0A')
