@@ -3539,7 +3539,7 @@
         "id": 394,
         "codigo": "JLT0001",
         "nombre": "GUANTE  DOMESTICO TALLA 7",
-        "precio": 3327,
+        "precio": 3577,
         "imagen": "",
         "barra": 7702764022504,
         "activo": true
@@ -3548,7 +3548,7 @@
         "id": 395,
         "codigo": "JLT0002",
         "nombre": "GUANTE DOMESTICO TALLA 7 1/2 *",
-        "precio": 3327,
+        "precio": 3577,
         "imagen": "",
         "barra": 7702764023006,
         "activo": true
@@ -3557,7 +3557,7 @@
         "id": 396,
         "codigo": "JLT0003",
         "nombre": "GUANTE DOMESTICO TALLA 8 *",
-        "precio": 3327,
+        "precio": 3577,
         "imagen": "",
         "barra": 7702764024003,
         "activo": true
@@ -3566,7 +3566,7 @@
         "id": 397,
         "codigo": "JLT0004",
         "nombre": "GUANTE DOMESTICO TALLA 8 1/2 *",
-        "precio": 3327,
+        "precio": 3577,
         "imagen": "",
         "barra": 7702764025000,
         "activo": true
@@ -3575,7 +3575,7 @@
         "id": 398,
         "codigo": "JLT0005",
         "nombre": "GUANTE DOMESTICO TALLA 9 *",
-        "precio": 3327,
+        "precio": 3577,
         "imagen": "",
         "barra": 7702764026007,
         "activo": true
@@ -3584,7 +3584,7 @@
         "id": 399,
         "codigo": "JLT0006",
         "nombre": "GUANTE CALIBRE 25 TALLA 7",
-        "precio": 3462,
+        "precio": 3720,
         "imagen": "",
         "barra": 7702764026502,
         "activo": true
@@ -3593,7 +3593,7 @@
         "id": 400,
         "codigo": "JLT0007",
         "nombre": "GUANTE CALIBRE 25 TALLA 7 1/2 *",
-        "precio": 3462,
+        "precio": 3720,
         "imagen": "",
         "barra": 7702764027004,
         "activo": true
@@ -3602,7 +3602,7 @@
         "id": 401,
         "codigo": "JLT0008",
         "nombre": "GUANTE CALIBRE 25 TALLA 8 *",
-        "precio": 3462,
+        "precio": 3720,
         "imagen": "",
         "barra": 7702764028001,
         "activo": true
@@ -3611,7 +3611,7 @@
         "id": 402,
         "codigo": "JLT0009",
         "nombre": "GUANTE CALIBRE 25 TALLA 8 1/2 *",
-        "precio": 3462,
+        "precio": 3720,
         "imagen": "",
         "barra": 7702764029008,
         "activo": true
@@ -3620,7 +3620,7 @@
         "id": 403,
         "codigo": "JLT0010",
         "nombre": "GUANTE CALIBRE 25 TALLA 9 *",
-        "precio": 3462,
+        "precio": 3720,
         "imagen": "",
         "barra": 7702764020004,
         "activo": true
@@ -3629,7 +3629,7 @@
         "id": 404,
         "codigo": "JLT0011",
         "nombre": "GUANTE CALIBRE 35 TALLA 7",
-        "precio": 4952,
+        "precio": 5323,
         "imagen": "",
         "barra": 7702764036006,
         "activo": true
@@ -3638,7 +3638,7 @@
         "id": 405,
         "codigo": "JLT0012",
         "nombre": "GUANTE CALIBRE 35 TALLA 7 1/2 *",
-        "precio": 4952,
+        "precio": 5323,
         "imagen": "",
         "barra": 7702764021001,
         "activo": true
@@ -3647,7 +3647,7 @@
         "id": 406,
         "codigo": "JLT0013",
         "nombre": "GUANTE CALIBRE 35 TALLA 8 *",
-        "precio": 4952,
+        "precio": 5323,
         "imagen": "",
         "barra": 7702764032008,
         "activo": true
@@ -3656,7 +3656,7 @@
         "id": 407,
         "codigo": "JLT0014",
         "nombre": "GUANTE CALIBRE 35 TALLA 8 1/2 *",
-        "precio": 4952,
+        "precio": 5323,
         "imagen": "",
         "barra": 7702764023005,
         "activo": true
@@ -3665,7 +3665,7 @@
         "id": 408,
         "codigo": "JLT0015",
         "nombre": "GUANTE CALIBRE 35 TALLA 9 *",
-        "precio": 4952,
+        "precio": 5323,
         "imagen": "",
         "barra": 7702764024002,
         "activo": true
@@ -3828,7 +3828,7 @@
         "codigo": "JPN0001",
         "nombre": "PAPELS ROSAL XXG 12 PAQUETES X 4 ROLLOS",
         "precio": 6902,
-        "imagen": "./img_catalogo/papeles-nacionales/papel-rosal-xxg-x4.png",
+        "imagen": "",
         "barra": 7702120012996,
         "activo": true
     },
@@ -3837,7 +3837,7 @@
         "codigo": "JPN0002",
         "nombre": "PAPELS ROSAL XXG 4 PAQUETES X 12 ROLLOS",
         "precio": 16561,
-        "imagen": "./img_catalogo/papeles-nacionales/papel-rosal-xxg-x12.png",
+        "imagen": "",
         "barra": 7702120012972,
         "activo": true
     },
@@ -3846,7 +3846,7 @@
         "codigo": "JPN0003",
         "nombre": "PAPELS ROSAL XXG 3 PAQUETES X 15 ROLLOS",
         "precio": 21551,
-        "imagen": "./img_catalogo/papeles-nacionales/papel-rosal-xxg-x15.png",
+        "imagen": "",
         "barra": 7702120012965,
         "activo": true
     },
@@ -3855,7 +3855,7 @@
         "codigo": "JPN0004",
         "nombre": "PAPELS ROSAL XG 12 PAQUETES X 4 ROLLOS",
         "precio": 5682,
-        "imagen": "./img_catalogo/papeles-nacionales/papel-rosal-xg-x4.png",
+        "imagen": "",
         "barra": 7702120013061,
         "activo": true
     },
@@ -3864,7 +3864,7 @@
         "codigo": "JPN0005",
         "nombre": "PAPELS ROSAL XG 4 PAQUETES X 12 ROLLOS X 25 MTS",
         "precio": 12965,
-        "imagen": "./img_catalogo/papeles-nacionales/papel-rosal-xg-x12.png",
+        "imagen": "",
         "barra": 7702120013078,
         "activo": true
     },
@@ -3972,7 +3972,7 @@
         "codigo": "JPN0017",
         "nombre": "PAPELS ROSAL XXG POR UNIDAD",
         "precio": 1582,
-        "imagen": "./img_catalogo/papeles-nacionales/papel-rosal-xxg-x1.png",
+        "imagen": "",
         "barra": 7702120013009,
         "activo": true
     },
@@ -3981,7 +3981,7 @@
         "codigo": "JPN0018",
         "nombre": "PAPELS ROSAL G POR UNIDAD",
         "precio": 1139,
-        "imagen": "./img_catalogo/papeles-nacionales/papel-rosal-g-x1.png",
+        "imagen": "",
         "barra": 7702120013030,
         "activo": true
     },
@@ -3990,7 +3990,7 @@
         "codigo": "JPN0019",
         "nombre": "PAPELS ROSAL G 4 PAQUETES X 12 ROLLOS",
         "precio": 12731,
-        "imagen": "./img_catalogo/papeles-nacionales/papel-rosal-g-x12.png",
+        "imagen": "",
         "barra": 7702120013054,
         "activo": true
     },
@@ -3999,7 +3999,7 @@
         "codigo": "JPN0020",
         "nombre": "PAPELS ROSAL XXG 8 PAQUETES X 6 ROLLOS",
         "precio": 8212,
-        "imagen": "./img_catalogo/papeles-nacionales/papel-rosal-xxg-x6.png",
+        "imagen": "",
         "barra": 7702120012989,
         "activo": true
     },
@@ -4080,7 +4080,7 @@
         "codigo": "JPN0029",
         "nombre": "PAPEL ROSAL MAXIMO 4PAQUETES X 12 ROLLOS",
         "precio": 12001,
-        "imagen": "./img_catalogo/papeles-nacionales/papel-higienico-rosal-maximo-12.png",
+        "imagen": "",
         "barra": 7702120014105,
         "activo": true
     },
