@@ -4088,7 +4088,7 @@
         "id": 455,
         "codigo": "JPO0001",
         "nombre": "AREPASAN BLANCA X 1000 GR PC X 10",
-        "precio": 2679,
+        "precio": 2820,
         "imagen": " ./img_catalogo/precocidos/arepasan-1000.png ",
         "barra": 7705525010123,
         "activo": true
@@ -4097,7 +4097,7 @@
         "id": 456,
         "codigo": "JPO0002",
         "nombre": "AREPASAN BLANCA X 500 GR PC X 24",
-        "precio": 1339,
+        "precio": 1410,
         "imagen": " ./img_catalogo/precocidos/arepasan-500.PNG ",
         "barra": 7705525010017,
         "activo": true
