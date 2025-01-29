@@ -820,7 +820,7 @@
     {
         "id": 92,
         "codigo": "JCG0011",
-        "nombre": "FLIPS CHOCOLATE X 120GR CJ X 14",
+        "nombre": "FLIPS CHOCOLATE X 120GR CJ X 20",
         "precio": 4041,
         "imagen": " ./img_catalogo/congrupo/flips-chocolate-120.png ",
         "barra": 7707200710342,
@@ -1757,7 +1757,7 @@
         "id": 196,
         "codigo": "JCR0001",
         "nombre": "VINO DE MANZANA BURBUJEANTE CASA RHIN X 750 CJ X 12",
-        "precio": 13612,
+        "precio": 13018,
         "imagen": " ./img_catalogo/casa-rhin/vino-de-manzana-burbujeante-casa-rhin-750.png ",
         "barra": 7702307140221,
         "activo": true
@@ -2063,7 +2063,7 @@
         "id": 230,
         "codigo": "JDX0001",
         "nombre": "CONSERVA DE PESCADO EN SALSA DE TOMATE SANCHO CJ X 48 UND",
-        "precio": 5209,
+        "precio": 5259,
         "imagen": " ./img_catalogo/puertomar-zomac/conservas-de-pescado-en-salsa-de-tomate-don-sancho-ovalada.png ",
         "barra": 7862119507589,
         "activo": true
@@ -2108,7 +2108,7 @@
         "id": 235,
         "codigo": "JDX0008",
         "nombre": "ENSALADA DE ATUN CON VEGETALES DON SANCHO CAJA X 48",
-        "precio": 4317,
+        "precio": 4393,
         "imagen": " ./img_catalogo/puertomar-zomac/ensalada-de-atun-con-vegetales.png ",
         "barra": 7862119508616,
         "activo": true
@@ -4088,7 +4088,7 @@
         "id": 455,
         "codigo": "JPO0001",
         "nombre": "AREPASAN BLANCA X 1000 GR PC X 10",
-        "precio": 2820,
+        "precio": 2679,
         "imagen": " ./img_catalogo/precocidos/arepasan-1000.png ",
         "barra": 7705525010123,
         "activo": true
@@ -4097,7 +4097,7 @@
         "id": 456,
         "codigo": "JPO0002",
         "nombre": "AREPASAN BLANCA X 500 GR PC X 24",
-        "precio": 1410,
+        "precio": 1339,
         "imagen": " ./img_catalogo/precocidos/arepasan-500.PNG ",
         "barra": 7705525010017,
         "activo": true
