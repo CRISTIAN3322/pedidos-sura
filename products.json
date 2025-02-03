@@ -524,7 +524,7 @@
         "id": 59,
         "codigo": "JAT0110",
         "nombre": "CHOCOGRANOLA X 900 gr CJ X 12 und",
-        "precio": 15678,
+        "precio": 16503,
         "imagen": " ./img_catalogo/toning/choco-granola-900.png ",
         "barra": 7702622767585,
         "activo": true
@@ -803,7 +803,7 @@
         "id": 90,
         "codigo": "JCG0009",
         "nombre": "FLIPS CHOCOLATE TO-GO X 28GR DISPLAY X 12 CJ X 6",
-        "precio": 17063,
+        "precio": 17524,
         "imagen": " ./img_catalogo/congrupo/flips-to-go-chocolate.png ",
         "barra": 7591039505190,
         "activo": true
@@ -812,7 +812,7 @@
         "id": 91,
         "codigo": "JCG0010",
         "nombre": "FLIPS DULCE DE LECHE TO-GO X 28GR DISPLAY X 12 CJ X 6",
-        "precio": 17063,
+        "precio": 17524,
         "imagen": " ./img_catalogo/congrupo/flips-to-go-dulce-de-leche.png ",
         "barra": 7591039505992,
         "activo": true
@@ -821,7 +821,7 @@
         "id": 92,
         "codigo": "JCG0011",
         "nombre": "FLIPS CHOCOLATE X 120GR CJ X 20",
-        "precio": 4041,
+        "precio": 4355,
         "imagen": " ./img_catalogo/congrupo/flips-chocolate-120.png ",
         "barra": 7707200710342,
         "activo": true
@@ -830,7 +830,7 @@
         "id": 93,
         "codigo": "JCG0012",
         "nombre": "FLIPS DULCE DE LECHE X 120GR CJ X 14",
-        "precio": 4041,
+        "precio": 4357,
         "imagen": " ./img_catalogo/congrupo/flips-dulce-de-leche-120.png ",
         "barra": 7707200710359,
         "activo": true
@@ -839,7 +839,7 @@
         "id": 94,
         "codigo": "JCG0013",
         "nombre": "FLIPS CHOCOLATE X 400GR CJ X 14",
-        "precio": 8500,
+        "precio": 13338,
         "imagen": " ./img_catalogo/congrupo/flips-chocolate-400.png ",
         "barra": 7702807414112,
         "activo": true
@@ -848,7 +848,7 @@
         "id": 95,
         "codigo": "JCG0014",
         "nombre": "FLIPS DULCE DE LECHE X 400GR CJ X 14",
-        "precio": 8500,
+        "precio": 13338,
         "imagen": " ./img_catalogo/congrupo/flips-dulce-de-leche-400.png ",
         "barra": 7702807395596,
         "activo": true
@@ -3332,7 +3332,7 @@
         "id": 371,
         "codigo": "JLC0079",
         "nombre": "VARITAS BAMBU X 40 CJ X 12",
-        "precio": 6735,
+        "precio": 7320,
         "imagen": " ./img_catalogo/cofarma/varitas-bambu-x40.png ",
         "barra": 7702532476836,
         "activo": true
@@ -3341,7 +3341,7 @@
         "id": 372,
         "codigo": "JLC0080",
         "nombre": "VARITAS FRUTOS ROJOSX40 ML",
-        "precio": 6735,
+        "precio": 7320,
         "imagen": " ./img_catalogo/cofarma/varitas-frutos-rojos-x40.png ",
         "barra": 7702532312103,
         "activo": true
@@ -3359,7 +3359,7 @@
         "id": 374,
         "codigo": "JLC0082",
         "nombre": "VARITAS VAINILLA X 40 ML",
-        "precio": 6735,
+        "precio": 7320,
         "imagen": " ./img_catalogo/cofarma/varitas-vainilla-x40.png ",
         "barra": 7702532312127,
         "activo": true
@@ -3692,7 +3692,7 @@
         "id": 411,
         "codigo": "JMN0001",
         "nombre": "SAL MI SAL X 500 PC X 25",
-        "precio": 819,
+        "precio": 850,
         "imagen": "",
         "barra": 7707181397379,
         "activo": true
@@ -3701,7 +3701,7 @@
         "id": 412,
         "codigo": "JMN0002",
         "nombre": "SAL MI SAL  X 1000 PC X 20",
-        "precio": 1565,
+        "precio": 1625,
         "imagen": "",
         "barra": 7707181398499,
         "activo": true
