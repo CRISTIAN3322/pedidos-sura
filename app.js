@@ -237,7 +237,7 @@ const sendWhatsAppOrder = () => {
       ).join('%0A')
   }%0A%0ATotal: $${calculateTotal().toFixed(2)}`;
 
-  window.open(`https://wa.me/573223184865?text=${message}`, "_blank");
+  window.open(`https://wa.me/573118711256?text=${message}`, "_blank");
     
     // Limpiar datos después de enviar
     state.cart = [];
