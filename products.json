@@ -3763,7 +3763,7 @@
     {
         "id": 419,
         "codigo": "JMN0005",
-        "nombre": "MI SAL X 50 KL",
+        "nombre": "SAL X 50 KL",
         "precio": 47500,
         "imagen": "./img_catalogo/marchen/mi-sal-50-kilos.png",
         "barra": 7707181392025,
@@ -4430,7 +4430,7 @@
         "id": 493,
         "codigo": "JVN0001",
         "nombre": "GELATINA FRUT DAY X 250 CJ X  50",
-        "precio": 4329,
+        "precio": 4495,
         "imagen": " ./img_catalogo/ventas-nacionales/gelatina-frutday-250.png ",
         "barra": 7700718564000,
         "activo": true
@@ -4439,7 +4439,7 @@
         "id": 494,
         "codigo": "JVN0002",
         "nombre": "GELATINA FRUT DAY X 500 CJ X 50",
-        "precio": 8658,
+        "precio": 8988,
         "imagen": " ./img_catalogo/ventas-nacionales/gelatina-frutday-500.png ",
         "barra": 7700718565000,
         "activo": true
@@ -4448,7 +4448,7 @@
         "id": 495,
         "codigo": "JVN0003",
         "nombre": "GELATINA FRUT DAY X 1000 CJ  X 25",
-        "precio": 17318,
+        "precio": 17977,
         "imagen": " ./img_catalogo/ventas-nacionales/gelatina-frutday-1000.png ",
         "barra": 7707185646000,
         "activo": true
