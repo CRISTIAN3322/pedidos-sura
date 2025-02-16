@@ -129,9 +129,13 @@ input[type="text"] {
     margin-top: 10px;
 }
 
+.cart-section {
+    background: #218838;
+}
+
 .pedido {
-    width: 100%;
-    background-color: antiquewhite;
+    width: 1000px;
+    /* background-color: antiquewhite; */
 }
 
 .descripcion-pedido {
@@ -158,6 +162,12 @@ input[type="text"] {
     color: red;
 }
 
+.btn-remove {
+    background-color: red;
+    color: white;
+    padding: 2.5px;
+    border-radius: 5px;
+}
 
 /* Productos y carrito */
 
@@ -258,6 +268,9 @@ input[type="text"] {
     text-align: center;
 }
 
+.divider {
+    margin: 50px 0;
+}
 
 /* Mejoras para la tabla del carrito en móvil */
 

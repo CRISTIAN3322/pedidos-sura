@@ -57,14 +57,11 @@ async function loadProducts() {
 function displayProducts(productsList) {
     // Filtrar solo productos activos
     state.filteredProducts = productsList.filter(product => product.activo);
-    const startIndex = (state.currentPage - 1) * state.productsPerPage;
-    const endIndex = startIndex + state.productsPerPage;
-    const paginatedProducts = state.filteredProducts.slice(startIndex, endIndex);
 
     elements.productsContainer.innerHTML = "";
 
-    // Mostrar productos de la página actual
-    paginatedProducts.forEach((product) => {
+    // Mostrar todos los productos filtrados
+    state.filteredProducts.forEach((product) => {
         const productDiv = document.createElement("div");
         productDiv.classList.add("product");
         productDiv.innerHTML = `
@@ -86,66 +83,6 @@ function displayProducts(productsList) {
       `;
         elements.productsContainer.appendChild(productDiv);
     });
-
-    // Agregar controles de paginación con la nueva lista filtrada
-    displayPagination(state.filteredProducts.length);
-}
-
-// Función para mostrar la paginación
-function displayPagination(totalProducts) {
-    const totalPages = Math.ceil(totalProducts / state.productsPerPage);
-    const paginationDiv = document.createElement("div");
-    paginationDiv.classList.add("pagination");
-
-    // Botón anterior
-    const prevButton = document.createElement("button");
-    prevButton.innerText = "Anterior";
-    prevButton.disabled = state.currentPage === 1;
-    prevButton.onclick = () => {
-        if (state.currentPage > 1) {
-            state.currentPage--;
-            displayProducts(state.filteredProducts);
-        }
-    };
-
-    // Input para número de página
-    const pageInput = document.createElement("input");
-    pageInput.type = "number";
-    pageInput.min = 1;
-    pageInput.max = totalPages;
-    pageInput.value = state.currentPage;
-    pageInput.classList.add("page-input");
-
-    // Manejar cambio de página mediante input
-    pageInput.onchange = (e) => {
-        let newPage = parseInt(e.target.value);
-        if (newPage < 1) newPage = 1;
-        if (newPage > totalPages) newPage = totalPages;
-        state.currentPage = newPage;
-        displayProducts(state.filteredProducts);
-    };
-
-    // Información del total de páginas
-    const pageInfo = document.createElement("span");
-    pageInfo.innerText = `de ${totalPages}`;
-
-    // Botón siguiente
-    const nextButton = document.createElement("button");
-    nextButton.innerText = "Siguiente";
-    nextButton.disabled = state.currentPage === totalPages;
-    nextButton.onclick = () => {
-        if (state.currentPage < totalPages) {
-            state.currentPage++;
-            displayProducts(state.filteredProducts);
-        }
-    };
-
-    paginationDiv.appendChild(prevButton);
-    paginationDiv.appendChild(pageInput);
-    paginationDiv.appendChild(pageInfo);
-    paginationDiv.appendChild(nextButton);
-
-    elements.productsContainer.appendChild(paginationDiv);
 }
 
 // Modificar la función que agrega productos al carrito
@@ -165,7 +102,7 @@ function updateCart() {
     elements.cartContainer.innerHTML = `
     <div class="pedido">
       <div class="descripcion-pedido">
-        <label for="descripcion">Descripción adicional:</label>
+        <label for="descripcion">Pedido para:</label>
         <textarea id="descripcion" rows="3" placeholder="Ingrese nombre ó nit del cliente para el pedido" required></textarea>
       </div>
 
@@ -207,7 +144,7 @@ function updateCart() {
         </td>
         <td>$${total.toFixed(2)}</td>
         <td>
-          <button onclick="removeFromCart(${item.id})">Eliminar</button>
+          <button class="btn-remove" onclick="removeFromCart(${item.id})">Eliminar</button>
         </td>
       `;
         tbody.appendChild(tr);
