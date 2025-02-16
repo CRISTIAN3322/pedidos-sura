@@ -159,35 +159,55 @@ function updateCart() {
     });
 }
 
-// Modificar el envío por WhatsApp para incluir la descripción
+// Modificar el envío por WhatsApp para incluir la descripción y exportar a XLS
 const sendWhatsAppOrder = () => {
-        if (state.cart.length === 0) {
-            alert("El carrito está vacío.");
-            return;
-        }
+    if (state.cart.length === 0) {
+        alert("El carrito está vacío.");
+        return;
+    }
 
-        const descripcion = document.getElementById("descripcion").value.trim();
+    const descripcion = document.getElementById("descripcion").value.trim();
 
-        // Agregamos la validación de la descripción
-        if (!descripcion) {
-            alert("Por favor ingrese el nombre o NIT del cliente. Este campo es obligatorio.");
-            return;
-        }
+    // Agregamos la validación de la descripción
+    if (!descripcion) {
+        alert("Por favor ingrese el nombre o NIT del cliente. Este campo es obligatorio.");
+        return;
+    }
 
-        const message = `Hola, quiero hacer un pedido:%0A%0A${
-      descripcion ? `Notas adicionales:%0A${descripcion}%0A%0A` : ''
-  }${
-      state.cart.map(item => 
-          `- ${item.nombre} (Código: ${item.codigo}) x${item.cantidad} ($${(item.precio * item.cantidad).toFixed(2)})`
-      ).join('%0A')
-  }%0A%0ATotal: $${calculateTotal().toFixed(2)}`;
+    const message = `Hola, quiero hacer un pedido:%0A%0A${
+        descripcion ? `Notas adicionales:%0A${descripcion}%0A%0A` : ''
+    }${
+        state.cart.map(item => 
+            `- ${item.nombre} (Código: ${item.codigo}) x${item.cantidad} ($${(item.precio * item.cantidad).toFixed(2)})`
+        ).join('%0A')
+    }%0A%0ATotal: $${calculateTotal().toFixed(2)}`;
 
-  window.open(`https://wa.me/573118711256?text=${message}`, "_blank");
-    
+    window.open(`https://wa.me/573118711256?text=${message}`, "_blank");
+
+    // Exportar el carrito a XLS
+    exportCartToXLS();
+
     // Limpiar datos después de enviar
     state.cart = [];
     elements.descripcionInput.value = "";
     updateCart(); // Actualizar la vista del carrito después de limpiar
+}
+
+// Función para exportar el carrito a XLS
+function exportCartToXLS() {
+    const worksheet = XLSX.utils.json_to_sheet(state.cart.map(item => ({
+        Código: item.codigo,
+        Producto: item.nombre,
+        Precio: item.precio,
+        Cantidad: item.cantidad,
+        Total: (item.precio * item.cantidad).toFixed(2)
+    })));
+
+    const workbook = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(workbook, worksheet, "Carrito");
+
+    // Generar el archivo XLSX
+    XLSX.writeFile(workbook, "carrito.xlsx");
 }
 
 // Event Listeners
