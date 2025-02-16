@@ -88,6 +88,14 @@ function displayProducts(productsList) {
 // Modificar la función que agrega productos al carrito
 function addToCart(id, codigo, nombre, precio, cantidad) {
     cantidad = parseInt(cantidad);
+    const totalCantidad = state.cart.reduce((sum, item) => sum + item.cantidad, 0) + cantidad;
+
+    // Verificar si la cantidad total excede 200
+    if (totalCantidad > 300) {
+        alert("No se pueden agregar más de 200 productos al carrito.");
+        return;
+    }
+
     const product = state.cart.find((item) => item.id === id);
     if (product) {
         product.cantidad += cantidad;
