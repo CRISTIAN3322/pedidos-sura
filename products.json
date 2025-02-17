@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": 1,
         "codigo": "ST0001",
         "nombre": "WAFER MINITACO X 80 SURTIDA",
@@ -607,7 +606,7 @@
         "codigo": "JAT0125",
         "nombre": "AVENA HOJUELAS SIN GLUTEN X 800 CJ X 10",
         "precio": 9850,
-        "imagen": "",
+        "imagen": "./img_catalogo/toning/avena-sin-gluten-hojuelas-x800.png ",
         "barra": 7702622684172,
         "activo": true
     },
