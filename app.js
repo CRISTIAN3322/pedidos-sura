@@ -90,11 +90,11 @@ function addToCart(id, codigo, nombre, precio, cantidad) {
     cantidad = parseInt(cantidad);
     const totalCantidad = state.cart.reduce((sum, item) => sum + item.cantidad, 0) + cantidad;
 
-    // Verificar si la cantidad total excede 200
-    if (totalCantidad > 300) {
-        alert("No se pueden agregar más de 200 productos al carrito.");
-        return;
-    }
+    // // Verificar si la cantidad total excede 200
+    // if (totalCantidad > 200) {
+    //     alert("No se pueden agregar más de 200 productos al carrito.");
+    //     return;
+    // }
 
     const product = state.cart.find((item) => item.id === id);
     if (product) {
@@ -161,20 +161,20 @@ function updateCart() {
 
 // Modificar el envío por WhatsApp para incluir la descripción y exportar a XLS
 const sendWhatsAppOrder = () => {
-    if (state.cart.length === 0) {
-        alert("El carrito está vacío.");
-        return;
-    }
+        if (state.cart.length === 0) {
+            alert("El carrito está vacío.");
+            return;
+        }
 
-    const descripcion = document.getElementById("descripcion").value.trim();
+        const descripcion = document.getElementById("descripcion").value.trim();
 
-    // Agregamos la validación de la descripción
-    if (!descripcion) {
-        alert("Por favor ingrese el nombre o NIT del cliente. Este campo es obligatorio.");
-        return;
-    }
+        // Agregamos la validación de la descripción
+        if (!descripcion) {
+            alert("Por favor ingrese el nombre o NIT del cliente. Este campo es obligatorio.");
+            return;
+        }
 
-    const message = `Hola, quiero hacer un pedido:%0A%0A${
+        const message = `Hola, quiero hacer un pedido:%0A%0A${
         descripcion ? `Notas adicionales:%0A${descripcion}%0A%0A` : ''
     }${
         state.cart.map(item => 
