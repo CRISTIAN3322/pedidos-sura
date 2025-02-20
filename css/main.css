@@ -257,6 +257,19 @@ input[type="text"] {
 /* Mejoras para la tabla del carrito en móvil */
 
 @media (max-width: 767px) {
+.header__title,
+.header__subtitle{
+    font-size: 0.625rem;
+}
+.search {
+    margin-bottom: 0.0313rem;
+}
+
+.cart-button {
+    margin-bottom: 0.3125rem;
+    font-size: 0.9375rem;
+}
+
     .cart-table {
         display: block;
         overflow-x: auto;
@@ -358,8 +371,8 @@ input[type="text"] {
 
 .scroll-to-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 30px;
+    right: 30px;
     background-color: #007bff;
     color: white;
     border: none;
