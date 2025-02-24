@@ -581,7 +581,7 @@
         "precio": 12953,
         "imagen": "./img_catalogo/toning/granola-sin-gluten-x450.png",
         "barra": 7707185642300,
-        "activo": false
+        "activo": true
     },
     {
         "id": 66,
