@@ -554,7 +554,7 @@
         "precio": 10377,
         "imagen": " ./img_catalogo/toning/avena-hojuelas-sin-gluten-1000.png ",
         "barra": 7702622160133,
-        "activo": false
+        "activo": true
     },
     {
         "id": 63,
@@ -857,7 +857,7 @@
         "id": 96,
         "codigo": "JCG0012",
         "nombre": "FLIPS DULCE DE LECHE X 120GR CJ X 14",
-        "precio": 4357,
+        "precio": 4355,
         "imagen": " ./img_catalogo/congrupo/flips-dulce-de-leche-120.png ",
         "barra": 7707200710359,
         "activo": true
@@ -4340,7 +4340,7 @@
         "id": 483,
         "codigo": "JPS0005",
         "nombre": "VINAGRE BLANCO X 5000 ML CJ X 4",
-        "precio": 7622,
+        "precio": 7774,
         "imagen": "",
         "barra": 7709645809841,
         "activo": true
