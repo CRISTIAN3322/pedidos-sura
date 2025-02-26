@@ -2126,7 +2126,7 @@
         "id": 237,
         "codigo": "JDX0004",
         "nombre": "LOMO DE ATUN SANCHO EN AGUA X 175 GR CJ X 48 UND ABRE FACIL",
-        "precio": 4142,
+        "precio": 4217,
         "imagen": " ./img_catalogo/puertomar-zomac/lomitos-de-atun-en-agua.png ",
         "barra": 7862119501396,
         "activo": true
@@ -2135,7 +2135,7 @@
         "id": 238,
         "codigo": "JDX0005",
         "nombre": "LOMOS ACEITE DE GIRASOL DON SANCHO CJ X 48",
-        "precio": 4244,
+        "precio": 4269,
         "imagen": " ./img_catalogo/puertomar-zomac/lomitos-de-atun-en-aceite-de-girasol.png ",
         "barra": 7862119505493,
         "activo": true
@@ -2144,7 +2144,7 @@
         "id": 239,
         "codigo": "JDX0007",
         "nombre": "THREE PACK LOMO ACEITE DE GIRASOL CAJA X 20",
-        "precio": 9148,
+        "precio": 9269,
         "imagen": " ./img_catalogo/puertomar-zomac/three-pack-lomo-aceite-de-girasol.png ",
         "barra": 7862119505509,
         "activo": true
@@ -2153,7 +2153,7 @@
         "id": 240,
         "codigo": "JDX0008",
         "nombre": "ENSALADA DE ATUN CON VEGETALES DON SANCHO CAJA X 48",
-        "precio": 4393,
+        "precio": 4522,
         "imagen": " ./img_catalogo/puertomar-zomac/ensalada-de-atun-con-vegetales.png ",
         "barra": 7862119508616,
         "activo": true
@@ -4042,7 +4042,7 @@
     {
         "id": 450,
         "codigo": "JPN0017",
-        "nombre": "PAPELS ROSAL XXG POR UNIDAD",
+        "nombre": "PAPELS ROSAL XXG PC X 48 UND",
         "precio": 1639,
         "imagen": "",
         "barra": 7702120013009,
@@ -4051,7 +4051,7 @@
     {
         "id": 451,
         "codigo": "JPN0018",
-        "nombre": "PAPELS ROSAL G POR UNIDAD",
+        "nombre": "PAPELS ROSAL G PC X 54 UND",
         "precio": 1139,
         "imagen": "",
         "barra": 7702120013030,

@@ -178,9 +178,9 @@ const sendWhatsAppOrder = () => {
         descripcion ? `Notas adicionales:%0A${descripcion}%0A%0A` : ''
     }${
         state.cart.map(item => 
-            `- ${item.nombre} (Código: ${item.codigo}) x${item.cantidad} ($${(item.precio * item.cantidad).toFixed(2)})`
+            `- ${item.nombre} (Código: *${item.codigo}*) x${item.cantidad} (*$${(item.precio * item.cantidad).toFixed(2)}*)`
         ).join('%0A')
-    }%0A%0ATotal: $${calculateTotal().toFixed(2)}`;
+    }%0A%0A*Total: $${calculateTotal().toFixed(2)}*`;
 
     window.open(`https://wa.me/573118711256?text=${message}`, "_blank");
 
