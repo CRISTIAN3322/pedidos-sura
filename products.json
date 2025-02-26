@@ -554,7 +554,7 @@
         "precio": 10377,
         "imagen": " ./img_catalogo/toning/avena-hojuelas-sin-gluten-1000.png ",
         "barra": 7702622160133,
-        "activo": true
+        "activo": false
     },
     {
         "id": 63,
