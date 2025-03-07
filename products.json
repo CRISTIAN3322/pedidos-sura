@@ -797,7 +797,7 @@
         "precio": 6351,
         "imagen": " ../assets/img_catalogo/congrupo/palomitas-microondas-queso-cheddar.png ",
         "barra": "07615022230",
-        "activo": true
+        "activo": false
     },
     {
         "id": 90,
@@ -806,7 +806,7 @@
         "precio": 9600,
         "imagen": " ../assets/img_catalogo/congrupo/palomitas-microondas-caramelo.png ",
         "barra": "076150230383",
-        "activo": true
+        "activo": false
     },
     {
         "id": 91,
